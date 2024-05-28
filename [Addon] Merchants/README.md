@@ -14,7 +14,7 @@ Old World population tier with new needs, productions, workforce and a new publi
 
 ## Compatibility
 
-- This mod has a railway system that produces and consumes passengers for many porpuses and is similiar to Train Stations and Hotels from Fishboss, this initial version is not compatible with it, but this is the first priority and will be ready at 0.2.0.
+- This mod has a railway system that produces and consumes passengers for many purposes and is similiar to Train Stations and Hotels from Fishboss, this initial version is not compatible with it, but this is the first priority and will be ready at 0.2.0.
 
 ## New Products
 
