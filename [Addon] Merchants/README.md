@@ -12,6 +12,10 @@ Old World population tier with new needs, productions, workforce and a new publi
 - Merchants rely on goods from other regions to advance, their needs usually require goods to be produced on 2 or more regions at a time, creating a logistical challenge and some new good opportunities.
 - The needs of all populations were changed a bit, farmers get new need and luxury, workers get a new need and luxury, artisans get a new luxury, engineers have all need that were from artisans changed to needs from merchants. The necessary hapiness and suply bonuses were adjusted.
 
+## Compatibility
+
+- This mod has a railway system that produces and consumes travelers for many porpuses and is similiar to Train Stations and Hotels from Fishboss, this initial version is not compatible with it, but this is the first priority and will be ready at 0.2.0.
+
 ## New Products
 
 ### New Needs and Luxury
