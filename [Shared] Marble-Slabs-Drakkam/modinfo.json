@@ -1,0 +1,52 @@
+{
+  "Version": "1.0.6",
+  "ModID": "Marble-Slabs-Drakkam",
+  "ModDependencies": [
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-ground-textures-industry-jakob.zip",
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-products-jakob.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip"
+  ],
+  "LoadAfterIds": [
+    "Drakkam-new-population-Merchants"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Marble Slabs (Drakkam)",
+    "Chinese": "Marble Slabs (Drakkam)",
+    "French": "Marble Slabs (Drakkam)",
+    "German": "Marble Slabs (Drakkam)",
+    "Italian": "Marble Slabs (Drakkam)",
+    "Japanese": "Marble Slabs (Drakkam)",
+    "Korean": "Marble Slabs (Drakkam)",
+    "Polish": "Marble Slabs (Drakkam)",
+    "Russian": "Marble Slabs (Drakkam)",
+    "Spanish": "Marble Slabs (Drakkam)",
+    "Taiwanese": "Marble Slabs (Drakkam)"
+  },
+  "CreatorName": "Drakkam",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
+}
