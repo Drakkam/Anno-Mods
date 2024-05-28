@@ -1,6 +1,6 @@
 # Marble Slabs
 
-![](./banner.jpg)
+![](./Banner.jpg)
 
 Old World population tier with new needs, productions, workforce and a new public transportation system.
 
