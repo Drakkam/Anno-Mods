@@ -1,0 +1,589 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+  <!-- Wool Fabric Manufacturer -->
+    <ModOp Type="addPrevSibling" GUID="1010315">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+          <Values>
+              <Standard>
+                  <GUID>1555000055</GUID>
+                  <Name>Wool Fabric Manufacturer</Name>
+                  <IconFilename>data/ui/Drakkam/icons/icon_Wool_Fabric.png</IconFilename>
+              </Standard>
+              <Building>
+                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                  <TerrainType>Terrain</TerrainType>
+                  <!-- <SecondPartyRelevant>1</SecondPartyRelevant> -->
+              </Building>
+              <Cost>
+                  <Costs>
+                      <Item>
+                          <Ingredient>1010017</Ingredient> <!-- Coins -->
+                          <Amount>300</Amount>
+                      </Item>
+                      <Item>
+                          <Ingredient>1010196</Ingredient> <!-- Timber -->
+                          <Amount>4</Amount>
+                      </Item>
+                  </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/ui/Drakkam/buildings/production/Wool_fabric_maker/Wool_Fabric_Maker.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Selection>
+                <OnSelection>
+                  <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                  <Values>
+                    <ActionList/>
+                  </Values>
+                </OnSelection>
+                <Colors>
+                  <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                </Colors>
+                <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Text>
+                  <LocaText>
+                      <English>
+                          <Text>Wool Fabric Manufacturer</Text>
+                          <Status>Exported</Status>
+                          <ExportCount>2</ExportCount>
+                      </English>
+                  </LocaText>
+                  <LineID>5284</LineID>
+              </Text>
+              <Constructable/>
+              <Locked/>
+              <FeedbackController/>
+              <Infolayer/>
+              <UpgradeList/>
+              <Factory7/>
+              <FactoryBase>
+                <IsMainFactory>0</IsMainFactory>
+                <FactoryOutputs>
+                  <Item>
+                    <Product>1500020000</Product> 
+                    <Amount>1</Amount>
+                    <StorageAmount>10</StorageAmount>
+                  </Item>
+                </FactoryOutputs>
+                <CycleTime>15</CycleTime>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1010197</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>15</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+              </FactoryBase>
+              <AmbientMoodProvider>
+                <Murmur>Factory</Murmur>
+                <DynamicEnvironmentType>None</DynamicEnvironmentType>
+              </AmbientMoodProvider>
+              <Attackable>
+                <MaximumHitPoints>1500</MaximumHitPoints>
+                <SelfHealPerHealTick>4</SelfHealPerHealTick>
+              </Attackable>
+              <Pausable/>
+              <Industrializable>
+                <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                <BoostedByIndustrialization>1</BoostedByIndustrialization>
+              </Industrializable>
+              <Culture>
+                <Attractiveness>0</Attractiveness>
+                <CultureType>Factory</CultureType>
+                <HasPollution>0</HasPollution>
+              </Culture>
+              <QuestObject/>
+              <Electrifiable/>
+              <EcoSystemProvider/>
+              <Blocking/>
+              <LogisticNode/>
+              <SoundEmitter>
+                  <ActiveSounds>
+                      <Item>
+                          <Sound>216883</Sound> <!-- Framework Knitters -->
+                      </Item>
+                      <Item>
+                          <Sound>203632</Sound> <!-- Framework Knitters -->
+                      </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+              </SoundEmitter>
+              <Maintenance>
+                  <Maintenances>
+                      <Item>
+                          <Product>1010017</Product> <!-- Amount of coins upkeep -->
+                          <Amount>50</Amount>
+                          <InactiveAmount>25</InactiveAmount>
+                      </Item>
+                      <Item>
+                          <Product>1010052</Product> <!-- Amount of Workforce - Farmers -->
+                          <Amount>10</Amount>
+                      </Item>
+                  </Maintenances>
+              </Maintenance>
+              <Heated>
+                <RequiresHeat>0</RequiresHeat>
+              </Heated>
+              <IncidentInfectable>
+                <IncidentInfectionChanceFactors>
+                  <Fire>
+                    <DensityDistance>20</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                  </Fire>
+                  <Riot>
+                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                    <HappinessThreshold>20</HappinessThreshold>
+                  </Riot>
+                  <Illness/>
+                </IncidentInfectionChanceFactors>
+              </IncidentInfectable>
+          </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- Sewing Thread Manufacturer -->
+    <ModOp Type="addPrevSibling" GUID="1010315">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000056</GUID>
+            <Name>Sewing Thread manufacturer</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_sewing_thread.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <TerrainType>Terrain</TerrainType>
+          </Building>
+          <Blocking />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient> <!-- Coins -->
+                <Amount>700</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient> <!-- Timber -->
+                <Amount>6</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/ui/Drakkam/buildings/production/Sewing_thread_manufacturer/sewing_thread_spinery.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh />
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList />
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Sewing Thread manufacturer</Text>
+                <Status>Exported</Status>
+                <ExportCount>1</ExportCount>
+              </English>
+            </LocaText>
+            <LineID>5283</LineID>
+          </Text>
+          <Constructable />
+          <Locked />
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>216883</Sound>
+              </Item>
+              <Item>
+                <Sound>203632</Sound>
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController />
+          <Infolayer />
+          <UpgradeList />
+          <Factory7 />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>1010197</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+              <Item>
+                <Product>120008</Product>
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1500020010</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode />
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>50</Amount>
+                <InactiveAmount>25</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <Amount>50</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable />
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable />
+          <Culture>
+            <CultureType>Culture</CultureType>
+          </Culture>
+          <QuestObject />
+          <Electrifiable />
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- Furniture Workshop -->
+    <ModOp Type="addNextSibling" GUID="1010266">
+      <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+              <Standard>
+                  <GUID>1555000057</GUID>
+                  <Name>Furniture Workshop</Name>
+                  <IconFilename>data/ui/Drakkam/icons/icon_Furniture.png</IconFilename>
+              </Standard>
+              <Building>
+                  <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                  <AssociatedRegions>Moderate</AssociatedRegions>
+                  <TerrainType>Terrain</TerrainType>
+              </Building>
+              <Cost>
+                  <Costs>
+                      <Item>
+                          <Ingredient>1010017</Ingredient>
+                          <Amount>200</Amount>
+                      </Item>
+                      <Item>
+                          <Ingredient>1010196</Ingredient>
+                          <Amount>2</Amount>
+                      </Item>
+                  </Costs>
+              </Cost>
+              <Object>
+                <Variations>
+                  <Item>
+                    <Filename>data/ui/Drakkam/buildings/production/Furniture_workshop/Furniture_workshop.cfg</Filename>
+                  </Item>
+                </Variations>
+              </Object>
+              <Selection>
+                  <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+              </Selection>
+              <Text>
+                  <LocaText>
+                      <English>
+                          <Text>Furniture Workshop</Text>
+                          <Status>Exported</Status>
+                          <ExportCount>2</ExportCount>
+                      </English>
+                  </LocaText>
+              </Text>
+              <SoundEmitter>
+                  <ActiveSounds>
+                      <Item>
+                          <Sound>216871</Sound>
+                      </Item>
+                      <Item>
+                          <Sound>202354</Sound>
+                      </Item>
+                  </ActiveSounds>
+                  <IncidentSounds>
+                    <InfectedFire>
+                      <Item>
+                        <Sound>214659</Sound>
+                      </Item>
+                    </InfectedFire>
+                  </IncidentSounds>
+              </SoundEmitter>
+              <FactoryBase>
+                  <FactoryInputs>
+                      <Item>
+                          <Product>120008</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>10</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>1500020000</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>10</StorageAmount>
+                      </Item>
+                      <Item>
+                        <Product>1500020010</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>10</StorageAmount>
+                      </Item>
+                  </FactoryInputs>
+                  <FactoryOutputs>
+                      <Item>
+                          <Product>1555000054</Product>
+                          <Amount>1</Amount>
+                          <StorageAmount>10</StorageAmount>
+                      </Item>
+                  </FactoryOutputs>
+                  <CycleTime>45</CycleTime>
+                  <IsMainFactory>1</IsMainFactory>
+              </FactoryBase>
+              <AmbientMoodProvider>
+                <Murmur>Factory</Murmur>
+                <DynamicEnvironmentType>None</DynamicEnvironmentType>
+              </AmbientMoodProvider>
+              <Maintenance>
+                  <Maintenances>
+                      <Item>
+                          <Product>1010017</Product>
+                          <Amount>30</Amount>
+                          <InactiveAmount>50</InactiveAmount>
+                      </Item>
+                      <Item>
+                          <Product>1010052</Product>
+                          <Amount>25</Amount>
+                      </Item>
+                  </Maintenances>
+              </Maintenance>
+              <IncidentInfectable>
+                <Infectable>
+                  <Explosion>
+                    <Base>0</Base>
+                    <Escalated>0</Escalated>
+                  </Explosion>
+                </Infectable>
+                <Explosion>
+                  <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                </Explosion>
+                <IncidentInfectionChanceFactors>
+                  <Fire>
+                    <DensityDistance>20</DensityDistance>
+                    <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                    <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                  </Fire>
+                  <Riot>
+                    <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                    <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                    <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                    <HappinessThreshold>20</HappinessThreshold>
+                  </Riot>
+                </IncidentInfectionChanceFactors>
+              </IncidentInfectable>
+              <Industrializable>
+                  <BoostedByIndustrialization>1</BoostedByIndustrialization>
+              </Industrializable>
+          </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000055</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000056</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000057</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000055</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000056</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000057</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Productions Boosted by electricity -->
+    <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000055</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000056</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000057</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Carpentry Works  -->
+    <ModOp Type="add" GUID="190914" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000057</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Cloth Industry -->
+    <ModOp Type="add" GUID="190890" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000055</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000056</GUID>
+      </Item>
+    </ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+  <!-- Furniture -->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000058</GUID>
+                <Name>Furniture</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_Furniture.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000057</Building>
+                <Tier1>
+                  <Item>
+                    <Building>1555000056</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1010266</Building>
+                      </Item>
+                      <Item>
+                        <Building>1010267</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                  <Item>
+                    <Building>1555000055</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010267</Building>
+                        </Item>
+                      </Tier2>
+                  </Item>
+                  <Item>
+                    <Building>1010266</Building>
+                  </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Furniture</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+  <!-- Farmer construction menu - After Pub -->
+    <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
+      <Item>
+        <Building>1555000058</Building>
+      </Item>
+    </ModOp>
+
+  <!-- Consumables - Moderate (Farmer) -->
+    <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+      <Item>
+        <Building>1555000058</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+</ModOps>

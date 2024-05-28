@@ -1,0 +1,597 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+<!-- Cider Manufacturer 1555000147-->
+<ModOp Type="addNextSibling" GUID="100659">
+  <Asset>
+    <Template>FactoryBuilding7</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000147</GUID>
+        <Name>Cider Manufacturer</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_cider.png</IconFilename>
+      </Standard>
+      <Building>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Moderate</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>15000</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010196</Ingredient>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010205</Ingredient>
+            <Amount>20</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010218</Ingredient>
+            <Amount>18</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1010207</Ingredient>
+            <Amount>16</Amount>
+          </Item>
+          <Item>
+            <Ingredient>1555000093</Ingredient>
+            <Amount>16</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/ui/Drakkam/buildings/production/Cider_manufacturer/Cider.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Cider Manufacturer</Text>
+            <Status>Exported</Status>
+          </English>
+        </LocaText>
+        <LineID>5263</LineID>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <Sound>216877</Sound>
+          </Item>
+          <Item>
+            <Sound>239844</Sound>
+          </Item>
+        </ActiveSounds>
+        <IncidentSounds>
+          <InfectedFire>
+            <Item>
+              <Sound>214659</Sound>
+            </Item>
+          </InfectedFire>
+        </IncidentSounds>
+      </SoundEmitter>
+      <FeedbackController />
+      <Infolayer />
+      <UpgradeList />
+      <Factory7 />
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>1404420032</Product>
+            <Amount>1</Amount>
+            <StorageAmount>6</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1010239</Product>
+            <Amount>1</Amount>
+            <StorageAmount>6</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1555000142</Product>
+            <Amount>1</Amount>
+            <StorageAmount>6</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <FactoryOutputs>
+          <Item>
+            <Product>1555000144</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <CycleTime>45</CycleTime>
+        <IsMainFactory>1</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <AmbientMoodProvider>
+        <Murmur>Factory</Murmur>
+        <DynamicEnvironmentType>None</DynamicEnvironmentType>
+      </AmbientMoodProvider>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>450</Amount>
+            <InactiveAmount>225</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>1555000001</Product>
+            <Amount>125</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Pausable />
+      <IncidentInfectable>
+        <Infectable>
+          <Explosion>
+            <Base>0</Base>
+            <Escalated>0</Escalated>
+          </Explosion>
+        </Infectable>
+        <Explosion>
+          <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Fire>
+            <DensityDistance>20</DensityDistance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Fire>
+          <Riot>
+            <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+            <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+            <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+            <HappinessThreshold>20</HappinessThreshold>
+          </Riot>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Industrializable />
+      <Culture>
+        <CultureType>Culture</CultureType>
+      </Culture>
+      <QuestObject />
+      <Electrifiable />
+      <EcoSystemProvider />
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- Orchard: Apples 1555000271-->
+  <ModOp Type="addNextSibling" GUID="100659">
+    <Asset>
+      <Template>FreeAreaRecipeBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000271</GUID>
+          <Name>Orchard: Apples</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_apples.png</IconFilename>
+          <InfoDescription>132783</InfoDescription>
+          <!--Multifactory building infocorner-->
+        </Standard>
+        <Building>
+          <BuildingCategoryName>132773</BuildingCategoryName>
+          <!--Patent Building-->
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <DeletePropsRadius>1</DeletePropsRadius>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <!--Money-->
+              <Amount>550</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/dlc08/graphics/buildings/production/tree_planter/tree_planter_citrus.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <StaticHelpEntryPoint>TouristSeasonOrchards</StaticHelpEntryPoint>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Orchard: Apple</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>50465</LineID>
+        </Text>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>214800</Sound>
+              <!--wwe_sfx_bld_agriculture_typeCluster_tag-->
+            </Item>
+            <Item>
+              <Sound>279525</Sound>
+              <!--wwe_sfx_bld_tourist_tree_planter_lp-->
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildMoveSuccess>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>FarmBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                    <Entry>
+                      <TemplateName>FreeAreaRecipeBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214783</Sound>
+                <!--wwe_sfx_aui_bld_place_agriculture-->
+              </Item>
+            </BuildMoveSuccess>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+                <!--wwe_sfx_bld_inc_burn-->
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+              <!--wwe_sfx_aui_bld_3d_renovate-->
+            </Item>
+          </BuildingRepaired>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <FeedbackController/>
+        <Infolayer/>
+        <UpgradeList/>
+        <Factory7/>
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1955</Product>
+              <!--FakeCultivationArea-->
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1404420032</Product>
+              <!--Apples-->
+              <Amount>1</Amount>
+              <StorageAmount>10</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode/>
+        <AmbientMoodProvider>
+          <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+          <Murmur>Tourist_OrchardNewWorld</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <!--Money-->
+              <Amount>50</Amount>
+              <InactiveAmount>25</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <!--moderate workforce 1-->
+              <Amount>35</Amount>
+              <ShutdownThreshold>0.2</ShutdownThreshold>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+        </Attackable>
+        <FreeAreaProductivity>
+          <InfluenceRadius>9</InfluenceRadius>
+          <NeededAreaPercent>80</NeededAreaPercent>
+          <FreeAreaType>Camphor</FreeAreaType>
+          <MaxWorkerAmount>3</MaxWorkerAmount>
+          <AdditionalWorkerForForestation>9</AdditionalWorkerForForestation>
+          <WorkerPause>10000</WorkerPause>
+          <CutTree>0</CutTree>
+          <ShowCollectFeedback>1</ShowCollectFeedback>
+          <AdditionalTreePropPercent>50</AdditionalTreePropPercent>
+          <AdditionalTreeProp>data/graphics/props/storage/basket_pile_v1.prp</AdditionalTreeProp>
+        </FreeAreaProductivity>
+        <Pausable/>
+        <IncidentInfectable/>
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
+        <RecipeBuilding>
+          <RecipeList>132935</RecipeList>
+          <!--RecipeList_TreePlanter_Moderate-->
+        </RecipeBuilding>
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- Orchard: Apples Recipe 1555000272-->
+  <ModOp GUID="500505" Type="addNextSibling">
+    <Asset>
+      <Template>Recipe</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000272</GUID>
+          <Name>Recipe_Apples</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_apples.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Apples</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Recipe>
+          <RecipeBuilding>1555000271</RecipeBuilding>
+          <!--Orchard:Apples-->
+          <RecipeDescriptionText>1555000273</RecipeDescriptionText>
+          <!--Orchard:Apples Recipe Description-->
+          <RecipeImage>data/ui/Drakkam/icons/Recipe_Image/Apple.png</RecipeImage>
+          <RecipeIngredientUIData>
+            <Item>
+              <PosX>26</PosX>
+              <PosY>10</PosY>
+            </Item>
+            <Item>
+              <PosX>340</PosX>
+              <PosY>72</PosY>
+            </Item>
+            <Item>
+              <PosX>60</PosX>
+              <PosY>226</PosY>
+            </Item>
+          </RecipeIngredientUIData>
+          <RecipeUnlockConditionText>135017</RecipeUnlockConditionText>
+          <!--Unlock_ViaPopulation-->
+        </Recipe>
+        <Locked/>
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- Add apple orchard to moderate orchards recipe list  -->
+  <ModOp Type="add" GUID="132935" Path="/Values/RecipeList/Recipes">
+    <Item>
+      <Recipe>1555000272</Recipe>
+    </Item>
+  </ModOp>
+
+<!-- START ADD BUILDING TO FEEDBACK GROUPS  -->
+  <!-- Group 1 Farm??  -->
+  <ModOp Type="add" GUID="142309" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000271</Building>
+    </Item>
+  </ModOp>
+  <!-- Group 2 Urban??  -->
+  <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000147</Building>
+    </Item>
+  </ModOp>
+
+<!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000147</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000271</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000147</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000271</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Productions Boosted by electricity -->
+    <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000147</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Drinks Production  -->
+    <ModOp Type="add" GUID="193778" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000147</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Orchards and All Orchards EU  -->
+  <ModOp Type="add" GUID="194008,1962" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <Item>
+      <GUID>1555000271</GUID>
+    </Item>
+  </ModOp>
+
+
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+  <!-- Cider -->
+    <ModOp GUID="500505" Type="addNextSibling">
+      <Asset>
+          <Template>ProductionChain</Template>
+          <Values>
+              <Standard>
+                  <GUID>1555000148</GUID>
+                  <Name>Cider production chain</Name>
+                  <IconFilename>data/ui/Drakkam/icons/icon_cider.png</IconFilename>
+                  <InfoDescription>1555550259</InfoDescription>
+              </Standard>
+              <ProductionChain>
+                <Building>1555000147</Building>
+                  <Tier1>
+                    <Item>
+                      <Building>1555000271</Building>
+                    </Item>
+                    <Item>
+                      <Building>1555000146</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010298</Building>
+                        </Item>
+                        <Item>
+                          <Building>1010560</Building>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                    <Item>
+                      <Building>1010317</Building>
+                      <Tier2>
+                        <Item>
+                          <Building>1010329</Building>
+                        </Item>
+                      </Tier2>
+                    </Item>
+                  </Tier1>
+              </ProductionChain>
+              <Locked/>
+              <Text>
+                  <LocaText>
+                      <English>
+                          <Text>Cider</Text>
+                          <Status>Exported</Status>
+                          <ExportCount>2</ExportCount>
+                      </English>
+                  </LocaText>
+              </Text>
+          </Values>
+      </Asset>
+    </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+  <!-- Consumables - Moderate (Worker) -->
+    <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500003']">
+      <Item>
+        <Building>1555000148</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+</ModOps>

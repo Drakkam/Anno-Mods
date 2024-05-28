@@ -1,0 +1,698 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+<!-- Spice Producer 1555000136-->
+<ModOp Type="addPrevSibling" GUID="1010315">
+  <Asset>
+    <Template>FactoryBuilding7</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000136</GUID>
+        <Name>Spices Producer</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_spice.png</IconFilename>
+      </Standard>
+      <Building>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Africa</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>3500</Amount>
+          </Item>
+          <Item>
+              <Ingredient>114356</Ingredient>
+              <Amount>15</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/ui/Drakkam/buildings/production/Spice_Producer/Spice_Producer.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Spices Producer</Text>
+            <Status>Exported</Status>
+            <ExportCount>2</ExportCount>
+          </English>
+        </LocaText>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <Sound>270382</Sound>
+          </Item>
+          <Item>
+            <Sound>270368</Sound>
+          </Item>
+        </ActiveSounds>
+      </SoundEmitter>
+      <FeedbackController />
+      <Infolayer />
+      <UpgradeList />
+      <Factory7 />
+      <FactoryBase>
+        <FactoryInputs>
+          <Item>
+            <Product>114369</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>133093</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>1555000130</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+          <Item>
+            <Product>114391</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryInputs>
+        <FactoryOutputs>
+          <Item>
+            <Product>1500301148</Product>
+            <Amount>1</Amount>
+            <StorageAmount>4</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <IsMainFactory>0</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <AmbientMoodProvider>
+        <Murmur>Africa_Factories</Murmur>
+        <DynamicEnvironmentType>None</DynamicEnvironmentType>
+      </AmbientMoodProvider>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>300</Amount>
+            <InactiveAmount>175</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>114340</Product>
+            <Amount>50</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Attackable>
+        <MaximumHitPoints>2500</MaximumHitPoints>
+        <SelfHealPerHealTick>4</SelfHealPerHealTick>
+      </Attackable>
+      <Pausable />
+      <IncidentInfectable>
+        <Explosion>
+          <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Fire>
+            <DensityDistance>20</DensityDistance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Fire>
+          <Riot>
+            <HappinessThreshold>20</HappinessThreshold>
+          </Riot>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Industrializable>
+        <BoostedByIndustrialization>0</BoostedByIndustrialization>
+      </Industrializable>
+      <Culture>
+        <CultureType>Culture</CultureType>
+      </Culture>
+      <QuestObject />
+      <Electrifiable />
+      <EcoSystemProvider />
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- Saffron Farm 1555000134-->
+<ModOp Type="addNextSibling" GUID="114448">
+  <Asset>
+    <Template>FarmBuilding</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000134</GUID>
+        <Name>Saffron Farm</Name>
+        <IconFilename>data/ui/Drakkam/icons/icon_saffron.png</IconFilename>
+      </Standard>
+      <Building>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Africa</AssociatedRegions>
+      </Building>
+      <Blocking />
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>3500</Amount>
+          </Item>
+          <Item>
+            <Ingredient>114356</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/ui/Drakkam/buildings/production/Saffron_Farm/Saffron_Farm.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+        <ParticipantMessageArcheType>Africa_Resident_tier01</ParticipantMessageArcheType>
+        <Colors>
+          <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+        </Colors>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Saffron Farm</Text>
+            <Status>Exported</Status>
+            <ExportCount>2</ExportCount>
+          </English>
+        </LocaText>
+        <LineID>44425</LineID>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <ActiveSounds>
+          <Item>
+            <Sound>270310</Sound>
+          </Item>
+          <Item>
+            <Sound>270316</Sound>
+          </Item>
+        </ActiveSounds>
+      </SoundEmitter>
+      <FeedbackController />
+      <Infolayer />
+      <UpgradeList />
+      <Factory7>
+        <NeededFertility>1555000140</NeededFertility>
+      </Factory7>
+      <FactoryBase>
+        <FactoryOutputs>
+          <Item>
+            <Product>1555000130</Product>
+            <Amount>1</Amount>
+            <StorageAmount>2</StorageAmount>
+          </Item>
+        </FactoryOutputs>
+        <CycleTime>60</CycleTime>
+        <IsMainFactory>1</IsMainFactory>
+      </FactoryBase>
+      <LogisticNode />
+      <ModuleOwner>
+        <ModuleLimits>
+          <Main>
+            <Limit>96</Limit>
+          </Main>
+        </ModuleLimits>
+        <ConstructionOptions>
+          <Item>
+            <ModuleGUID>1555000135</ModuleGUID>
+          </Item>
+        </ConstructionOptions>
+        <AdditionalModule>119026</AdditionalModule>
+        <FertilizerModuleData>
+          <Module>25242</Module>
+        </FertilizerModuleData>
+        <ModuleBuildRadius>0</ModuleBuildRadius>
+        <EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+        <IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
+        <FarmType>PlantFarm</FarmType>
+        <AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+        <MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
+      </ModuleOwner>
+      <AmbientMoodProvider>
+        <AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
+        <Murmur>Africa_Farms</Murmur>
+      </AmbientMoodProvider>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>10</Amount>
+            <InactiveAmount>5</InactiveAmount>
+          </Item>
+          <Item>
+            <Product>114340</Product>
+            <Amount>5</Amount>
+          </Item>
+        </Maintenances>
+      </Maintenance>
+      <Attackable>
+        <MaximumHitPoints>1500</MaximumHitPoints>
+        <SelfHealPerHealTick>4</SelfHealPerHealTick>
+      </Attackable>
+      <IncidentInfectable>
+        <Infectable>
+          <Illness>
+            <Escalated>0</Escalated>
+          </Illness>
+        </Infectable>
+        <Explosion>
+          <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+        </Explosion>
+        <IncidentInfectionChanceFactors>
+          <Fire>
+            <DensityFactor>0.025</DensityFactor>
+            <DensityDistance>20</DensityDistance>
+            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+          </Fire>
+          <Riot>
+            <HappinessThreshold>20</HappinessThreshold>
+          </Riot>
+        </IncidentInfectionChanceFactors>
+      </IncidentInfectable>
+      <Pausable />
+      <Culture>
+        <CultureType>Landscaping</CultureType>
+      </Culture>
+      <QuestObject />
+      <Industrializable />
+      <Motorizable>
+        <MotorizableType>Tractor</MotorizableType>
+      </Motorizable>
+      <EcoSystemProvider />
+      <MonoCulture />
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- Saffron Farm Field 1555000135-->
+<ModOp Type="addNextSibling" GUID='114488'>
+  <Asset>
+    <Template>Farmfield</Template>
+    <Values>
+      <Standard>
+        <GUID>1555000135</GUID>
+        <Name>agriculture_colony02_02_field (Hibiscus Field)</Name>
+        <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+      </Standard>
+      <Building>
+        <AssociatedRegions>Africa</AssociatedRegions>
+      </Building>
+      <Blocking>
+        <GroundDecalAsset>117650</GroundDecalAsset>
+        <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+      </Blocking>
+      <Cost>
+        <Costs>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>0</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>0</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+            <Amount>10</Amount>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>1</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>1</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>2</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>2</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>3</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>3</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>4</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>4</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+          <Item>
+            <VectorElement>
+              <InheritedIndex>5</InheritedIndex>
+              <InheritanceMapV2>
+                <Entry>
+                  <TemplateName>Farmfield</TemplateName>
+                  <Index>5</Index>
+                </Entry>
+              </InheritanceMapV2>
+            </VectorElement>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/dlc06/graphics/buildings/production/production_colony02_24/production_colony02_24_field_02.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/dlc06/graphics/buildings/production/production_colony02_24/production_colony02_24_field_03.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/dlc06/graphics/buildings/production/production_colony02_24/production_colony02_24_field_02.cfg</Filename>
+          </Item>
+          <Item>
+            <Filename>data/dlc06/graphics/buildings/production/production_colony02_24/production_colony02_24_field_03.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <OnSelection>
+          <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          <Values>
+            <ActionList />
+          </Values>
+        </OnSelection>
+      </Selection>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Saffron Field</Text>
+            <Status>Exported</Status>
+            <ExportCount>1</ExportCount>
+          </English>
+        </LocaText>
+        <LineID>44451</LineID>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter />
+      <FeedbackController />
+      <Infolayer />
+      <BuildingModule />
+      <AmbientMoodProvider>
+        <Murmur>Africa_Farms</Murmur>
+      </AmbientMoodProvider>
+      <ModuleIrrigation>
+        <RequiresIrrigation>1</RequiresIrrigation>
+      </ModuleIrrigation>
+    </Values>
+  </Asset>
+</ModOp>
+
+<!-- START ADD BUILDING TO FEEDBACK GROUPS  -->
+  <!-- Group 1 Farm??  -->
+  <ModOp Type="add" GUID="117762" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000134</Building>
+    </Item>
+  </ModOp>
+  <!-- Group 2 Urban??  -->
+  <ModOp Type="add" GUID="117763" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000136</Building>
+    </Item>
+  </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000134</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000136</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000134</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000136</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Food production -->
+    <ModOp Type="add" GUID="190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000136</GUID>
+      </Item> 
+    </ModOp>
+
+  <!-- All Farms  -->
+    <ModOp Type="add" GUID="190011" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000134</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Crop Farms  -->
+    <ModOp Type="add" GUID="190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000134</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Africa Crop Farms  -->
+    <ModOp Type="add" GUID="193955" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000134</GUID>
+      </Item>
+    </ModOp>
+  
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+<!-- Spices Africa-->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000137</GUID>
+                <Name>Spices Africa</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_spice.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000136</Building>
+                <Tier1>
+                    <Item>
+                        <Building>114441</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>114448</Building>
+                          </Item>
+                        </Tier2>
+                    </Item>
+                    <Item>
+                      <Building>1555000134</Building>
+                    </Item>
+                    <Item>
+                      <Building>114452</Building>
+                    </Item>
+                    <Item>
+                      <Building>133030</Building>
+                    </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Spices</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Spices Moderate-->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000138</GUID>
+                <Name>Spices Moderate</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_spice.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000136</Building>
+                <Tier1>
+                    <Item>
+                        <Building>114441</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>114448</Building>
+                          </Item>
+                        </Tier2>
+                    </Item>
+                    <Item>
+                      <Building>1555000134</Building>
+                    </Item>
+                    <Item>
+                      <Building>114452</Building>
+                    </Item>
+                    <Item>
+                      <Building>133030</Building>
+                    </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Spices</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Spices SA-->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000079</GUID>
+                <Name>Spices SA</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_spice.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000136</Building>
+                <Tier1>
+                    <Item>
+                        <Building>114441</Building>
+                        <Tier2>
+                          <Item>
+                            <Building>114448</Building>
+                          </Item>
+                        </Tier2>
+                    </Item>
+                    <Item>
+                      <Building>1555000134</Building>
+                    </Item>
+                    <Item>
+                      <Building>114452</Building>
+                    </Item>
+                    <Item>
+                      <Building>133030</Building>
+                    </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Spices</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+
+  <!-- Jornalero construction menu --> 
+    <ModOp Type="add" GUID='25000193' Path="/Values/ConstructionCategory/BuildingList">
+      <Item>
+        <Building>1555000079</Building>
+      </Item>
+    </ModOp>
+  <!-- Sheperd construction menu -->
+    <ModOp Type="addNextSibling" GUID='114553' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1555000137</Building>
+      </Item>
+    </ModOp>
+  <!-- Consumables - New World (Obreros) -->
+    <ModOp Type="addNextSibling" GUID='500950' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500908']">
+      <Item>
+        <Building>1555000079</Building>
+      </Item>
+    </ModOp>
+  <!-- Consumables - Africa (Sheperd) -->
+    <ModOp Type="addNextSibling" GUID='119024' Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+      <Item>
+        <Building>1555000137</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+</ModOps>

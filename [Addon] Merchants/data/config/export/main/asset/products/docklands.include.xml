@@ -1,0 +1,52 @@
+<ModOps>
+  <!-- # Eggs: Tattershire -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000100']">
+    <ModOp Type="addPrevSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131819']/TradeLevels/Item/Trades/Item[Good='1010199']">
+      <Item>
+        <Good>1555000100</Good>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- # Cider: Feedl -->
+  <Group Condition="!@131764/.//TradeLevels/Item/Trades[Item/Good='1555000144']">
+    <ModOp Type="addNextSibling" GUID="131764"
+      Path="/Values/TradeContractFeature/Traders/Item[TraderName='131809']/TradeLevels/Item/Trades/Item[Good='1010257']">
+      <Item>
+        <Level>Rare</Level>
+        <Good>1555000144</Good>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- # Product Lists -->
+  <Group>
+    <ModOp Type="add" GUID="502234"
+      Condition="!/Values/ProductList/List/Item[Product='1555000144']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000144</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502233"
+      Condition="!/Values/ProductList/List/Item[Product='1555000100']"
+      Path="/Values/ProductList">
+      <Item>
+        <Product>1555000100</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502238"
+      Condition="!/Values/ProductList/List/Item[Product='1500020000']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500020000</Product>
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502238"
+      Condition="!/Values/ProductList/List/Item[Product='1500020010']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1500020010</Product>
+      </Item>
+    </ModOp>
+  </Group>
+</ModOps>

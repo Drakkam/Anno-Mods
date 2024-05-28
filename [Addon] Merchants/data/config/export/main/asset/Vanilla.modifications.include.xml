@@ -1,0 +1,77 @@
+<ModOps>
+
+<!-- Changing Tourists Triggers from engineers to merchants-->
+<Group>
+  <ModOp Type="merge" GUID='132794' Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter">
+    <ConditionPlayerCounter>
+      <PlayerCounter>PopulationByLevel</PlayerCounter>
+      <Context>1555000000</Context>
+      <CounterAmount>500</CounterAmount>
+    </ConditionPlayerCounter>
+  </ModOp>
+</Group>
+<!-- SAILS SHIP ADD ROPE TO COST-->
+<Group>
+  <!-- Schooner -->
+  <ModOp Type="addNextSibling" GUID="100438"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>10</Amount>
+    </Item>
+  </ModOp>
+  <!-- Gunboat -->
+  <ModOp Type="addNextSibling" GUID="100437"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>15</Amount>
+    </Item>
+  </ModOp>
+  <!-- RocketBoat -->
+  <ModOp Type="addNextSibling" GUID="7080"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>15</Amount>
+    </Item>
+  </ModOp>
+  <!-- Frigate -->
+  <ModOp Type="addNextSibling" GUID="100439"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>25</Amount>
+    </Item>
+  </ModOp>
+  <!-- Clipper -->
+  <ModOp Type="addNextSibling" GUID="100441"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>30</Amount>
+    </Item>
+  </ModOp>
+  <!-- Ship-of-the-line -->
+  <ModOp Type="addNextSibling" GUID="100440"
+    Path="/Values/Cost/Costs/Item[Ingredient='1010210']">
+    <Item>
+      <Ingredient>1555000179</Ingredient>
+      <Amount>35</Amount>
+    </Item>
+  </ModOp>
+</Group>
+<!-- PASSENGER STEAMSHIP ADD TO STEAM SHIPYARD-->
+<Group>
+  <!-- Schooner -->
+  <ModOp Type="add" GUID="1010521" Path="/Values/Shipyard/AssemblyOptions">
+    <Item>
+      <Vehicle>1555000242</Vehicle>
+    </Item>
+    <Item>
+      <Vehicle>1555000244</Vehicle>
+    </Item>
+  </ModOp>
+</Group>
+
+</ModOps>

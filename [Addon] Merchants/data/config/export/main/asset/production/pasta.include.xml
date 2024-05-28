@@ -1,0 +1,1217 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+<!-- Chicken Farm 1555000102-->
+  <ModOp Type="addNextSibling" GUID="1010267">
+    <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000102</GUID>
+                <Name>Chicken Farm</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_Eggs.png</IconFilename>
+            </Standard>
+            <Building>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+                <TerrainType>Terrain</TerrainType>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>200</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>2</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Farm.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+                <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Chicken Farm</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+            </SoundEmitter>
+            <Factory7>
+              <IsAgriculture>0</IsAgriculture>
+            </Factory7>
+            <FactoryBase>
+          <IsMainFactory>1</IsMainFactory>
+            <FactoryOutputs>
+              <Item>
+                <Product>1555000100</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+            </FactoryBase>
+            <ModuleOwner>
+              <!-- Silo -->
+              <!-- Goose Pen -->
+              <FarmType>AnimalFarm</FarmType>
+              <ModuleBuildRadius>7</ModuleBuildRadius>
+              <ModuleLimits>
+                <Main>
+                  <Limit>5</Limit>
+                </Main>
+              </ModuleLimits>
+              <ConstructionOptions>
+                <Item>
+                  <ModuleGUID>1555000103</ModuleGUID>
+                </Item>
+              </ConstructionOptions>
+              <AdditionalModule>269957</AdditionalModule>
+              <EnableIrrigationFertilizer/>
+            </ModuleOwner>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product> <!-- Amount of coins upkeep -->
+                        <Amount>30</Amount>
+                        <InactiveAmount>15</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010052</Product> <!-- Amount of Workforce - Farmers -->
+                        <Amount>10</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+            <Industrializable>
+                <BoostedByIndustrialization>1</BoostedByIndustrialization>
+            </Industrializable>
+          <Motorizable>
+            <MotorizableType>Silo</MotorizableType>
+          </Motorizable>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Chicken Farm Field 1555000103-->
+  <ModOp Type="addNextSibling" GUID="1010271">
+    <Asset>
+      <Template>Farmfield</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000103</GUID> 
+          <Name>Chicken Farm Field</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_general_module_01.png</IconFilename>
+          <InfoDescription>15222</InfoDescription>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <TerrainType>Terrain</TerrainType>
+      </Building>
+        <Blocking>
+          <GroundDecalAsset>102508</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop1.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Chicken_Farm/Chicken_Coop2.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+          </OnSelection>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Chicken Farm Field</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>35089</LineID>
+        </Text>
+        <Constructable/>
+        <Locked/>
+        <SoundEmitter/>
+        <FeedbackController/>
+        <Infolayer/>
+        <BuildingModule/>
+        <AmbientMoodProvider/>
+        <ModuleIrrigation/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tomatoes Farm 1555000115-->
+  <ModOp Type="addNextSibling" GUID='1010343'>
+    <Asset>
+      <Template>FarmBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000115</GUID>
+          <Name>Tomatoes Farm</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>3</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Farm.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes Farm</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>214800</Sound>
+            </Item>
+            <Item>
+              <Sound>206311</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildMoveSuccess>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>FarmBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214783</Sound>
+              </Item>
+            </BuildMoveSuccess>
+          </ConstructionSounds>
+          <RFX>
+            <Item />
+          </RFX>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <RandomDummySpawner />
+        <Factory7>
+          <NeededFertility>1555000120</NeededFertility>
+        </Factory7>
+        <FactoryBase>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000109</Product>
+              <Amount>1</Amount>
+              <StorageAmount>5</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <ModuleOwner>
+          <ModuleLimits>
+            <Main>
+              <Limit>112</Limit>
+            </Main>
+          </ModuleLimits>
+          <ConstructionOptions>
+            <Item>
+              <ModuleGUID>1555000116</ModuleGUID>
+            </Item>
+          </ConstructionOptions>
+          <AdditionalModule>269837</AdditionalModule>
+          <FertilizerModuleData>
+            <Module>25240</Module>
+          </FertilizerModuleData>
+          <ModuleBuildRadius>0</ModuleBuildRadius>
+          <FarmType>PlantFarm</FarmType>
+        </ModuleOwner>
+        <AmbientMoodProvider>
+          <DynamicEnvironmentType>Building_Industry</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>40</Amount>
+              <InactiveAmount>10</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1010052</Product>
+              <Amount>15</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>1250</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <!-- No explosions -->
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <DamageExplosionChance>0</DamageExplosionChance>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Explosion>
+              <BaseChance>0</BaseChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable />
+        <Motorizable>
+          <MotorizableType>Tractor</MotorizableType>
+        </Motorizable>
+        <Culture>
+          <CultureType>Landscaping</CultureType>
+        </Culture>
+        <QuestObject />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tomatoes Farm Field 1555000116-->
+  <ModOp Type="addNextSibling" GUID='1010343'>
+    <Asset>
+      <Template>Farmfield</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000116</GUID>
+          <Name>Tomatoes Field</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_farmfield_module.png</IconFilename>
+        </Standard>
+        <Building>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking>
+          <GroundDecalAsset>102507</GroundDecalAsset>
+          <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_03.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_04.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_05.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Tomatoes_farm/Tomatoes_Field_06.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes Field</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>3718</LineID>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter />
+        <FeedbackController />
+        <Infolayer />
+        <BuildingModule />
+        <AmbientMoodProvider>
+          <AmbientMood>PotatoField</AmbientMood>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <ModuleIrrigation />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Pasta Kitchen 1555000118-->
+  <ModOp Type="addNextSibling" GUID='1010293'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000118</GUID>
+          <Name>Pasta Kitchen</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_pasta.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>17300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1555000093</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Pasta_Kitchen/Pasta_kitchen.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Advisor_01_Hannah_BlackDress</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Pasta Kitchen</Text>
+              <Status>Exported</Status>
+              <ExportCount>5</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216877</Sound>
+            </Item>
+            <Item>
+              <Sound>202231</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1555000233</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1555000269</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000113</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>60</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>450</Amount>
+              <InactiveAmount>225</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1555000001</Product>
+              <Amount>150</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable />
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Pasta Factory 1555000235-->
+  <ModOp Type="addNextSibling" GUID='1010293'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000235</GUID>
+          <Name>Pasta Factory</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_raw_pasta.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>23300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1555000093</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Pasta_Kitchen/Pasta_factory.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Advisor_01_Hannah_BlackDress</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Pasta Factory</Text>
+              <Status>Exported</Status>
+              <ExportCount>5</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216877</Sound>
+            </Item>
+            <Item>
+              <Sound>202231</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1010235</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1555000100</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>114358</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000233</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>350</Amount>
+              <InactiveAmount>175</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1555000001</Product>
+              <Amount>120</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable />
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tomatoes Sauce Factory 1555000076-->
+  <ModOp Type="addNextSibling" GUID='1010293'>
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000076</GUID>
+          <Name>Tomatoes Sauce Factory</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Tomatoes_Sauce_icon.png</IconFilename>
+        </Standard>
+        <Building>
+          <BuildModeRandomRotation>90</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+        </Building>
+        <Blocking />
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>13300</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>8</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1555000093</Ingredient>
+              <Amount>6</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010202</Ingredient>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/ui/Drakkam/buildings/production/Leather_works/Leather_Works.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Advisor_01_Hannah_BlackDress</ParticipantMessageArcheType>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Pasta Factory</Text>
+              <Status>Exported</Status>
+              <ExportCount>5</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Constructable />
+        <Locked />
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>216877</Sound>
+            </Item>
+            <Item>
+              <Sound>202231</Sound>
+            </Item>
+          </ActiveSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase>
+          <FactoryInputs>
+            <Item>
+              <Product>1555000109</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>1555000142</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+            <Item>
+              <Product>5383</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryInputs>
+          <FactoryOutputs>
+            <Item>
+              <Product>1555000269</Product>
+              <Amount>1</Amount>
+              <StorageAmount>4</StorageAmount>
+            </Item>
+          </FactoryOutputs>
+          <CycleTime>30</CycleTime>
+          <IsMainFactory>1</IsMainFactory>
+        </FactoryBase>
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <Murmur>Factory</Murmur>
+          <DynamicEnvironmentType>None</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>300</Amount>
+              <InactiveAmount>150</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1555000001</Product>
+              <Amount>100</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3750</MaximumHitPoints>
+          <SelfHealPerHealTick>4</SelfHealPerHealTick>
+        </Attackable>
+        <Pausable />
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <DensityDistance>20</DensityDistance>
+              <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+              <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+            </Fire>
+            <Riot>
+              <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+              <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+              <HappinessThreshold>20</HappinessThreshold>
+            </Riot>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Industrializable />
+        <Culture>
+          <CultureType>Culture</CultureType>
+        </Culture>
+        <QuestObject />
+        <Electrifiable />
+        <EcoSystemProvider />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- START ADD BUILDING TO FEEDBACK GROUPS  -->
+  <!-- Group 1 Farm??  -->
+  <ModOp Type="add" GUID="142309" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000102</Building>
+    </Item>
+    <Item>
+      <Building>1555000115</Building>
+    </Item>
+  </ModOp>
+  <!-- Group 2 Urban??  -->
+  <ModOp Type="add" GUID="142311" Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>1555000118</Building>
+    </Item>
+    <Item>
+      <Building>1555000235</Building>
+    </Item>
+    <Item>
+      <Building>1555000076</Building>
+    </Item>
+  </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000102</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000115</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000118</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000235</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000076</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000102</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000115</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000118</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000235</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000076</GUID>
+      </Item>      
+    </ModOp>
+
+  <!-- All Productions Boosted by electricity -->
+    <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000118</GUID>
+      </Item> 
+      <Item>
+        <GUID>1555000235</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000076</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Food production -->
+    <ModOp Type="add" GUID="190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000118</GUID>
+      </Item> 
+      <Item>
+        <GUID>1555000235</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000076</GUID>
+      </Item> 
+    </ModOp>
+
+  <!-- All Farms  -->
+    <ModOp Type="add" GUID="190011" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000115</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Crop Farms  -->
+    <ModOp Type="add" GUID="190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000115</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Old World Crop Farms  -->
+    <ModOp Type="add" GUID="191471" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000115</GUID>
+      </Item>
+    </ModOp>
+  
+  <!-- All Animal Farms  -->
+    <ModOp Type="add" GUID="190872" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000102</GUID>
+      </Item>
+    </ModOp>
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+  <!-- Olive Oil -->
+  <ModOp GUID="500505" Type="addNextSibling">
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000077</GUID>
+                <Name>Pasta production chain</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_pasta.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+              <Building>1555000118</Building>
+                <Tier1>
+                  <Item>
+                    <Building>1555000235</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1010313</Building>
+                        <Tier3>
+                          <Item>
+                            <Building>1010262</Building>
+                          </Item>
+                        </Tier3>
+                      </Item>
+                      <Item>
+                        <Building>114440</Building>
+                      </Item>
+                      <Item>
+                        <Building>1555000102</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                  <Item>
+                    <Building>1555000076</Building>
+                    <Tier2>
+                      <Item>
+                        <Building>1555000146</Building>
+                        <Tier3>
+                          <Item>
+                            <Building>1010560</Building>
+                          </Item>
+                          <Item>
+                            <Building>1010304</Building>
+                          </Item>
+                        </Tier3>
+                      </Item>
+                      <Item>
+                        <Building>1555000115</Building>
+                      </Item>
+                      <Item>
+                        <Building>5463</Building>
+                      </Item>
+                    </Tier2>
+                  </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked/>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Pasta</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+
+  <!-- Consumables - Moderate (Worker) -->
+    <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500003']">
+      <Item>
+        <Building>1555000077</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+</ModOps>

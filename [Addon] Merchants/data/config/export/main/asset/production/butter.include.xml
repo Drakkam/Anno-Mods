@@ -1,0 +1,468 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+  <!-- Milk Farm 1555000052-->
+    <ModOp Type="addPrevSibling" GUID="1010315">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000052</GUID>
+            <Name>Milk farm</Name>
+            <IconFilename>data/ui/2kimages/main/3dicons/icon_sheep_milk.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!--Money-->
+                <Amount>150</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <!--timber-->
+                <Amount>4</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/ui/Drakkam/buildings/production/Milk_farm/Milk_Farm.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh/>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Milk Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+          </Text>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>214800</Sound>
+                <!--wwe_sfx_bld_agriculture_typeCluster_tag-->
+              </Item>
+              <Item>
+                <Sound>206307</Sound>
+                <!--wwe_bld_agriculture_02_lp-->
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildMoveSuccess>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>214783</Sound>
+                  <!--wwe_sfx_aui_bld_place_agriculture-->
+                </Item>
+              </BuildMoveSuccess>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                  <!--wwe_sfx_bld_inc_burn-->
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <MaterialType>Wood</MaterialType>
+          </SoundEmitter>
+          <FeedbackController/>
+          <Infolayer/>
+          <UpgradeList/>
+          <Factory7>
+            <IsAgriculture>0</IsAgriculture>
+          </Factory7>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>5385</Product>
+                <!--Milk-->
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode/>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>3</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010271</ModuleGUID>
+                <!--Milk Farm Barn-->
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269957</AdditionalModule>
+            <!--Silo (Grain)-->
+            <ModuleBuildRadius>7</ModuleBuildRadius>
+            <FarmType>AnimalFarm</FarmType>
+          </ModuleOwner>
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!--Money-->
+                <Amount>25</Amount>
+                <InactiveAmount>15</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <!--moderate workforce 1-->
+                <Amount>20</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable/>
+          <Culture>
+            <CultureType>Military</CultureType>
+          </Culture>
+          <QuestObject/>
+          <Industrializable>
+            <BoostedByIndustrialization>0</BoostedByIndustrialization>
+          </Industrializable>
+          <Motorizable>
+            <MotorizableType>Silo</MotorizableType>
+          </Motorizable>
+          <EcoSystemProvider/>
+          <MonoCulture/>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- Butter Producer 1555000073-->
+    <ModOp Type="addNextSibling" GUID="1010266">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000073</GUID>
+            <Name>Butter Producer</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_Butter.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>90</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!--Money-->
+                <Amount>150</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <!--timber-->
+                <Amount>4</Amount>
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/ui/Drakkam/buildings/production/Butter_producer/Butter_producer.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh/>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Butter Producer</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+          </Text>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>216883</Sound>
+                <!--wwe_sfx_bld_processing_typeCluster_tag-->
+              </Item>
+              <Item>
+                <Sound>206345</Sound>
+                <!--wwe_sfx_bld_processing_01_lp-->
+              </Item>
+            </ActiveSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                  <!--wwe_sfx_bld_inc_burn-->
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+          </SoundEmitter>
+          <FeedbackController/>
+          <Infolayer/>
+          <UpgradeList/>
+          <Factory7/>
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>5385</Product>
+                <!--Milk-->
+                <Amount>1</Amount>
+                <StorageAmount>6</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1555000050</Product>
+                <!--tallow-->
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode/>
+          <AmbientMoodProvider>
+            <Murmur>Factory</Murmur>
+            <DynamicEnvironmentType>None</DynamicEnvironmentType>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!--Money-->
+                <Amount>40</Amount>
+                <InactiveAmount>20</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <!--moderate workforce 1-->
+                <Amount>40</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1000</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <Pausable/>
+          <IncidentInfectable>
+            <Infectable>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Industrializable/>
+          <QuestObject/>
+          <Electrifiable/>
+          <EcoSystemProvider/>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000052</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000073</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000052</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000073</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Productions Boosted by electricity -->
+    <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000073</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Food production -->
+    <ModOp Type="add" GUID="190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000073</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Farms  -->
+    <ModOp Type="add" GUID="190011" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000052</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Animal Farms  -->
+    <ModOp Type="add" GUID="190872" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000052</GUID>
+      </Item>
+    </ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+  <!-- Butter -->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+        <Template>ProductionChain</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000074</GUID>
+                <Name>Butter</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_Butter.png</IconFilename>
+            </Standard>
+            <ProductionChain>
+                <Building>1555000073</Building>
+                <Tier1>
+                  <Item>
+                    <Building>1555000052</Building>
+                  </Item>
+                </Tier1>
+            </ProductionChain>
+            <Locked />
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Butter</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+  <!-- Farmer construction menu - After Pub -->
+    <ModOp Type="addNextSibling" GUID='25000189' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010358']">
+      <Item>
+        <Building>1555000074</Building>
+      </Item>
+    </ModOp>
+
+  <!-- Consumables - Moderate (Farmer) -->
+    <ModOp Type="addNextSibling" GUID='500945' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500505']">
+      <Item>
+        <Building>1555000074</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+</ModOps>

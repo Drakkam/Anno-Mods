@@ -1,0 +1,273 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+<!-- Apothecary -->
+  <ModOp Type="addNextSibling" GUID="1010266">
+    <Asset>
+        <Template>Mall</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000151</GUID>
+                <Name>Apothecary</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_Apothecary.png</IconFilename>
+                <InfoDescription>11144</InfoDescription>
+            </Standard>
+            <Building>
+                <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                <AssociatedRegions>Moderate</AssociatedRegions>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>55000</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>25</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>35</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010218</Ingredient>
+                      <Amount>30</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010207</Ingredient>
+                      <Amount>25</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1555000093</Ingredient>
+                      <Amount>25</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Apothecary/Apothecary.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+                <ParticipantMessageArcheType>Advisor_01_Hannah_BlackDress</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Apothecary</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+            </SoundEmitter>
+            <FactoryBase>
+                <FactoryInputs>
+                    <Item>
+                        <Product>133095</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>5</StorageAmount>
+                    </Item>
+                    <Item>
+                        <Product>114370</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>5</StorageAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010234</Product>
+                        <Amount>1</Amount>
+                        <StorageAmount>5</StorageAmount>
+                    </Item>
+                    <Item>
+                      <Product>5383</Product>
+                      <Amount>1</Amount>
+                      <StorageAmount>5</StorageAmount>
+                    </Item>
+                </FactoryInputs>
+                <CycleTime>120</CycleTime>
+                <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                <ClampedMaxTransporterLogisticCost>100</ClampedMaxTransporterLogisticCost>
+            </FactoryBase>
+            <BuffFactory>
+              <ProductionBuffs>
+                <Item>
+                  <ProductivityBuff>1555000152</ProductivityBuff>
+                </Item>
+              </ProductionBuffs>
+              <ProductionBuffScope>Local</ProductionBuffScope>
+              <ProductionBuffDistance>25</ProductionBuffDistance>
+              <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
+              <PublicServiceData>
+                <PublicServices>
+                  <Item>
+                    <PublicService>1555000150</PublicService>
+                  </Item>
+                </PublicServices>
+                <FullSatisfactionDistance>25</FullSatisfactionDistance>
+                <NoSatisfactionDistance>50</NoSatisfactionDistance>
+              </PublicServiceData>
+            </BuffFactory>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>350</Amount>
+                        <InactiveAmount>175</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1555000001</Product>
+                        <Amount>150</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+            <Industrializable>
+                <BoostedByIndustrialization>0</BoostedByIndustrialization>
+            </Industrializable>
+        </Values>
+    </Asset>
+  </ModOp>
+
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- All Public Buildings -->
+<ModOp Type="add" GUID="190136" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555000151</GUID>
+  </Item>
+</ModOp>
+
+<!-- All Public Services -->
+<ModOp Type="add" GUID="191501" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+  <Item>
+    <GUID>1555000151</GUID>
+  </Item>
+</ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+<!-- Apothecary -->
+  <ModOp Type="addNextSibling" GUID='500002'>
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000153</GUID>
+          <Name>Apothecary</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Apothecary.png</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>1555000151</Building>
+          <Tier1>
+            <Item>
+              <Building>5463</Building>
+            </Item>
+            <Item>
+              <Building>1010312</Building>
+              <Tier2>
+                <Item>
+                  <Building>1010269</Building>
+                </Item>
+              </Tier2>
+            </Item>
+            <Item>
+              <Building>133004</Building>
+            </Item>
+            <Item>
+              <Building>114453</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Apothecary</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUFF -->
+<!-- Apothecary -->
+   <ModOp Type="addNextSibling" GUID="269978">
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000152</GUID>
+          <Name>Apothecary</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Apothecary.png</IconFilename>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>194015</GUID>
+            </Item>
+            <Item>
+              <GUID>190762</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Public Water</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade>
+          <AdditionalHappiness>1</AdditionalHappiness>
+          <TaxModifierInPercent>5</TaxModifierInPercent>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentIllnessIncreaseUpgrade>
+            <Value>-1</Value>
+          </IncidentIllnessIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- END BUFF -->
+<!-- START BUILDING MENU -->
+
+  <!-- Consumables - Moderate (Farmer) -->
+    <ModOp Type="addNextSibling" GUID='500094' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
+      <Item>
+        <Building>1555000153</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+
+</ModOps>

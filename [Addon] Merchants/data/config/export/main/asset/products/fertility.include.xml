@@ -1,0 +1,88 @@
+<ModOps>
+<!-- START FERTILITY -->
+  <!-- Tomatoes -->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Fertility</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000120</GUID>
+          <Name>Tomatoes</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Fertility />
+      </Values>
+    </Asset>
+  </ModOp>
+<!-- Saffron -->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Fertility</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000140</GUID>
+          <Name>Saffron</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_saffron.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Saffron</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Fertility />
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- START LIST FERTILITY - OW -->
+<!-- Old World - Moderate -->
+  <ModOp GUID="5000000" Type="add" Path="/Values/Region/AllowedFertilities">
+    <Item>
+      <Fertility>1555000120</Fertility>
+    </Item>
+  </ModOp>
+
+<!-- START ADD FERTILITY - OW SETS -->
+  <ModOp Type="add" GUID="141508,141509,141511,141512,141513,142436,142438,141514,141516,141518,141524,142439,142442,142443,141515,141519,141521,141523,141525,142445,142447" Path="/Values/FertilitySet/Fertilities">
+    <Item>
+      <Fertility>1555000120</Fertility>
+    </Item>
+  </ModOp>
+
+<!-- START LIST FERTILITY - AFRICA -->
+
+<!-- AFRICA -->
+  <ModOp GUID="114327" Type="add" Path="/Values/Region/AllowedFertilities">
+    <Item>
+      <Fertility>1555000140</Fertility>
+    </Item>
+  </ModOp>
+<!-- START ADD FERTILITY - AFRICA SETS -->
+  <ModOp Type="add" GUID="120203,120206,123908,120208,120209,120211,120212,120322,120217,120220,123904,120221,120223,120225,120226,120218,120228,120229,120230,120231,120233,120234,120235,120237" Path="/Values/FertilitySet/Fertilities">
+    <Item>
+      <Fertility>1555000140</Fertility>
+    </Item>
+  </ModOp>
+<!-- START ADD FERTILITYORDER TO MINIMAP -->
+  <ModOp Type="add" GUID="500204" Path="/Values/MinimapScene/FertilityOrder">
+    <Item>
+      <GUID>1555000120</GUID>
+    </Item>
+    <Item>
+      <GUID>1555000140</GUID>
+    </Item>
+  </ModOp>
+</ModOps>

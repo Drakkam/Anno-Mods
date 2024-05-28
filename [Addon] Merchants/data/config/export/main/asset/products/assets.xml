@@ -1,0 +1,54 @@
+<ModOps>
+  <Include File="./products.include.xml" />
+  <Include File="./docklands.include.xml" />
+  <Include File="./fertility.include.xml" />
+
+  <!-- # Expeditions -->
+  <Group>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000100']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.1</MoraleFactor>
+        <Product>1555000100</Product>
+        <!-- Eggs --> 
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000345']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.2</MoraleFactor>
+        <Product>1555000345</Product>
+        <!-- Fish 'n' chips --> 
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000109']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.1</MoraleFactor>
+        <Product>1555000109</Product>
+        <!-- Tomatoes --> 
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+      Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000144']"
+      Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+      <Item>
+        <MoraleFactor>0.1</MoraleFactor>
+        <Product>1555000144</Product>
+        <!-- Cider -->
+      </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="800111"
+    Condition="!~/Values/ExpeditionFeature/FeedOption/FeedOptions[Item/Product='1555000233']"
+    Path="/Values/ExpeditionFeature/FeedOption/FeedOptions">
+    <Item>
+      <MoraleFactor>0.1</MoraleFactor>
+      <Product>1555000233</Product>
+      <!-- Raw Pasta -->
+    </Item>
+  </ModOp>
+  </Group>
+</ModOps>

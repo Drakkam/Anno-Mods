@@ -1,0 +1,1430 @@
+<ModOps>
+ <!-- Vanilla Change -->
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>19153</GUID>
+      <Text>Create Strategic Route</Text>
+    </Text>
+    <Text>
+      <GUID>11717</GUID>
+      <Text>Strategic Route</Text>
+    </Text>
+    <Text>
+      <GUID>25530</GUID>
+      <Text>Use specialized ships to distribute strategic goods to your islands.</Text>
+    </Text>
+  </ModOp>
+  
+  <ModOp Type="add" Path="/TextExport/Texts">
+<!-- Population -->
+    <Text>
+      <GUID>1555000000</GUID>
+      <Text>Merchants</Text> <!-- Merchants Population name-->
+    </Text>
+    <Text>
+      <GUID>1555000001</GUID>
+      <Text>Merchant Workforce</Text> <!-- Merchants Workforce name-->
+    </Text>
+    <Text>
+      <GUID>1555000005</GUID>
+      <Text>Merchants</Text> <!-- Merchants BuidMenu name-->
+    </Text>
+    <Text>
+      <GUID>1555000006</GUID>
+      <Text>Angry Merchant</Text> <!-- Merchants Population Mood Angry-->
+    </Text>
+    <Text>
+      <GUID>1555000007</GUID>
+      <Text>Unhappy Merchant</Text> <!-- Merchants Population Mood Unhappy-->
+    </Text>
+    <Text>
+      <GUID>1555000008</GUID>
+      <Text>Content Merchant</Text> <!-- Merchants Population Mood Content-->
+    </Text>
+    <Text>
+      <GUID>1555000009</GUID>
+      <Text>Happy Merchant</Text> <!-- Merchants Population Mood Happy-->
+    </Text>
+    <Text>
+      <GUID>1555000010</GUID>
+      <Text>Euphoric Merchant</Text> <!-- Merchants Population Mood Euphoric-->
+    </Text>
+    <Text>
+      <GUID>1555000011</GUID>
+      <Text>Merchant Residence</Text> <!-- BUILDING - RESIDENCE - Merchants -->
+    </Text>
+    <Text>
+      <GUID>1555000012</GUID>
+      <Text>Merchant Notification</Text> <!-- Merchants Unlock Notification-->
+    </Text>
+    <Text>
+      <GUID>1555000013</GUID>
+      <Text>AGE OF</Text> <!-- Merchants Unlock Notification-->
+    </Text>
+    <Text>
+      <GUID>1555000014</GUID>
+      <Text>TRADE</Text> <!-- Merchants Unlock Notification-->
+    </Text>
+    <Text>
+      <GUID>1555000017</GUID>
+      <Text>Red Roof Skin</Text> <!-- Merchants Residence Red Roof Skin-->
+    </Text>
+    <Text>
+      <GUID>1555000018</GUID>
+      <Text>Red Roof</Text> <!-- Merchants Residence Red Roof Skin Name-->
+    </Text>
+    <Text>
+      <GUID>1555000019</GUID>
+      <Text>Red Roof for your merchants residences</Text> <!-- Merchants Residence Red Roof Skin Description-->
+    </Text>
+
+<!-- Merchant Harbor -->
+   <Text>
+    <GUID>1555000047</GUID>
+    <Text>Provides additional space for ships to load and unload strategics goods.</Text>
+  </Text>
+    <Text>
+      <GUID>1555000048</GUID>
+      <Text>Strategic Products Pier</Text>
+    </Text>
+    <Text>
+      <GUID>1555000200</GUID>
+      <Text>Large Harbor</Text>
+    </Text>
+
+<!-- Basin -->
+  <Text>
+    <GUID>1555000440</GUID>
+    <Text>Water Basin</Text>
+  </Text>
+
+<!-- Butter --> 
+    <Text>
+      <GUID>1555000050</GUID> 
+      <Text>Butter</Text>
+    </Text>
+    <Text>
+      <GUID>1555000051</GUID>
+      <Text>Churned milk cream.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000052</GUID> 
+      <Text>Milk Farm</Text>
+    </Text>
+    <Text>
+      <GUID>1555000073</GUID> 
+      <Text>Butter Producer</Text>
+    </Text>
+    <Text>
+      <GUID>1555000074</GUID> 
+      <Text>Butter</Text>
+    </Text>
+
+<!-- Furniture -->
+    <Text>
+      <GUID>1555000054</GUID>
+      <Text>Furniture</Text> <!-- PRODUCT - Furniture -->
+    </Text>
+    <Text>
+      <GUID>1555000055</GUID>
+      <Text>Wool Fabric Manufacturer</Text> <!-- BUILDING - Wool Fabric Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000056</GUID> 
+      <Text>Sewing Thread Manufacturer</Text> <!-- BUILDING - Sewing Thread Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000057</GUID>
+      <Text>Furniture Workshop</Text> <!-- BUILDING - Furniture Workshop-->
+    </Text>
+    <Text>
+      <GUID>1555000058</GUID>
+      <Text>Furniture</Text> <!-- PRODUCTION CHAIN - Furniture-->
+    </Text>
+
+<!-- Pasta --> 
+    <Text>
+      <GUID>1555000076</GUID>
+      <Text>Tomato Sauce Factory</Text> <!-- PRODUCTION CHAIN - Tomato Sauce Factory-->
+    </Text>
+    <Text>
+      <GUID>1555000077</GUID>
+      <Text>Pasta</Text> <!-- PRODUCTION CHAIN - Pasta-->
+    </Text>
+    <Text>
+      <GUID>1555000100</GUID>
+      <Text>Eggs</Text> <!-- PRODUCT - Eggs -->
+    </Text>
+    <Text>
+      <GUID>1555000101</GUID>
+      <Text>Chicken eggs</Text> <!-- PRODUCT DESCRIPTION - Eggs -->
+    </Text>
+    <Text>
+      <GUID>1555000102</GUID>
+      <Text>Chicken farm</Text> <!-- BUILDING - Chicken Farm -->
+    </Text>
+    <Text>
+      <GUID>1555000103</GUID>
+      <Text>Chicken farm field</Text> <!-- BUILDING - Chicken Farm Field -->
+    </Text>
+    <Text>
+      <GUID>1555000109</GUID> 
+      <Text>Tomatoes</Text> <!-- PRODUCT - Tomatoes -->
+    </Text>
+    <Text>
+      <GUID>1555000110</GUID>
+      <Text>You can expect a balance of acid and sweetness with red tomatoes</Text> <!-- PRODUCT DESCRIPTION - Tomatoes -->
+    </Text>
+    <Text>
+      <GUID>1555000113</GUID> 
+      <Text>Pasta</Text> <!-- PRODUCT - Pasta -->
+    </Text>
+    <Text>
+      <GUID>1555000114</GUID>
+      <Text>The best pasta you will ever taste.</Text> <!-- PRODUCT DESCRIPTION - Pasta -->
+    </Text>
+    <Text>
+      <GUID>1555000115</GUID>
+      <Text>Tomatoes Farm</Text> <!-- BUILDING - Tomatos Farm-->
+    </Text>
+    <Text>
+      <GUID>1555000116</GUID>
+      <Text>Tomatoes Farm Fields</Text> <!-- BUILDING - Tomatoes Farm Fields-->
+    </Text>
+    <Text>
+      <GUID>1555000118</GUID>
+      <Text>Pasta Kitchen</Text> <!-- BUILDING - Pasta Kitchen -->
+    </Text>
+    <Text>
+      <GUID>1555000120</GUID>
+      <Text>Tomatoes Fertility</Text> <!-- FERTILITY - Tomatoes-->
+    </Text>
+    <Text>
+      <GUID>1555000233</GUID>
+      <Text>Raw Pasta</Text>
+    </Text>
+    <Text>
+      <GUID>1555000234</GUID>
+      <Text>Do not break it around Italians.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000235</GUID>
+      <Text>Pasta Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1555000269</GUID>
+      <Text>Tomatoes Sauce</Text>
+    </Text>
+    <Text>
+      <GUID>1555000270</GUID>
+      <Text>A tomato-based red sauce with herbs and spices</Text>
+    </Text>
+
+<!-- Olive Oil -->
+    <Text>
+      <GUID>1555000111</GUID> 
+      <Text>Olive Oil</Text> <!-- PRODUCT - Olive Oil -->
+    </Text>
+    <Text>
+      <GUID>1555000112</GUID>
+      <Text>The best virgin Olive Oil in the region.</Text> <!-- PRODUCT DESCRIPTION - Olive Oil -->
+    </Text>
+    <Text>
+      <GUID>1555000117</GUID>
+      <Text>Olive Oil Factory</Text> <!-- BUILDING - Olive Oil Factory -->
+    </Text>
+    <Text>
+      <GUID>1555000119</GUID>
+      <Text>Olive Oil</Text> <!-- PRODUCTION CHAIN - Pasta -->
+    </Text>
+    <Text>
+      <GUID>1555000142</GUID> 
+      <Text>Bottles</Text> <!-- PRODUCT - Trade Permit -->
+    </Text>
+    <Text>
+      <GUID>1555000143</GUID>
+      <Text>Empty Bottles for different uses</Text> <!-- PRODUCT DESCRIPTION - Trade Permit -->
+    </Text>
+    <Text>
+      <GUID>1555000146</GUID>
+      <Text>Bottle Manufacturer</Text> <!-- BUILDING - Bottle Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000283</GUID>
+      <Text>Orchard: Olives</Text> <!-- BUILDING DESCRIPTION - The Foreign Trade Chamber -->
+    </Text>
+    <Text>
+      <GUID>1555000284</GUID>
+      <Text>Olives</Text> <!-- BUILDING DESCRIPTION - The Foreign Trade Chamber -->
+    </Text>
+    <Text>
+      <GUID>1555000285</GUID>
+      <Text>Olives are harvested in the green to purple stage. A pyrena is commonly referred to in American English as a "pit", and in British English as a "stone".</Text> <!-- BUILDING DESCRIPTION - The Foreign Trade Chamber -->
+    </Text>
+
+<!-- Cider -->
+    <Text>
+      <GUID>1555000144</GUID>
+      <Text>Apple Cider</Text> <!-- PRODUCT - Cider -->
+    </Text>
+    <Text>
+      <GUID>1555000145</GUID>
+      <Text>The perfect combination of alcohol and apple juice</Text> <!-- PRODUCT DESCRIPTION - Cider -->
+    </Text>
+    <Text>
+      <GUID>1555000147</GUID>
+      <Text>Cider Manufacturer</Text> <!-- BUILDING - Cider Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000148</GUID>
+      <Text>Cider</Text> <!-- PRODUCTION CHAIN - Cider -->
+    </Text>
+    <Text>
+      <GUID>1555000271</GUID>
+      <Text>Orchard: Apple</Text> <!-- BUILDING - Apple Orchard -->
+    </Text>
+    <Text>
+      <GUID>1555000272</GUID>
+      <Text>Apple</Text> <!-- BUILDING - Apple Orchard -->
+    </Text>
+    <Text>
+      <GUID>1555000273</GUID>
+      <Text>An apple is a round fruit with red or green skin and a whitish inside. One variety of apple might be sweet, another sour. The apple isn't just a fruit.</Text> <!-- BUILDING DESCRIPTION - Apple Orchard -->
+    </Text>
+
+<!-- Newspaper -->
+    <Text>
+      <GUID>1555000155</GUID> 
+      <Text>Newspaper</Text> <!-- PRODUCT - Newspaper -->
+    </Text>
+    <Text>
+      <GUID>1555000156</GUID>
+      <Text>Information is key, learn what is happening around the world</Text> <!-- PRODUCT DESCRIPTION - Newspaper -->
+    </Text>
+    <Text>
+      <GUID>1555000157</GUID> 
+      <Text>New World news report</Text> <!-- PRODUCT - New World news report -->
+    </Text>
+    <Text>
+      <GUID>1555000158</GUID>
+      <Text>News report from the New World</Text> <!-- PRODUCT DESCRIPTION - New World news report -->
+    </Text>
+    <Text>
+      <GUID>1555000159</GUID> 
+      <Text>Enbesa news report</Text> <!-- PRODUCT - Enbesa news report -->
+    </Text>
+    <Text>
+      <GUID>1555000160</GUID>
+      <Text>News report from the Enbesa</Text> <!-- PRODUCT DESCRIPTION - Enbesa news report -->
+    </Text>
+    <Text>
+      <GUID>1555000161</GUID> 
+      <Text>Ink</Text> <!-- PRODUCT - Ink -->
+    </Text>
+    <Text>
+      <GUID>1555000162</GUID> 
+      <Text>Try not to get yourself dirt</Text> <!-- PRODUCT - Ink description -->
+    </Text>
+    <Text>
+      <GUID>1555000163</GUID>
+      <Text>Anno Morning Post</Text> <!-- BUILDING - Anno Morning Post -->
+    </Text>
+    <Text>
+      <GUID>1555000164</GUID>
+      <Text>New World News Reporter</Text> <!-- BUILDING - New World News Reporter -->
+    </Text>
+    <Text>
+      <GUID>1555000165</GUID>
+      <Text>Enbesa News Reporter</Text> <!-- BUILDING - Enbesa News Reporter -->
+    </Text>
+    <Text>
+      <GUID>1555000166</GUID>
+      <Text>Ink Factory</Text> <!-- BUILDING - Old World News Reporter -->
+    </Text>
+    <Text>
+      <GUID>1555000167</GUID>
+      <Text>Newspaper</Text> <!-- PRODUCTION CHAIN - Newspaper -->
+    </Text>
+    <Text>
+      <GUID>1555000381</GUID> 
+      <Text>Lead</Text> <!-- PRODUCT - Lead -->
+    </Text>
+    <Text>
+      <GUID>1555000382</GUID> 
+      <Text>Be careful, prolonged exposure may cause lead poisoning</Text> <!-- PRODUCT - Lead description -->
+    </Text>
+
+<!-- Apothecary -->
+    <Text>
+      <GUID>1555000150</GUID>
+      <Text>Apothecary</Text> <!-- PRODUCT - Apothecary -->
+    </Text>
+    <Text>
+      <GUID>1555000151</GUID>
+      <Text>Apothecary</Text> <!-- BUILDING - Apothecary -->
+    </Text>
+    <Text>
+      <GUID>1555000152</GUID>
+      <Text>Apothecary</Text> <!-- BUFF - Apothecary -->
+    </Text>
+    <Text>
+      <GUID>1555000153</GUID>
+      <Text>Apothecary</Text> <!-- PRODUCTION CHAIN - Apothecary -->
+    </Text>
+
+<!-- Camera -->
+    <Text>
+      <GUID>1555000169</GUID>
+      <Text>Camera</Text> <!-- PRODUCT - Camera -->
+    </Text>
+    <Text>
+      <GUID>1555000170</GUID>
+      <Text>Now everyone can take pictures</Text> <!-- PRODUCT DESCRIPTION - Camera -->
+    </Text>
+    <Text>
+      <GUID>1555000171</GUID>
+      <Text>Lenses</Text> <!-- PRODUCT - Lenses -->
+    </Text>
+    <Text>
+      <GUID>1555000172</GUID>
+      <Text>Special lenses for cameras</Text> <!-- PRODUCT DESCRIPTION - Lenses -->
+    </Text>
+    <Text>
+      <GUID>1555000173</GUID>
+      <Text>Lenses Manufacturer</Text> <!-- BUILDING - Lenses Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000174</GUID>
+      <Text>Artisan's Workshop: Camera</Text> <!-- BUILDING - Artisan's Workshop: Camera -->
+    </Text>
+    <Text>
+      <GUID>1555000175</GUID>
+      <Text>Camera</Text> <!-- RECIPE - Recipe list Camera -->
+    </Text>
+    <Text>
+      <GUID>1555000176</GUID>
+      <Text>A camera is a sealed box with a tiny hole or aperture on one side. It creates images by allowing light to pass through the pinhole and projecting onto the photographic paper.</Text> <!-- RECIPE DESCRIPTION - Camera -->
+    </Text>
+    <Text>
+      <GUID>1555000177</GUID>
+      <Text>Camera</Text> <!-- PRODUCTION CHAIN - Camera -->
+    </Text>
+
+<!-- Ropes -->
+    <Text>
+      <GUID>1555000179</GUID> 
+      <Text>Rope</Text> <!-- PRODUCT - Ropes -->
+    </Text>
+    <Text>
+      <GUID>1555000180</GUID>
+      <Text>The best ropes money can buy</Text> <!-- PRODUCT DESCRIPTION - Ropes -->
+    </Text>
+    <Text>
+      <GUID>1555000181</GUID>
+      <Text>Rope Manufacturer</Text> <!-- BUILDING - Rope Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000182</GUID>
+      <Text>Rope</Text>
+    </Text>
+    <Text>
+      <GUID>1555000380</GUID>
+      <Text>Hemp Farm</Text>
+    </Text>
+
+<!-- Public Transportation -->
+    <Text>
+      <GUID>1555000184</GUID> 
+      <Text>Tickets</Text> <!-- PRODUCT - Tickets -->
+    </Text>
+    <Text>
+      <GUID>1555000185</GUID>
+      <Text>Tickets for the public transportation</Text> <!-- PRODUCT DESCRIPTION - Tickets -->
+    </Text>
+    <Text>
+      <GUID>1555000186</GUID> 
+      <Text>Passengers</Text> <!-- PRODUCT - Passengers -->
+    </Text>
+    <Text>
+      <GUID>1555000187</GUID>
+      <Text>Everyday Commuters</Text> <!-- PRODUCT DESCRIPTION - Passengers -->
+    </Text>
+    <Text>
+      <GUID>1555000188</GUID> 
+      <Text>Public Transportation</Text> <!-- PRODUCT - Public Transportation -->
+    </Text>
+    <Text>
+      <GUID>1555000189</GUID>
+      <Text>Countryside Train Connection</Text>
+    </Text>
+    <Text>
+      <GUID>1555000190</GUID> 
+      <Text>Network Access</Text> <!-- PRODUCT - Network Access -->
+    </Text>
+    <Text>
+      <GUID>1555000191</GUID>
+      <Text>Needs a working Central Station with passengers</Text> <!-- PRODUCT DESCRIPTION - Network Access -->
+    </Text>
+    <Text>
+      <GUID>1555000192</GUID> 
+      <Text>Ticket Booth</Text> <!-- BUILDING - Ticket Booth -->
+    </Text>
+    <Text>
+      <GUID>1555000193</GUID>
+      <Text>Central Station</Text> <!-- BUILDING - Central Station -->
+    </Text>
+    <Text>
+      <GUID>1555000236</GUID>
+      <Text>Organizes the flow of passengers around and out of your island</Text> <!-- BUILDING - Central Station description -->
+    </Text>
+    <Text>
+      <GUID>1555000194</GUID>
+      <Text>Train Station Plataform</Text>
+    </Text>
+    <Text>
+      <GUID>1555000196</GUID>
+      <Text>Travel Agency</Text>
+    </Text>
+    <Text>
+      <GUID>1555000197</GUID>
+      <Text>Sends and receive travelers on airship routes.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000198</GUID>
+      <Text>Subway entrance</Text> <!-- BUILDING - Subway entrance -->
+    </Text>
+    <Text>
+      <GUID>1555000203</GUID>
+      <Text>Airship Travelers</Text>
+    </Text>
+    <Text>
+      <GUID>1555000204</GUID>
+      <Text>Waiting for the airship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000205</GUID>
+      <Text>Travelers Platform</Text>
+    </Text>
+    <Text>
+      <GUID>1555000206</GUID>
+      <Text>Visitors</Text>
+    </Text>
+    <Text>
+      <GUID>1555000207</GUID>
+      <Text>Travelers from another island</Text>
+    </Text>
+    <Text>
+      <GUID>1555000208</GUID>
+      <Text>Visitors Platform</Text>
+    </Text>
+    <Text>
+      <GUID>1555000210</GUID>
+      <Text>Strategic trade habour</Text>
+    </Text>
+    <Text>
+      <GUID>1555000139</GUID>
+      <Text>Adds an extra slot for ships to trade and trains to store goods.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000211</GUID>
+      <Text>Local train Station: Subway Connection</Text>
+    </Text>
+    <Text>
+      <GUID>1555000212</GUID>
+      <Text>Local train Station: Industrial district</Text>
+    </Text>
+    <Text>
+      <GUID>1555000213</GUID>
+      <Text>Local train Station: Countryside</Text>
+    </Text>
+    <Text>
+      <GUID>1555000214</GUID>
+      <Text>Local train Station: Harbor District</Text>
+    </Text>
+    <Text>
+      <GUID>1555000215</GUID>
+      <Text>Connected to the subway system</Text> <!-- BUFF - Network Access -->
+    </Text>
+    <Text>
+      <GUID>1555000216</GUID>
+      <Text>Local train Station: Industrial district Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1555000217</GUID>
+      <Text>Local train Station: Countryside Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1555000218</GUID>
+      <Text>Local train Station: Harbor District Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1555000219</GUID>
+      <Text>Public Transportation Access</Text>
+    </Text>
+    <Text>
+      <GUID>1555000220</GUID>
+      <Text>Public Transportation</Text> <!-- PRODUCTION CHAIN - Public Transportation -->
+    </Text>
+    <Text>
+      <GUID>1555000223</GUID>
+      <Text>Increase Island passenger capacity.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000224</GUID>
+      <Text>Central Train Station Hallway Platform</Text>
+    </Text>
+    <Text>
+      <GUID>1555000225</GUID>
+      <Text>Central Train Station Platform</Text>
+    </Text>
+    <Text>
+      <GUID>1555000226</GUID>
+      <Text>Central Train Station Stairway Crossing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000227</GUID>
+      <Text>Central Train Station Underground Crossing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000228</GUID>
+      <Text>Train Station Rail Guard</Text>
+    </Text>
+    <Text>
+      <GUID>1555000229</GUID>
+      <Text>Central Train Station Subway</Text>
+    </Text>
+    <Text>
+      <GUID>1555000230</GUID>
+      <Text>Central Train Station Pavilion</Text>
+    </Text>
+    <Text>
+      <GUID>1555000237</GUID>
+      <Text>Train Stations</Text>
+    </Text>
+    <Text>
+      <GUID>1555550298</GUID>
+      <Text>Passengers from all around the city, going shop, work or travelling</Text> <!-- BUILDING DESCRIPTION - Central Station -->
+    </Text>
+
+<!-- Ships -->
+    <Text>
+      <GUID>1555000231</GUID>
+      <Text>Small Passengers Ship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000232</GUID>
+      <Text>A reliable ship for passengers, extremely slow on open sea.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000238</GUID>
+      <Text>Small Steamer Ship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000239</GUID>
+      <Text>A fast reliable ship for trading with nearby islands, extremely slow on open sea.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000240</GUID>
+      <Text>Steamer Ship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000241</GUID>
+      <Text>A Steam ship with a good amount of cargo capacity.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000242</GUID>
+      <Text>Medium Passengers Ship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000243</GUID>
+      <Text>A reliable ship for passengers.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000244</GUID>
+      <Text>Large Passengers Ship</Text>
+    </Text>
+    <Text>
+      <GUID>1555000245</GUID>
+      <Text>Sturdy and reliable trade ship with capacity to carry a lot of passengers.</Text>
+    </Text>
+
+<!-- Spices -->
+    <Text>
+      <GUID>1555000079</GUID>
+      <Text>Spices</Text> <!-- PRODUCTION CHAIN - Furniture-->
+    </Text>
+    <Text>
+      <GUID>1555000130</GUID> 
+      <Text>Saffron</Text> <!-- PRODUCT - Saffron -->
+    </Text>
+    <Text>
+      <GUID>1555000131</GUID>
+      <Text>This flower is famous for its flavour</Text> <!-- PRODUCT DESCRIPTION - Saffron -->
+    </Text>
+    <Text>
+      <GUID>1555000134</GUID>
+      <Text>Saffron Farm</Text> <!-- BUILDING - Saffron Farm -->
+    </Text>
+    <Text>
+      <GUID>1555000135</GUID>
+      <Text>Saffron Farmfield</Text> <!-- BUILDING - Saffron Farmfield -->
+    </Text>
+    <Text>
+      <GUID>1555000136</GUID>
+      <Text>Spice Producer</Text> <!-- BUILDING - Spice Producer -->
+    </Text>
+    <Text>
+      <GUID>1555000137</GUID>
+      <Text>Spices</Text> <!-- BUILDING - Spices -->
+    </Text>
+    <Text>
+      <GUID>1555000138</GUID>
+      <Text>Spices</Text> <!-- PRODUCTION CHAIN - Spices -->
+    </Text>
+    <Text>
+      <GUID>1555000140</GUID>
+      <Text>Saffron Fertility</Text> <!-- FERTILITY - Saffron -->
+    </Text>
+
+<!-- Fedora -->
+    <Text>
+      <GUID>1555000124</GUID> 
+      <Text>Fedora</Text> <!-- PRODUCT - Fedora -->
+    </Text>
+    <Text>
+      <GUID>1555000125</GUID>
+      <Text>A nice hat made out of leather strips and felt</Text> <!-- PRODUCT DESCRIPTION - Fedora -->
+    </Text>
+    <Text>
+      <GUID>1555000127</GUID>
+      <Text>Fedora Manufacturer</Text> <!-- BUILDING - Fedora Manufacturer -->
+    </Text>
+    <Text>
+      <GUID>1555000128</GUID>
+      <Text>Fedora</Text> <!-- PRODUCTION CHAIN - Fedora -->
+    </Text>
+
+<!-- Cosmetics -->
+    <Text>
+      <GUID>1555000274</GUID> 
+      <Text>Cosmetics</Text>
+    </Text>
+    <Text>
+      <GUID>1555000275</GUID> 
+      <Text>A box of lotions, creams, powders, and so forth.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000276</GUID> 
+      <Text>Cosmetics Factory</Text>
+    </Text>
+    <Text>
+      <GUID>1555000277</GUID> 
+      <Text>Cosmetics</Text>
+    </Text>
+    <Text>
+      <GUID>1555000278</GUID> 
+      <Text>Cosmetics</Text>
+    </Text>
+
+<!-- Newspaper -->
+   <Text>
+    <GUID>1555000383</GUID> 
+    <Text>Lead Extractor</Text>
+  </Text>
+  <Text>
+    <GUID>1555000384</GUID> 
+    <Text>Lead Processing</Text>
+  </Text>
+
+<!-- Trading Company -->
+<!-- Build Menu and Production chain -->
+    <Text>
+      <GUID>1555000258</GUID> 
+      <Text>Trading Company</Text> <!-- BUILD MENU - Trading Company-->
+    </Text>
+    <Text>
+      <GUID>1555000259</GUID> 
+      <Text>New World Trade Agreement</Text> <!-- PRODUCTION CHAIN - New World Trade Agreement -->
+    </Text>
+    <Text>
+      <GUID>1555000260</GUID> 
+      <Text>Enbesa Trade Agreement</Text> <!-- PRODUCTION CHAIN - Enbesa Trade Agreement -->
+    </Text>
+    <Text>
+      <GUID>1555000053</GUID> 
+      <Text>Trade Contract</Text>
+    </Text>
+<!-- Building -->
+    <Text>
+      <GUID>1555000061</GUID>
+      <Text>LOADING AREA RECIPE GUID</Text>
+    </Text>
+    <Text>
+      <GUID>1555000062</GUID>
+      <Text>Food Exports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000063</GUID>
+      <Text>Goods Exports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000080</GUID>
+      <Text>Luxury Exports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000081</GUID>
+      <Text>The export department is responsible for preparing products that will be sent to other regions to establish trade agreements.</Text> <!-- BUILDING - Luxury Exports Loading Area-->
+    </Text>
+    <Text>
+      <GUID>1555000082</GUID>
+      <Text>Exporting food provides the local population with some advantages and establishes a small amount of trade agreements.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000083</GUID>
+      <Text>Exporting consumer goods provides the local population with some advantages and establishes a moderate amount of trade agreements.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000084</GUID>
+      <Text>Exporting luxury goods provides the local population with some advantages and establishes a big amount of trade agreements.</Text> <!-- BUILDING - Luxury Exports Loading Area-->
+    </Text>
+    <Text>
+      <GUID>1555000085</GUID>
+      <Text>Exports Department</Text> <!-- BUILDING - Luxury Exports Loading Area-->
+    </Text>
+    <Text>
+      <GUID>1555000251</GUID>
+      <Text>Exports Department: Luxury goods</Text> <!-- BUILDING - Luxury Exports Loading Area-->
+    </Text>
+    <Text>
+      <GUID>1555000246</GUID>
+      <Text>Trading Company</Text> <!-- BUILDING - Trading Company -->
+    </Text>
+    <Text>
+      <GUID>1555000247</GUID>
+      <Text>The Foreign Trade Chamber</Text> <!-- BUILDING - The Foreign Trade Chamber -->
+    </Text>
+    <Text>
+      <GUID>1555000199</GUID>
+      <Text>Organize trade events with nearby manufacturers. It can host sumptuous events that reward good organisation with advanced construction materials.</Text> <!-- BUILDING - Trading Company -->
+    </Text>
+    <Text>
+      <GUID>1555000248</GUID>
+      <Text>Trade Contract Department</Text> <!-- BUILDING - Trade Contract Department -->
+    </Text>
+    <Text>
+      <GUID>1555000249</GUID>
+      <Text>Exports Department: Food</Text> <!-- BUILDING - Basic Food Loading Area -->
+    </Text>
+    <Text>
+      <GUID>1555000250</GUID>
+      <Text>Exports Department: Consumer goods</Text> <!-- BUILDING - Processed Loading Area -->
+    </Text>
+    <Text>
+      <GUID>1555000252</GUID>
+      <Text>Ship Import Office</Text> <!-- BUILDING - Chamber of Commerce -->
+    </Text>
+    <Text>
+      <GUID>1555000253</GUID>
+      <Text>Customs Office</Text> <!-- BUILDING - Customs Office -->
+    </Text>
+    <Text>
+      <GUID>1555000254</GUID>
+      <Text>Trading Company Warehouse</Text> <!-- BUILDING - Trading Company Warehouse -->
+    </Text>
+    <Text>
+      <GUID>1555000255</GUID>
+      <Text>Packaging Department</Text> <!-- BUILDING - Packaging Department -->
+    </Text>
+    <Text>
+      <GUID>1555000256</GUID>
+      <Text>New World Import Office</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000257</GUID>
+      <Text>Enbesa Import Office</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000132</GUID>
+      <Text>New World Import Office: Basic Food</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000133</GUID>
+      <Text>New World Import Office: Consumer Goods</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000289</GUID>
+      <Text>New World Import Office: Luxury Exports</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000088</GUID>
+      <Text>Basic Food</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000089</GUID>
+      <Text>Consumer Goods</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000090</GUID>
+      <Text>Luxury Exports</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000291</GUID>
+      <Text>Basic Food</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000395</GUID>
+      <Text>Consumer Goods</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000396</GUID>
+      <Text>Luxury Exports</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000397</GUID>
+      <Text>Enbesa Import Office: Basic Food</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000398</GUID>
+      <Text>Enbesa Import Office: Consumer Goods</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000399</GUID>
+      <Text>Enbesa Import Office: Luxury Exports</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000087</GUID>
+      <Text>The Import Office can sell exports from the old world to stablish local trade agreements. Choose an export and begin trading it, each kind of exports will benefit the local population with its needs.</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000122</GUID>
+      <Text>Basic Food imports will increase the population provided by food needs.</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000123</GUID>
+      <Text>Consumer Goods imports will increase the workforce generated by your island population.</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000126</GUID>
+      <Text>Luxury imports will satisfy your population needs by 10%.</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000409</GUID>
+      <Text>Food Exports Loading Area</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000410</GUID>
+      <Text>Goods Exports Loading Area</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000411</GUID>
+      <Text>Luxury Exports Loading Area</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000412</GUID>
+      <Text>Export Department Exclusive dock</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000437</GUID>
+      <Text>Improves production of Loading Areas, requires ropes and work cloths.</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+    <Text>
+      <GUID>1555000438</GUID>
+      <Text>Reduces Workforce needed at the Export Office, requires ropes and sails to operate</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+<!-- Products -->
+    <Text>
+      <GUID>1555000345</GUID> 
+      <Text>Luxury Exports</Text> <!-- PRODUCT - Luxury Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000262</GUID> 
+      <Text>New World Trade Agreement</Text> <!-- PRODUCT - New World Trade Agreement -->
+    </Text>
+    <Text>
+      <GUID>1555000263</GUID>
+      <Text>Internation trade agreements</Text> <!-- PRODUCT DESCRIPTION - New World Trade Agreement -->
+    </Text>
+    <Text>
+      <GUID>1555000264</GUID> 
+      <Text>Enbesa Trade Agreement</Text> <!-- PRODUCT - Enbesa Trade Agreement -->
+    </Text>
+    <Text>
+      <GUID>1555000265</GUID> 
+      <Text>Trade Contracts</Text> <!-- PRODUCT - Trade Contracts -->
+    </Text>
+    <Text>
+      <GUID>1555000266</GUID> 
+      <Text>Food Exports</Text> <!-- PRODUCT - Food Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000267</GUID>
+      <Text>Goods ready to be shipped abroad</Text> <!-- PRODUCT DESCRIPTION - Luxury Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000268</GUID> 
+      <Text>Goods Exports</Text> <!-- PRODUCT - Goods Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000406</GUID> 
+      <Text>Food Exports</Text> <!-- PRODUCT - Food Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000407</GUID> 
+      <Text>Goods Exports</Text> <!-- PRODUCT - Goods Exports -->
+    </Text>
+    <Text>
+      <GUID>1555000408</GUID> 
+      <Text>Luxury Exports</Text> <!-- PRODUCT - Luxury Exports -->
+    </Text>
+<!-- Buffs -->
+    <Text>
+      <GUID>1555000261</GUID>
+      <Text>Exclusive dock</Text>
+    </Text>
+    <Text>
+      <GUID>1555000400</GUID>
+      <Text>Food Imports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000401</GUID>
+      <Text>Goods Imports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000402</GUID>
+      <Text>Luxury Imports</Text>
+    </Text>
+    <Text>
+      <GUID>1555000385</GUID>
+      <Text>Trading Company Power Generator</Text>
+    </Text>
+    <Text>
+      <GUID>1555000386</GUID>
+      <Text>The power generator allows the trading company to promote fairs and build steamships.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000387</GUID>
+      <Text>Imports Regulations</Text>
+    </Text>
+    <Text>
+      <GUID>1555000388</GUID>
+      <Text>The definition of import standards alow for products of better quality and reduces loss and consumption.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000389</GUID>
+      <Text>Tourism incentive</Text>
+    </Text>
+    <Text>
+      <GUID>1555000390</GUID>
+      <Text>Improving the city's bars, restaurants and services is important to attract new tourists.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000391</GUID>
+      <Text>Subsidy for public transport</Text>
+    </Text>
+    <Text>
+      <GUID>1555000392</GUID>
+      <Text>Subsidizing public transport allows the trading company to have access to more labor and encourages local commerce.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000393</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000394</GUID>
+      <Text>Improves production of buildings within reach of local train stations and improves local train stations.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000342</GUID>
+      <Text>Trading Company Power Generator</Text>
+    </Text>
+    <Text>
+      <GUID>1555000343</GUID>
+      <Text>Imports Regulations</Text>
+    </Text>
+    <Text>
+      <GUID>1555000344</GUID>
+      <Text>All Residences</Text>
+    </Text>
+    <Text>
+      <GUID>1555000413</GUID>
+      <Text>All Trading Company Buildings</Text>
+    </Text>
+    <Text>
+      <GUID>1555000414</GUID>
+      <Text>All Public Services, Restaurants, Bars, Malls and Cafés</Text>
+    </Text>
+    <Text>
+      <GUID>1555000415</GUID>
+      <Text>Tourism incentive</Text>
+    </Text>
+    <Text>
+      <GUID>1555000416</GUID>
+      <Text>All public services</Text>
+    </Text>
+    <Text>
+      <GUID>1555000417</GUID>
+      <Text>Subsidy for public transport</Text>
+    </Text>
+    <Text>
+      <GUID>1555000418</GUID>
+      <Text>Subsidy for public transport</Text>
+    </Text>
+    <Text>
+      <GUID>1555000419</GUID>
+      <Text>Subsidy for public transport</Text>
+    </Text>
+    <Text>
+      <GUID>1555000420</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000421</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000422</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000423</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000424</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000425</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000426</GUID>
+      <Text>Logistics Improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000427</GUID>
+      <Text>Logistics Improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000428</GUID>
+      <Text>Logistics Improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000429</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000430</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000431</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000432</GUID>
+      <Text>Railway system improvement</Text>
+    </Text>
+    <Text>
+      <GUID>1555000433</GUID>
+      <Text>All local train stations and constructions under its effect.</Text>
+    </Text>
+    <Text>
+      <GUID>1555000436</GUID>
+      <Text>Logistics Improvement</Text> <!-- BUILDING - New World Import Office -->
+    </Text>
+
+
+
+
+<!-- Event Organization Materials -->
+    <Text>
+      <GUID>1555000293</GUID>
+      <Text>Event Buffet Needs</Text>
+    </Text>
+    <Text>
+      <GUID>1555000294</GUID>
+      <Text>A good selection of food for the event</Text>
+    </Text>
+    <Text>
+      <GUID>1555000295</GUID> 
+      <Text>Drinks to entertain guests</Text>
+    </Text>
+    <Text>
+      <GUID>1555000296</GUID> 
+      <Text>Drinks are important for keeping people entertained and open-minded</Text>
+    </Text>
+    <Text>
+      <GUID>1555000297</GUID>
+      <Text>Uniforms for event staff</Text>
+    </Text>
+    <Text>
+      <GUID>1555000298</GUID>
+      <Text>Staff working at the event need uniforms</Text>
+    </Text>
+    <Text>
+      <GUID>1555000299</GUID>
+      <Text>Products to showcase</Text>
+    </Text>
+    <Text>
+      <GUID>1555000300</GUID>
+      <Text>It is important to show our best products</Text>
+    </Text>
+    <Text>
+      <GUID>1555000376</GUID> 
+      <Text>Event Buffet Needs</Text>
+    </Text>
+    <Text>
+      <GUID>1555000377</GUID> 
+      <Text>Drinks to entertain guests</Text>
+    </Text>
+    <Text>
+      <GUID>1555000378</GUID> 
+      <Text>Uniforms for event staff</Text>
+    </Text>
+    <Text>
+      <GUID>1555000379</GUID> 
+      <Text>Product samples for presentation</Text>
+    </Text>
+<!-- Event Category -->
+    <Text>
+      <GUID>1555000287</GUID> 
+      <Text>Mechanical Materials Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000346</GUID> 
+      <Text>Engines and Cables</Text>
+    </Text>    
+    <Text>
+      <GUID>1555000350</GUID> 
+      <Text>Construction Materials Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000354</GUID> 
+      <Text>Concrete and Aluminium</Text>
+    </Text>
+<!--Steam Motors-->
+    <Text>
+      <GUID>1555000288</GUID> 
+      <Text>Steam Motors Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000347</GUID> 
+      <Text>Steam Motors Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000292</GUID> 
+      <Text>Steam Motors</Text>
+    </Text>
+    <Text>
+      <GUID>1555000301</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000303</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000305</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000307</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000309</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+<!--Event Reward Descriptions-->
+    <Text>
+      <GUID>1555000302</GUID> 
+      <Text>Small Amount of manufacturers were reached</Text>
+    </Text>
+    <Text>
+      <GUID>1555000304</GUID> 
+      <Text>Manufacturers from nearby islands are attending</Text>
+    </Text>
+    <Text>
+      <GUID>1555000306</GUID> 
+      <Text>All manufacturers from this region are attending the event</Text>
+    </Text>
+    <Text>
+      <GUID>1555000308</GUID> 
+      <Text>Manufacturers from a nearby region were reached</Text>
+    </Text>
+    <Text>
+      <GUID>1555000310</GUID> 
+      <Text>Manufacturers are around the world were able to be reached</Text>
+    </Text>
+<!--Electric Motors-->
+    <Text>
+      <GUID>1555000331</GUID> 
+      <Text>Electric Motors Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000335</GUID> 
+      <Text>Electric Motors Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000348</GUID> 
+      <Text>Motors</Text>
+    </Text>
+    <Text>
+      <GUID>1555000311</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000313</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000315</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000317</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000319</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+<!--Electric Cables-->
+  <Text>
+    <GUID>1555000337</GUID> 
+    <Text>Electric Cables Trade Deal</Text>
+  </Text>
+    <Text>
+      <GUID>1555000337</GUID> 
+      <Text>Electric Cables Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000349</GUID> 
+      <Text>Electric Cables Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000341</GUID> 
+      <Text>Electric Cables</Text>
+    </Text>
+    <Text>
+      <GUID>1555000321</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000323</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000325</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000327</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000329</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+  <!--Concrete-->
+    <Text>
+      <GUID>1555000351</GUID> 
+      <Text>Concrete Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000356</GUID> 
+      <Text>Concrete Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000355</GUID> 
+      <Text>Steam Motors</Text>
+    </Text>
+    <Text>
+      <GUID>1555000357</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000358</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000359</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000360</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000361</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+  <!--Aluminium-->
+    <Text>
+      <GUID>1555000352</GUID> 
+      <Text>Aluminium Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000363</GUID> 
+      <Text>Aluminium Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000362</GUID> 
+      <Text>Aluminium</Text>
+    </Text>
+    <Text>
+      <GUID>1555000364</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000365</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000366</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000367</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000368</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+  <!--Gas-->
+    <Text>
+      <GUID>1555000353</GUID> 
+      <Text>Gas Trade Deal</Text>
+    </Text>
+    <Text>
+      <GUID>1555000370</GUID> 
+      <Text>Gas Importing</Text>
+    </Text>
+    <Text>
+      <GUID>1555000369</GUID> 
+      <Text>Gas</Text>
+    </Text>
+    <Text>
+      <GUID>1555000371</GUID> 
+      <Text>Small Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000372</GUID> 
+      <Text>Modest Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000373</GUID> 
+      <Text>Big Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000374</GUID> 
+      <Text>Great Trade Contract</Text>
+    </Text>
+    <Text>
+      <GUID>1555000375</GUID> 
+      <Text>Explendid Trade Contract</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,476 @@
+<ModOps>
+<!-- START PRODUCTION BUILDINGS -->
+
+<!-- Rope Production 1555000181-->
+  <ModOp Type="addPrevSibling" GUID="1010315">
+    <Asset>
+      <Template>FactoryBuilding7</Template>
+        <Values>
+            <Standard>
+                <GUID>1555000181</GUID>
+                <Name>Rope Production</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_rope.png</IconFilename>
+            </Standard>
+            <Locked>
+              <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <Building>
+              <BuildingCategoryName>11150</BuildingCategoryName>
+              <BuildModeRandomRotation>90</BuildModeRandomRotation>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+              <TerrainType>Terrain</TerrainType>
+            </Building>
+            <Cost>
+                <Costs>
+                    <Item>
+                        <Ingredient>1010017</Ingredient>
+                        <Amount>3500</Amount>
+                    </Item>
+                    <Item>
+                        <Ingredient>1010196</Ingredient>
+                        <Amount>15</Amount>
+                    </Item>
+                    <Item>
+                      <Ingredient>1010205</Ingredient>
+                      <Amount>9</Amount>
+                    </Item>
+                </Costs>
+            </Cost>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/ui/Drakkam/buildings/production/Rope_Factory/Rope_production.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Selection>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList/>
+                </Values>
+              </OnSelection>
+              <Colors>
+                <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+              </Colors>
+              <ParticipantMessageArcheType>Resident_tier02_atWork</ParticipantMessageArcheType>
+            </Selection>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Rope Production</Text>
+                        <Status>Exported</Status>
+                        <ExportCount>2</ExportCount>
+                    </English>
+                </LocaText>
+            </Text>
+            <Constructable/>
+            <FeedbackController/>
+            <Infolayer/>
+            <UpgradeList/>
+            <Factory7/>
+            <FactoryBase>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1555000179</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>3</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>30</CycleTime>
+                <FactoryInputs>
+                  <Item>
+                    <Product>1440224</Product>
+                    <Amount>1</Amount>
+                    <StorageAmount>4</StorageAmount>
+                  </Item>
+                </FactoryInputs>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <AmbientMoodProvider>
+              <Murmur>Factory</Murmur>
+              <DynamicEnvironmentType>None</DynamicEnvironmentType>
+            </AmbientMoodProvider>
+            <Pausable/>
+            <Industrializable>
+              <MandatoryIndustrialization>0</MandatoryIndustrialization>
+              <BoostedByIndustrialization>1</BoostedByIndustrialization>
+            </Industrializable>
+            <QuestObject/>
+            <Electrifiable/>
+            <EcoSystemProvider/>
+            <LogisticNode/>
+            <SoundEmitter>
+                <ActiveSounds>
+                    <Item>
+                        <Sound>216883</Sound>
+                    </Item>
+                    <Item>
+                        <Sound>203632</Sound>
+                    </Item>
+                </ActiveSounds>
+                <IncidentSounds>
+                  <InfectedFire>
+                    <Item>
+                      <Sound>214659</Sound>
+                    </Item>
+                  </InfectedFire>
+                </IncidentSounds>
+            </SoundEmitter>
+            <Maintenance>
+                <Maintenances>
+                    <Item>
+                        <Product>1010017</Product>
+                        <Amount>350</Amount>
+                        <InactiveAmount>175</InactiveAmount>
+                    </Item>
+                    <Item>
+                        <Product>1010115</Product>
+                        <Amount>80</Amount>
+                    </Item>
+                </Maintenances>
+            </Maintenance>
+        </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Hemp Farm 1555000380-->
+    <ModOp Type="addNextSibling" GUID="1010266">
+      <Asset>
+        <Template>FarmBuilding</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000380</GUID>
+            <Name>Hemp Farm</Name>
+            <IconFilename>data\ui\2kimages\main\3dicons\plants\icon_hemp.png</IconFilename>
+          </Standard>
+          <Building>
+            <BuildModeRandomRotation>180</BuildModeRandomRotation>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+          </Building>
+          <Blocking/>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <!--Money-->
+                <Amount>500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <!--timber-->
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <!--bricks-->
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <!--beams-->
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <!--window-->
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+                <!--concrete-->
+              </Item>
+            </Costs>
+          </Cost>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/graphics/buildings/production/agriculture_03/agriculture_03.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Mesh/>
+          <Selection>
+            <OnSelection>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <ActionList/>
+              </Values>
+            </OnSelection>
+            <ParticipantMessageArcheType>Resident_tier01_atWork</ParticipantMessageArcheType>
+            <Colors>
+              <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+            </Colors>
+          </Selection>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Hemp Farm</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+          </Text>
+          <Constructable/>
+          <Locked/>
+          <SoundEmitter>
+            <ActiveSounds>
+              <Item>
+                <Sound>214800</Sound>
+                <!--wwe_sfx_bld_agriculture_typeCluster_tag-->
+              </Item>
+              <Item>
+                <Sound>206372</Sound>
+                <!--wwe_sfx_bld_agriculture_03_lp-->
+              </Item>
+            </ActiveSounds>
+            <ConstructionSounds>
+              <BuildMoveSuccess>
+                <Item>
+                  <VectorElement>
+                    <InheritedIndex>0</InheritedIndex>
+                    <InheritanceMapV2>
+                      <Entry>
+                        <TemplateName>FarmBuilding</TemplateName>
+                        <Index>0</Index>
+                      </Entry>
+                    </InheritanceMapV2>
+                  </VectorElement>
+                  <Sound>214783</Sound>
+                  <!--wwe_sfx_aui_bld_place_agriculture-->
+                </Item>
+              </BuildMoveSuccess>
+            </ConstructionSounds>
+            <IncidentSounds>
+              <InfectedFire>
+                <Item>
+                  <Sound>214659</Sound>
+                  <!--wwe_sfx_bld_inc_burn-->
+                </Item>
+              </InfectedFire>
+            </IncidentSounds>
+            <MaterialType>Wood</MaterialType>
+          </SoundEmitter>
+          <FeedbackController/>
+          <Infolayer/>
+          <UpgradeList/>
+          <Factory7/>
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1440224</Product>
+                <Amount>1</Amount>
+                <StorageAmount>5</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>0</IsMainFactory>
+          </FactoryBase>
+          <LogisticNode/>
+          <ModuleOwner>
+            <ModuleLimits>
+              <Main>
+                <Limit>96</Limit>
+              </Main>
+            </ModuleLimits>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1010272</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+            <AdditionalModule>269837</AdditionalModule>
+            <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+            <FertilizerModuleData>
+              <Module>25240</Module>
+            </FertilizerModuleData>
+            <ModuleBuildRadius>0</ModuleBuildRadius>
+            <HardFarmsConfig>2</HardFarmsConfig>
+            <FarmType>PlantFarm</FarmType>
+          </ModuleOwner>
+          <AmbientMoodProvider>
+            <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+          </AmbientMoodProvider>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <!--Money-->
+                <Amount>20</Amount>
+                <InactiveAmount>10</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010052</Product>
+                <!--moderate workforce 1-->
+                <Amount>20</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+          <Attackable>
+            <AttackableType>IslandBuilding</AttackableType>
+            <MaximumHitPoints>1500</MaximumHitPoints>
+            <SelfHealPerHealTick>4</SelfHealPerHealTick>
+          </Attackable>
+          <IncidentInfectable>
+            <Infectable>
+              <Illness>
+                <Escalated>0</Escalated>
+              </Illness>
+              <Explosion>
+                <Base>0</Base>
+                <Escalated>0</Escalated>
+              </Explosion>
+            </Infectable>
+            <Explosion>
+              <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+            </Explosion>
+            <IncidentInfectionChanceFactors>
+              <Fire>
+                <DensityFactor>0.025</DensityFactor>
+                <DensityDistance>20</DensityDistance>
+                <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+              </Fire>
+              <Riot>
+                <FactoryOvertimeFactor>0.4</FactoryOvertimeFactor>
+                <FactoryUndertimeFactor>0.2</FactoryUndertimeFactor>
+                <FactoryHappinessFactor>0.2</FactoryHappinessFactor>
+                <HappinessThreshold>20</HappinessThreshold>
+              </Riot>
+            </IncidentInfectionChanceFactors>
+          </IncidentInfectable>
+          <Pausable/>
+          <Culture>
+            <CultureType>Landscaping</CultureType>
+          </Culture>
+          <QuestObject/>
+          <Industrializable/>
+          <Motorizable>
+            <MotorizableType>Tractor</MotorizableType>
+          </Motorizable>
+          <EcoSystemProvider/>
+          <MonoCulture/>
+        </Values>
+      </Asset>
+    </ModOp>
+
+  <!-- START ADD BUILDING TO WORKFORCE CONDITION BOOSTABLEFACTORY  -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+      <Item>
+        <Factory>1555000181</Factory>
+      </Item>
+      <Item>
+        <Factory>1555000380</Factory>
+      </Item>
+    </ModOp>
+<!-- END PRODUCTION BUILDINGS -->
+
+<!-- START ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+  <!-- All Productions -->
+    <ModOp Type="add" GUID="6000018,193856" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000181</GUID>
+      </Item>
+      <Item>
+        <GUID>1555000380</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Productions Boosted by electricity -->
+    <ModOp Type="add" GUID="193875" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000181</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Farms  -->
+    <ModOp Type="add" GUID="190011" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000380</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Crop Farms  -->
+    <ModOp Type="add" GUID="190865" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000380</GUID>
+      </Item>
+    </ModOp>
+
+  <!-- All Old World Crop Farms  -->
+    <ModOp Type="add" GUID="191471" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1555000380</GUID>
+      </Item>
+    </ModOp>
+
+<!-- END ADD BUILDING TO ITEMEFFECTTARGETPOOLS-->
+
+<!-- START PRODUCTION CHAIN -->
+  <!-- Rope -->
+    <ModOp Type="addNextSibling" GUID='500002'>
+      <Asset>
+          <Template>ProductionChain</Template>
+          <Values>
+              <Standard>
+                  <GUID>1555000182</GUID>
+                  <Name>Rope Production</Name>
+                  <IconFilename>data/ui/Drakkam/icons/icon_rope.png</IconFilename>
+              </Standard>
+              <ProductionChain>
+                  <Building>1555000181</Building>
+                  <Tier1>
+                      <Item>
+                          <Building>1555000380</Building>
+                      </Item>
+                  </Tier1>
+              </ProductionChain>
+              <Locked />
+              <Text>
+                  <LocaText>
+                      <English>
+                          <Text>Rope Production</Text>
+                          <Status>Exported</Status>
+                          <ExportCount>2</ExportCount>
+                      </English>
+                  </LocaText>
+              </Text>
+          </Values>
+      </Asset>
+    </ModOp>
+<!-- END PRODUCTION CHAIN -->
+
+<!-- START BUILDING MENU -->
+  <!-- Workers construction menu, after Sails -->
+    <ModOp Type="addNextSibling" GUID='25000190' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500009']">
+      <Item>
+        <Building>1555000182</Building>
+      </Item>
+    </ModOp>
+
+  <!-- Construction Materials - Moderate -->
+    <ModOp Type="addNextSibling" GUID='500943' Path="/Values/ConstructionCategory/BuildingList/Item[Building='500009']">
+      <Item>
+        <Building>1555000182</Building>
+      </Item>
+    </ModOp>
+<!-- END BUILDING MENU -->
+
+<!-- Add to ai construction material -->
+<ModOp Type="add" GUID="168,169,170" Path="Values/ConstructionAI/EconomyRules/ConstructionMaterials/MainMaterialInfos"> 
+  <Item>
+    <Product>1555000179</Product>
+    <PerProgressLevelInfos>
+      <MidGame>
+        <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+      </MidGame>
+      <LateMidGame>
+        <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+      </LateMidGame>
+      <LateGame>
+        <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+      </LateGame>
+      <EndGame>
+        <ProducerBuildingCountMain>3</ProducerBuildingCountMain>
+      </EndGame>
+    </PerProgressLevelInfos>
+  </Item>    
+</ModOp>
+
+</ModOps>

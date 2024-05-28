@@ -1,0 +1,2072 @@
+<ModOps>
+<!-- START ADD GOOD -->
+
+<!-- Furniture (1555000054)-->
+    <ModOp Type="addNextSibling" GUID="1010216">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1555000054</GUID>
+            <Name>Furniture</Name>
+            <IconFilename>data/ui/Drakkam/icons/icon_Furniture.png</IconFilename>
+            <InfoDescription>1500302134</InfoDescription>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Furniture</Text>
+                <Status>Exported</Status>
+                <ExportCount>1</ExportCount>
+              </English>
+            </LocaText>
+          </Text>
+          <Product>
+            <ProductCategory>11705</ProductCategory> <!-- Luxury Need -->
+            <BasePrice>50</BasePrice>
+            <CivLevel>1</CivLevel>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <StorageLevel>Building</StorageLevel>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+            <ExpeditionAttributes>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+<!-- Butter (1555000050)-->
+  <ModOp Type="addNextSibling" GUID="1010216">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000050</GUID>
+          <Name>Butter</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Butter.png</IconFilename>
+          <InfoDescription>1555000051</InfoDescription>
+          <!--Product Description Fish-->
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Butter</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked/>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11704</ProductCategory>
+          <!--Product Category Supply Good-->
+          <BasePrice>30</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>15</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Olive Oil (1555000111)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000111</GUID>
+          <Name>Olive Oil</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Olive_Oil.png</IconFilename>
+          <InfoDescription>1555000112</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Olive Oil</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11705</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Bottles (1555000142)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000142</GUID>
+          <Name>Bottles</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_bottles.png</IconFilename>
+          <InfoDescription>1555000143</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Bottles</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tomatoes (1555000109)-->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000109</GUID>
+          <Name>Tomatoes</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tomatoes.png</IconFilename>
+          <InfoDescription>1555000110</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- Resource -->
+          <BasePrice>15</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tomatoes Sauce (1555000269)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000269</GUID>
+          <Name>Tomatoes Sauce</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Tomatoes_Sauce_icon.png</IconFilename>
+          <InfoDescription>1555000270</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tomatoes Sauce</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11705</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>15</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Pasta (1555000113)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000113</GUID>
+          <Name>Pasta</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_pasta.png</IconFilename>
+          <InfoDescription>1555000114</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Pasta</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Eggs (1555000100)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000100</GUID>
+          <Name>Eggs</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Eggs.png</IconFilename>
+          <InfoDescription>1555000101</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Eggs</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>10</BasePrice>
+          <CivLevel>1</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Raw Pasta (1555000233)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000233</GUID>
+          <Name>Raw Pasta</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_raw_pasta.png</IconFilename>
+          <InfoDescription>1555000234</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Pasta</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Cider (1555000144)-->
+  <ModOp Type="addNextSibling" GUID="1010216">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000144</GUID>
+          <Name>Cider</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_cider.png</IconFilename>
+          <InfoDescription>1555000145</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Cider</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11705</ProductCategory> <!-- Luxury Need -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Cosmetics (1555000274)-->
+  <ModOp Type="addNextSibling" GUID="1010216">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000274</GUID>
+          <Name>Cosmetics</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Cosmetics.png</IconFilename>
+          <InfoDescription>1555000275</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Cosmetics</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11705</ProductCategory> <!-- Luxury Need -->
+          <BasePrice>60</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Fedora (1555000124)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000124</GUID>
+          <Name>Fedora</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_fedora_hat.png</IconFilename>
+          <InfoDescription>1555000125</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Fedora</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Saffron (1555000130)-->
+  <ModOp Type="addNextSibling" GUID='11703'>
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000130</GUID>
+          <Name>Saffron</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_saffron.png</IconFilename>
+          <InfoDescription>1555000131</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Saffron</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked />
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory> <!-- Resource -->
+          <BasePrice>15</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Africa</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>10</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>5</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Newspaper (1555000155)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000155</GUID>
+          <Name>Newspaper</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_newspaper.png</IconFilename>
+          <InfoDescription>1555000156</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Newspaper</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- New World News Report (1555000157)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000157</GUID>
+          <Name>New World News Report</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_News_report_NW.png</IconFilename>
+          <InfoDescription>1555000158</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>New World Trade Agreement</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Enbesa News Report (1555000159)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000159</GUID>
+          <Name>Enbesa News Report</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_News_report_EN.png</IconFilename>
+          <InfoDescription>1555000160</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Enbesa Trade Agreement</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Africa</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Ink (1555000161)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000161</GUID>
+          <Name>Ink</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_ink.png</IconFilename>
+          <InfoDescription>1555000162</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Ink</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Lead (1555000381)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000381</GUID>
+          <Name>Lead</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_lead.png</IconFilename>
+          <InfoDescription>1555000382</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Lead</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11702</ProductCategory>
+          <!--Product Category Resource-->
+          <BasePrice>100</BasePrice>
+          <CivLevel>4</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Tickets (1555000184)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000184</GUID>
+          <Name>Tickets</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_tickets.png</IconFilename>
+          <InfoDescription>1555000185</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Tickets</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>5</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Apothecary Service (1555000150)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000150</GUID>
+          <Name>Apothecary</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_Apothecary.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Apothecary</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked />
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11709</ProductCategory> <!-- Public Service -->
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- New World Trade Agreement (1555000262)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000262</GUID>
+          <Name>New World Trade Agreement</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_trade_agreement_nw.png</IconFilename>
+          <InfoDescription>1555000263</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>New World Trade Agreement</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Colony01</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Colony01</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Enbesa Trade Agreement (1555000264)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000264</GUID>
+          <Name>Enbesa Trade Agreement</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_trade_agreement_africa.png</IconFilename>
+          <InfoDescription>1555000263</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Enbesa Trade Agreement</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Africa</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Trade Contracts (1555000265)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000265</GUID>
+          <Name>Trade Contracts</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_trade_contracts.png</IconFilename>
+          <InfoDescription>1555000263</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Trade Contracts</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!--  Food Exports (1555000266)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000266</GUID>
+          <Name>Food Exports</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_basic_food_exports.png</IconFilename>
+          <InfoDescription>1555000267</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Food Exports</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Goods Exports (1555000268)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000268</GUID>
+          <Name>Goods Exports</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_consumer_goods.png</IconFilename>
+          <InfoDescription>1555000267</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Goods Exports</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Luxury Exports (1555000345)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000345</GUID>
+          <Name>Luxury Exports</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_luxury_exports.png</IconFilename>
+          <InfoDescription>1555000267</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Luxury Exports</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Rope (1555000179)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000179</GUID>
+          <Name>Ropes</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_rope.png</IconFilename>
+          <InfoDescription>1555000180</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Ropes</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!--Passengers Product-->
+	<ModOp Type="addNextSibling" GUID="120021">
+		<Asset>
+			<Template>Product</Template>
+			<Values>
+				<Standard>
+					<GUID>1555000186</GUID>
+					<Name>Passenger</Name>
+					<IconFilename>data/ui/Drakkam/icons/icon_passengers.png</IconFilename>
+					<InfoDescription>1555000187</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Passengers</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>5394</LineID>
+				</Text>
+				<Locked/>
+				<Product>
+					<StorageLevel>Building</StorageLevel>
+					<ProductCategory>11797</ProductCategory>
+					<!--Product Category Strategic Resource-->
+					<BasePrice>1</BasePrice>
+          <CivLevel>4</CivLevel>
+					<PathLayer>Railway</PathLayer>
+					<IsStrategicResource>1</IsStrategicResource>
+          <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+					<ProductionRegions>
+						<Item>
+							<RegionType>Moderate</RegionType>
+						</Item>
+					</ProductionRegions>
+					<HighscoreValueModifier>1</HighscoreValueModifier>
+				</Product>
+				<ExpeditionAttribute/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+<!--Travelers Product-->
+  <ModOp Type="addNextSibling" GUID="120021">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000203</GUID>
+          <Name>Travelers</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_travelers.png</IconFilename>
+          <InfoDescription>1555000204</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Travelers</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>5394</LineID>
+        </Text>
+        <Locked/>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11797</ProductCategory>
+          <!--Product Category Strategic Resource-->
+          <BasePrice>1</BasePrice>
+          <CivLevel>4</CivLevel>
+          <PathLayer>Railway</PathLayer>
+          <IsStrategicResource>1</IsStrategicResource>
+          <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+          <HighscoreValueModifier>1</HighscoreValueModifier>
+        </Product>
+        <ExpeditionAttribute/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!--Visitors Product-->
+  <ModOp Type="addNextSibling" GUID="120021">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000206</GUID>
+          <Name>Visitors</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_visitors.png</IconFilename>
+          <InfoDescription>1555000207</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Visitors</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>5394</LineID>
+        </Text>
+        <Locked/>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11797</ProductCategory>
+          <!--Product Category Strategic Resource-->
+          <BasePrice>1</BasePrice>
+          <CivLevel>4</CivLevel>
+          <PathLayer>Railway</PathLayer>
+          <IsStrategicResource>1</IsStrategicResource>
+          <AssociatedRegion>Moderate;Colony01;Africa</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+          <HighscoreValueModifier>1</HighscoreValueModifier>
+        </Product>
+        <ExpeditionAttribute/>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Public Transportation (1555000188)-->
+	<ModOp Type="addNextSibling" GUID="1010200">
+		<Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000188</GUID>
+          <Name>Public Transportation</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_public_transportation.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+            <Text>Public Transportation</Text>
+            <Status>Exported</Status>
+            <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Locked />
+        <Product>
+          <ProductColor>-11415604</ProductColor>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11709</ProductCategory> <!-- Public Service -->
+          <IsAbstract>1</IsAbstract>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+		</Asset>
+	</ModOp>
+
+<!-- Camera (1555000169)-->
+  <ModOp Type="addNextSibling" GUID="1010200">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000169</GUID>
+          <Name>Camera</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_camera.png</IconFilename>
+          <InfoDescription>1555000170</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Camera</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <ProductCategory>11704</ProductCategory> <!-- Supply -->
+          <BasePrice>50</BasePrice>
+          <CivLevel>3</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <StorageLevel>Building</StorageLevel>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- Lenses (1555000171)-->
+  <ModOp Type="addNextSibling" GUID="1010197">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1555000171</GUID>
+          <Name>Lenses</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_photo_lense.png</IconFilename>
+          <InfoDescription>1555000172</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Lenses</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+        </Text>
+        <Product>
+          <StorageLevel>Building</StorageLevel>
+          <ProductCategory>11703</ProductCategory> <!-- Intermediate -->
+          <BasePrice>40</BasePrice>
+          <CivLevel>2</CivLevel>
+          <AssociatedRegion>Moderate</AssociatedRegion>
+          <ProductionRegions>
+            <Item>
+              <RegionType>Moderate</RegionType>
+            </Item>
+          </ProductionRegions>
+        </Product>
+        <ExpeditionAttribute>
+          <BaseMorale>0</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>10</Amount>
+            </Item>
+          </ExpeditionAttributes>
+        </ExpeditionAttribute>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!-- START ADD GOOD PRODUCT LISTS -->
+<!-- START WORKFORCE RELATED PRODUCT LISTS -->
+
+<!-- # Storage Lists -->
+<Group>
+  <!-- Furniture: after Work Cloths -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000054']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010237']">
+      <Item>
+        <Product>1555000054</Product>
+      </Item>
+    </ModOp>
+  <!-- Butter: after Work Cloths -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000050']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010237']">
+      <Item>
+        <Product>1555000050</Product>
+      </Item>
+    </ModOp>
+  <!-- Olive Oil: after Bread -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000111']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010213']">
+      <Item>
+        <Product>1555000111</Product>
+      </Item>
+    </ModOp>
+  <!-- Bottle: before Beer -->
+    <ModOp Type="addPrevSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000142']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010214']">
+      <Item>
+        <Product>1555000142</Product>
+      </Item>
+    </ModOp>
+  <!-- Tomatoes: after Grain -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000109']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010192']">
+      <Item>
+        <Product>1555000109</Product>
+      </Item>
+    </ModOp>
+  <!-- Tomatoes Sauce: after Grain -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000269']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010217']">
+      <Item>
+        <Product>1555000269</Product>
+      </Item>
+    </ModOp>
+  <!-- Cider: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000144']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000144</Product>
+      </Item>
+    </ModOp>
+  <!-- Cider: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000274']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000274</Product>
+      </Item>
+    </ModOp>
+  <!-- Fedora: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000124']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000124</Product>
+      </Item>
+    </ModOp>
+  <!-- Eggs: after Work Cloths -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000100']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010237']">
+      <Item>
+        <Product>1555000100</Product>
+      </Item>
+    </ModOp>
+  <!-- Pasta: after Beer -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000113']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010214']">
+      <Item>
+        <Product>1555000113</Product>
+      </Item>
+    </ModOp>
+  <!-- Raw Pasta: after Goulash -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000233']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010215']">
+      <Item>
+        <Product>1555000233</Product>
+      </Item>
+    </ModOp>
+  <!-- Saffron: after Linseed -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000130']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='114365']">
+      <Item>
+        <Product>1555000130</Product>
+      </Item>
+    </ModOp>
+  <!-- Newspaper: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000155']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000155</Product>
+      </Item>
+    </ModOp>
+  <!-- New World News Report: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000157']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000157</Product>
+      </Item>
+    </ModOp>
+  <!-- Enbesa News Report: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000159']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000159</Product>
+      </Item>
+    </ModOp>
+  <!-- Ink: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000161']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000161</Product>
+      </Item>
+    </ModOp>
+  <!-- Tickets: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000184']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000184</Product>
+      </Item>
+    </ModOp>
+  <!-- New World Trade Agreement: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000262']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000262</Product>
+      </Item>
+    </ModOp>
+  <!-- Enbesa Trade Agreement: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000264']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000264</Product>
+      </Item>
+    </ModOp>
+  <!-- Trade Contracts: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000265']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000265</Product>
+      </Item>
+    </ModOp>
+  <!-- Goods Exports: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000268']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000268</Product>
+      </Item>
+    </ModOp>
+  <!-- Food Exports: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000266']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000266</Product>
+      </Item>
+    </ModOp>
+  <!-- Luxury Exports: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000345']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000345</Product>
+      </Item>
+    </ModOp>
+  <!-- Rope: after Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000179']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+      <Item>
+        <Product>1555000179</Product>
+      </Item>
+    </ModOp>
+  <!-- Lead: after Canned Food -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000381']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010217']">
+      <Item>
+        <Product>1555000381</Product>
+      </Item>
+    </ModOp>
+  <!-- Camera: after High Wheeler -->
+    <ModOp Type="addNextSibling" GUID="120055,120057"
+    Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000169']"
+    Path="/Values/ProductStorageList/ProductList/Item[Product='1010245']">
+      <Item>
+        <Product>1555000169</Product>
+      </Item>
+    </ModOp>
+  <!-- Lenses: after Brass -->
+    <ModOp Type="addNextSibling" GUID="120055"
+      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000171']"
+      Path="/Values/ProductStorageList/ProductList/Item[Product='1010204']">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+  </Group>
+<!-- END STORAGE RELATED PRODUCT LISTS -->
+
+<!-- # Tier Goods Lists -->
+<Group> <!-- Furniture -->
+    <!-- Furniture: After Work Cloths -->
+    <ModOp Type="addNextSibling" GUID="502017,502004,501995,501996"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000054']"
+      Path="/Values/ProductList/List/Item[Product='1010237']">
+      <Item>
+        <Product>1555000054</Product>
+      </Item>
+    </ModOp>
+</Group>
+  <Group> <!-- Butter -->
+    <!-- Furniture: After Work Cloths -->
+    <ModOp Type="addNextSibling" GUID="502017,502004,501995,501996"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000050']"
+      Path="/Values/ProductList/List/Item[Product='1010237']">
+      <Item>
+        <Product>1555000050</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Olive Oil -->
+    <!-- Olive Oil: After Bread -->
+    <ModOp Type="addNextSibling" GUID="502005,501996,502018,501997"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000111']"
+      Path="/Values/ProductList/List/Item[Product='1010213']">
+      <Item>
+        <Product>1555000111</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Bottles -->
+      <!-- Bottles: After Malt -->
+      <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000142']"
+      Path="/Values/ProductList/List/Item[Product='1010236']">
+      <Item>
+        <Product>1555000142</Product>
+      </Item>
+    </ModOp>
+    <!-- Bottles: add to Worker Unlock Goods and worker workforce list-->
+    <ModOp Type="add" GUID="502005,502018"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000142']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000142</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Tomatoes -->
+      <!-- Tomatoes: After Grain -->
+    <ModOp Type="addNextSibling" GUID="502004,502037"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000109']"
+      Path="/Values/ProductList/List/Item[Product='1010192']">
+      <Item>
+        <Product>1555000109</Product>
+      </Item>
+    </ModOp>
+    <!-- Tomatoes: After Paprika -->
+    <ModOp Type="addNextSibling" GUID="502004,502037,502019"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000109']"
+      Path="/Values/ProductList/List/Item[Product='1010198']">
+      <Item>
+        <Product>1555000109</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Tomatoes Sauce -->
+    <!-- Tomatoes Sauce: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="502006,501997,502019"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000269']"
+      Path="/Values/ProductList/List/Item[Product='1010247']">
+      <Item>
+        <Product>1555000269</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Cider -->
+    <!-- Cider: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="502019,502006,501997"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000144']"
+      Path="/Values/ProductList/List/Item[Product='1010247']">
+      <Item>
+        <Product>1555000144</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Cosmetics -->
+    <!-- Cosmetics: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="502019,502006,501997"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000274']"
+      Path="/Values/ProductList/List/Item[Product='1010247']">
+      <Item>
+        <Product>1555000274</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Eggs -->
+      <!-- Eggs: After Work Cloths -->
+      <ModOp Type="addNextSibling" GUID="502004,502037"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000100']"
+      Path="/Values/ProductList/List/Item[Product='1010198']">
+      <Item>
+        <Product>1555000100</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Raw Pasta -->
+      <!-- Pasta: After Bread -->
+    <ModOp Type="addNextSibling" GUID="502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000113']"
+      Path="/Values/ProductList/List/Item[Product='1010213']">
+      <Item>
+        <Product>1555000113</Product>
+      </Item>
+    </ModOp>
+    <!-- Raw Pasta: After goulash -->
+    <ModOp Type="addNextSibling" GUID="502006"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000233']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000233</Product>
+      </Item>
+    </ModOp>
+    <!-- Raw Pasta: After goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000233']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000233</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Saffron -->
+    <!-- Saffron: After Linseed -->
+    <ModOp Type="addNextSibling" GUID="502071,502069,502076"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000130']"
+      Path="/Values/ProductList/List/Item[Product='114365']">
+      <Item>
+        <Product>1555000130</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- New World News Report-->
+    <!-- New World News Report: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000157']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000157</Product>
+      </Item>
+    </ModOp>
+    <!-- New World News Report: Obrero workforce list-->
+    <ModOp Type="add" GUID="502009"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000157']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000157</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Enbesa News Report-->
+    <!-- Enbesa News Report: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502077"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000159']"
+      Path="/Values/ProductList/List/Item[Product='114391']">
+      <Item>
+        <Product>1555000159</Product>
+      </Item>
+    </ModOp>
+    <!-- Enbesa News Report: Elder workforce list-->
+    <ModOp Type="add" GUID="502070"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000159']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000159</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Ink-->
+    <!-- Ink: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000161']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000161</Product>
+      </Item>
+    </ModOp>
+    <!-- Ink: Worker workforce list-->
+    <ModOp Type="add" GUID="502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000161']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000161</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Tickets-->
+    <!-- Tickets: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000184']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000184</Product>
+      </Item>
+    </ModOp>
+    <!-- Tickets: Artisan workforce list-->
+    <ModOp Type="add" GUID="502006"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000184']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000184</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- New World Trade Agreement-->
+    <!-- New World Trade Agreement: After Fur Coats -->
+    <ModOp Type="addNextSibling" GUID="502009"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000262']"
+      Path="/Values/ProductList/List/Item[Product='1010258']">
+      <Item>
+        <Product>1555000262</Product>
+      </Item>
+    </ModOp>
+    <!-- New World Trade Agreement: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000262']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000262</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Enbesa Trade Agreement-->
+    <!-- Enbesa Trade Agreement: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000264']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000264</Product>
+      </Item>
+    </ModOp>
+    <!-- Enbesa Trade Agreement: add to Merchant Unlock Goods -->
+    <ModOp Type="add" GUID="502070"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000264']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000264</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!--Goods Exports-->
+    <!-- Goods Exports: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000268']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000268</Product>
+      </Item>
+    </ModOp>
+    <!-- Goods Exports: add to Merchant Unlock Goods and worker workforce list-->
+    <ModOp Type="add" GUID="502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000268']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000268</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Food Exports-->
+    <!-- Food Exports: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000266']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000266</Product>
+      </Item>
+    </ModOp>
+    <!-- Food Exports: add to Merchant Unlock Goods and worker workforce list-->
+    <ModOp Type="add" GUID="502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000266']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000266</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Luxury Exports -->
+    <!-- Luxury Exports: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000345']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000345</Product>
+      </Item>
+    </ModOp>
+    <!-- Luxury Exports: add to Merchant Unlock Goods and worker workforce list-->
+    <ModOp Type="add" GUID="502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000345']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000345</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Rope -->
+    <!-- Rope: before Sails -->
+    <ModOp Type="addPrevSibling" GUID="501957"
+      Condition="!~/Values/ProductList/List/Item[Product='1555550225']"
+      Path="/Values/ProductList/List/Item[Product='1010210']">
+      <Item>
+        <Product>1555550225</Product>
+      </Item>
+    </ModOp>
+    <!-- Rope: add to Merchant Unlock Goods and worker workforce list-->
+    <ModOp Type="add" GUID="502018,502005"
+      Condition="!~/Values/ProductList/List/Item[Product='1555550225']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555550225</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group> <!-- Lead -->
+    <!-- Furniture: After Work Cloths -->
+    <ModOp Type="addPrevSibling" GUID="502005,502049"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000381']"
+      Path="/Values/ProductList/List/Item[Product='1010229']">
+      <Item>
+        <Product>1555000381</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group>
+      <!-- Camera: add to Merchants Lists -->
+      <ModOp Type="addNextSibling" GUID="502006,501998"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000169']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000169</Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <Group>
+    <!-- Lenses: After Goulash -->
+    <ModOp Type="addNextSibling" GUID="502043"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+      Path="/Values/ProductList/List/Item[Product='1010215']">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+    <!-- Lenses: add to Merchant Unlock Goods and Artisan workforce list-->
+    <ModOp Type="add" GUID="502007"
+      Condition="!~/Values/ProductList/List/Item[Product='1555000171']"
+      Path="/Values/ProductList/List">
+      <Item>
+        <Product>1555000171</Product>
+      </Item>
+    </ModOp>
+  </Group>
+<!-- END ADD GOOD PRODUCT WORKFORCE LISTS -->
+
+<!-- ADD GOOD TO STRATEGIC STORAGE LISTS -->
+  <!-- Passengers to Oil storage -->
+  <ModOp Type="addNextSibling" GUID="120056"
+  Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1555000186']"
+  Path="/Values/ProductStorageList/ProductList/Item[Product='1010566']">
+    <Item>
+      <Product>1555000186</Product>
+    </Item>
+  </ModOp>
+<!-- END ADD GOOD TO STRATEGIC STORAGE LISTS -->
+
+
+  <!-- Traveler: add to maillist-->
+  <ModOp Type="add" GUID="1062" Path="/Values/ProductList/List">
+    <Item>
+        <Product>1555000203</Product>
+    </Item>
+  </ModOp>
+
+
+<!-- START ADD STRATEGIC LISTS -->
+<!-- ProductLists Strategic -->
+
+<!-- Passengers: add to Strategic Goods -->
+	<ModOp Type="add" GUID="501961" Path="Values/ProductList/List">
+		<Item>
+			<Product>1555000186</Product>
+		</Item>
+	</ModOp>
+<!-- Passengers: add to Strategic trade routes -->
+	<ModOp Type="add" GUID="140011" Path="Values/TradeRouteFeature/TransportationTypes/Normal/ExcludingGoods">
+		<Item>
+			<Good>1555000186</Good>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="140011" Path="Values/TradeRouteFeature/TransportationTypes/Charter/ExcludingGoods">
+		<Item>
+			<Good>1555000186</Good>
+		</Item>
+	</ModOp> 
+	<ModOp Type="add" GUID="140011" Path="Values/TradeRouteFeature/TransportationTypes/Oil/RestrictedGood">
+		<Item>
+			<Good>1555000186</Good>
+		</Item>
+	</ModOp> 
+  <!-- Enable Airship only trade for furs as well as RouteAlchemy -->
+  <ModOp Type="add" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Mail/RestrictedGood">
+    <Item>
+        <Good>1555000203</Good>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Mail/RouteAlchemy/DeliverGood">
+    <Item>
+      <LoadedGood>1555000203</LoadedGood>
+      <UnloadedGood>1555000206</UnloadedGood>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Mail/RouteAlchemy/SessionSwitch">
+    <Item>
+        <LeavingSession>180023</LeavingSession>
+        <LoadedGood>1555000203</LoadedGood>
+        <UpgradedGood>1555000206</UpgradedGood>
+    </Item>
+    <Item>
+      <LeavingSession>110934</LeavingSession>
+      <LoadedGood>1555000203</LoadedGood>
+      <UpgradedGood>1555000206</UpgradedGood>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID="140011" Path="/Values/TradeRouteFeature/TransportationTypes/Mail/RouteAlchemy/RouteChange">
+    <Item>
+        <LoadedGood>1555000203</LoadedGood>
+    </Item>
+  </ModOp>
+</ModOps>

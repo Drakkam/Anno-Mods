@@ -1,0 +1,400 @@
+<ModOps>
+  
+  <Include File="./Asset.Pools.include.xml" />
+  <Include File="./Products.lists.include.xml" />
+  <Include File="./Vanilla.population.modify.include.xml" />
+  <Include File="./Workforce.include.xml" />
+  <Include File="./Merchant.residence.include.xml" />
+  <Include File="./Triggers.include.xml" />
+  <Include File="./merchant.menu.include.xml" />
+  <Include File="./AI_residence.include.xml" />
+  <Include File="./Vanilla.modifications.include.xml" />
+  <Include File="./products/products.include.xml" />
+  <Include File="./products/fertility.include.xml" />
+  <Include File="./products/lifestyle.include.xml" />
+  <Include File="./ships/ships.include.xml" />
+  <Include File="./production/furniture.include.xml" />
+  <Include File="./production/butter.include.xml" />
+  <Include File="./production/olive.oil.include.xml" />
+  <Include File="./production/cider.include.xml" />
+  <Include File="./production/fedora.include.xml" />
+  <Include File="./production/cosmetics.include.xml" />
+  <Include File="./production/spices.include.xml" />
+  <Include File="./production/pasta.include.xml" />
+  <Include File="./production/newspaper.include.xml" />
+  <Include File="./production/apothecary.include.xml" />
+  <Include File="./production/trading.company.include.xml" />
+  <Include File="./production/rope.include.xml" />
+  <Include File="./production/public.transportation.include.xml" />
+  <Include File="./production/merchant.harbor.include.xml" />
+  <Include File="./production/cameras.include.xml" />
+  <Include File="./production/basin.include.xml" />
+
+
+ <!--  <Include File="./production/vanilla.compatibility.include.xml" /> -->
+
+  <!-- (START) POPULATION -->
+  <!-- (START) Creating Population -->
+    <!-- Merchant -->
+      <ModOp GUID='15000002' Type="addNextSibling">
+        <Asset>
+          <Template>PopulationLevel7</Template>
+          <Values>
+            <Standard>
+              <GUID>1555000000</GUID>
+              <Name>Merchant</Name>
+              <IconFilename>data/ui/Drakkam/icons/icon_resident_merchant.png</IconFilename>
+            </Standard>
+            <PopulationLevel7>
+              <PopulationInputs>
+                <!-- Needs -->
+                <Item>
+                  <Product>1010217</Product>
+                  <Amount>0.00025641</Amount>
+                  <SupplyWeight>10</SupplyWeight>
+                  <MoneyValue>30</MoneyValue>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1010206</Product>
+                  <Amount>0.0007142855</Amount>
+                  <SupplyWeight>9</SupplyWeight>
+                  <MoneyValue>60</MoneyValue>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1010247</Product>
+                  <Amount>0.0006666665</Amount>
+                  <SupplyWeight>10</SupplyWeight>
+                  <MoneyValue>80</MoneyValue>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1010353</Product>
+                  <SupplyWeight>6</SupplyWeight>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000113</Product>
+                  <Amount>0.000784314</Amount>
+                  <SupplyWeight>3</SupplyWeight>
+                  <MoneyValue>40</MoneyValue>
+                  <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000124</Product>
+                  <Amount>0.0006666665</Amount>
+                  <SupplyWeight>2</SupplyWeight>
+                  <MoneyValue>80</MoneyValue>
+                  <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+                  <IsConsideredByAI>0</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000188</Product>
+                  <SupplyWeight>3</SupplyWeight>
+                  <MoneyValue>40</MoneyValue>
+                  <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000265</Product>
+                  <Amount>0.000384314</Amount>
+                  <SupplyWeight>2</SupplyWeight>
+                  <MoneyValue>40</MoneyValue>
+                  <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <!-- Luxury -->
+                <Item>
+                  <Product>1010352</Product>
+                  <HappinessValue>3</HappinessValue>
+                  <MoneyValue>20</MoneyValue>
+                  <IsConsideredByAI>0</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1010257</Product>
+                  <Amount>0.0014285715</Amount>
+                  <HappinessValue>4</HappinessValue>
+                  <MoneyValue>75</MoneyValue>
+                  <IsConsideredByAI>0</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000274</Product>
+                  <Amount>0.000612821</Amount>
+                  <HappinessValue>3</HappinessValue>
+                  <MoneyValue>70</MoneyValue>
+                  <IsConsideredByAI>0</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000144</Product>
+                  <Amount>0.000384314</Amount>
+                  <HappinessValue>2</HappinessValue>
+                  <MoneyValue>70</MoneyValue>
+                  <FullWeightPopulationCount>750</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>749</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000155</Product>
+                  <Amount>0.000384314</Amount>
+                  <HappinessValue>3</HappinessValue>
+                  <MoneyValue>70</MoneyValue>
+                  <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>999</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1555000150</Product>
+                  <HappinessValue>2</HappinessValue>
+                  <MoneyValue>20</MoneyValue>
+                  <FullWeightPopulationCount>1750</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>1749</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI>
+                </Item>
+                <Item>
+                  <Product>1500301148</Product>
+                  <Amount>0.000712821</Amount>
+                  <HappinessValue>3</HappinessValue>
+                  <MoneyValue>70</MoneyValue>
+                  <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                  <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+                  <IsConsideredByAI>1</IsConsideredByAI> 
+                </Item>  
+                <!-- Lifestyle Needs -->
+                <Item>
+                  <Product>535</Product>
+                  <Amount>0.000875</Amount>
+                  <SupplyWeight>4</SupplyWeight>
+                  <MoneyValue>40</MoneyValue>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>536</Product>
+                  <Amount>0.0002916665</Amount>
+                  <SupplyWeight>5</SupplyWeight>
+                  <MoneyValue>120</MoneyValue>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>15000006</Population>
+                    <MinPopulationAmount>1</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>2524</Product>
+                  <Amount>0.0002916665</Amount>
+                  <SupplyWeight>7</SupplyWeight>
+                  <MoneyValue>240</MoneyValue>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>15000006</Population>
+                    <MinPopulationAmount>1000</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>120035</Product>
+                  <Amount>0.001333333</Amount>
+                  <SupplyWeight>5</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>15000006</Population>
+                    <MinPopulationAmount>1</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>117698</Product>
+                  <Amount>0.0003333333</Amount>
+                  <SupplyWeight>6</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>114330</Population>
+                    <MinPopulationAmount>600</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>5389</Product>
+                  <Amount>0.0003333333</Amount>
+                  <SupplyWeight>7</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>5403</Population>
+                    <MinPopulationAmount>2700</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>114401</Product>
+                  <Amount>0.0004166667</Amount>
+                  <SupplyWeight>3</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>114329</Population>
+                    <MinPopulationAmount>150</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>112699</Product>
+                  <Amount>0.0003333333</Amount>
+                  <SupplyWeight>4</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>112642</Population>
+                    <MinPopulationAmount>100</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+                <Item>
+                  <Product>114408</Product>
+                  <Amount>0.0004166667</Amount>
+                  <SupplyWeight>4</SupplyWeight>
+                  <AdditionalGlobalUnlockRequirement>
+                    <Population>114330</Population>
+                    <MinPopulationAmount>300</MinPopulationAmount>
+                  </AdditionalGlobalUnlockRequirement>
+                  <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                  <IsBonusNeed>1</IsBonusNeed>
+                </Item>
+              </PopulationInputs>
+              <DefaultResidence>1555000011</DefaultResidence>
+              <PopulationOutputs>
+                <Item>
+                  <Product>1555000001</Product>
+                  <Amount>100</Amount>
+                </Item>
+              </PopulationOutputs>
+              <CategoryIcon>data/ui/2kimages/main/icons/icon_arrow.png</CategoryIcon>
+              <PopulationParticipant>Advisor_01_Hannah</PopulationParticipant>
+              <PopulationAtWorkParticipant>Advisor_01_Hannah_BlackDress</PopulationAtWorkParticipant>
+              <MoodText>
+                <Angry>
+                  <Text>1555000006</Text>
+                </Angry>
+                <Unhappy>
+                  <Text>1555000007</Text>
+                </Unhappy>
+                <Neutral>
+                  <Text>1555000008</Text>
+                </Neutral>
+                <Happy>
+                  <Text>1555000009</Text>
+                </Happy>
+                <Euphoric>
+                  <Text>1555000010</Text>
+                </Euphoric>
+              </MoodText>
+            </PopulationLevel7>
+            <Locked />
+          </Values>
+        </Asset>
+      </ModOp>
+
+    <!-- AI Profile: Population consuption -->
+      <!-- Merchants 
+      <ModOp Type="add" GUID='167' Path="/Values/ConstructionAI/EconomyRules/ConsumptionConfiguration">
+        <Item>
+          <PopulationGuid>1555000000</PopulationGuid>
+        </Item>
+      </ModOp> -->
+
+    <!-- Population group: insert after each population 
+      <ModOp Type="addNextSibling" GUID="15000082">
+        <Asset>
+          <Template>PopulationGroup7</Template>
+          <Values>
+            <Standard>
+              <GUID>15000082</GUID>
+              <Name>Moderate Population</Name>
+            </Standard>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Population: Old World</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>25911</LineID>
+            </Text>
+            <PopulationGroup7>
+              <PopulationLevels>
+                <Item>
+                  <Level>15000000</Level>
+                </Item>
+                <Item>
+                  <Level>15000001</Level>
+                </Item>
+                <Item>
+                  <Level>15000002</Level>
+                </Item>
+                <Item>
+                  <Level>1555000000</Level>
+                </Item>
+                <Item>
+                  <Level>15000003</Level>
+                </Item>
+                <Item>
+                  <Level>15000004</Level>
+                </Item>
+              </PopulationLevels>
+              <Regional>Moderate</Regional>
+            </PopulationGroup7>
+          </Values>
+        </Asset>
+      </ModOp> -->
+
+      <!-- Merchants after Artisans 
+        <ModOp Type="add" GUID='15000082' Path="/Values/PopulationGroup7/PopulationLevels">
+          <Item>
+            <Level>1555000000</Level>
+          </Item>
+        </ModOp> -->
+
+      <!-- global population: insert after each population -->
+      <!-- Merchants after Artisans -->
+        <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='15000002']">
+          <Item>
+            <PopulationLevel>1555000000</PopulationLevel>
+          </Item>
+        </ModOp> 
+
+      <!-- adding to Keyword Filter -->
+      <!-- Merchants after Artisans -->
+        <ModOp Type="addNextSibling" GUID="501962" Path="/Values/KeywordFilter/Keywords/Item[ProductList='501997']">
+          <Item>
+            <Keyword>1555000000</Keyword>
+            <ProductList>1555000004</ProductList>
+          </Item>
+        </ModOp>
+
+      <!-- city population level: insert TODO -->
+        <ModOp Type="addNextSibling" GUID="141576" Path="/Values/HappinessFeature/AttractivenessConfig/Region/Moderate/CitySizes/Item[Population='15000000' and not(Amount)]">
+          <Item>
+            <Population>1555000000</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+          </Item>
+          <Item>
+            <Population>1555000000</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>5</Amount>
+          </Item>
+          <Item>
+            <Population>1555000000</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>10</Amount>
+          </Item>
+        </ModOp>
+        <ModOp Type="addNextSibling" GUID="141576" Path="/Values/HappinessFeature/AttractivenessConfig/Region/Moderate/CitySizes/Item[Population='15000000' and Amount='150']">
+          <Item>
+            <Population>1555000000</Population>
+            <RequiredAttractivenessLevel>Quaint</RequiredAttractivenessLevel>
+            <Amount>20</Amount>
+          </Item>
+        </ModOp>
+  <!-- (END) Creating Population -->
+
+</ModOps>

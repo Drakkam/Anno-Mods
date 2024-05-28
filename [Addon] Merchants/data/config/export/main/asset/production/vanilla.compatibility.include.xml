@@ -1,0 +1,94 @@
+<ModOps>
+
+<!-- PRODUCTION REPLACE AND ADJUSTMENTS FOR NEW PRODUCTS AND POPULATION -->
+<!-- PRODUCTION CHAIN MODIFICATIONS -->
+  <!-- Sailmaker -->
+  <Group>
+    <!-- Wool Fabric and Sewing Thread: add to Sails production chain -->
+    <ModOp Type="merge" GUID="500009"
+      Path="/Values/ProductionChain/Tier1">
+      <Item>
+        <Building>1555000055</Building>
+        <Tier2>
+          <Item>
+            <Building>1010267</Building>
+          </Item>
+        </Tier2>
+      </Item>
+      <Item>
+        <Building>1555000056</Building>
+        <Tier2>
+          <Item>
+            <Building>1010267</Building>
+          </Item>
+          <Item>
+            <Building>1010266</Building>
+          </Item>
+        </Tier2>
+      </Item>
+    </ModOp>
+    <!-- Wool Fabric and Sewing Thread: replace Wool as input to Sailmaker -->
+    <ModOp Type="merge" GUID="1010288" Path="/Values/FactoryBase/FactoryInputs">
+      <Item>
+        <Product>1500020000</Product>
+        <Amount>1</Amount>
+        <StorageAmount>6</StorageAmount>
+      </Item>
+      <Item>
+        <Product>1500020010</Product>
+        <Amount>1</Amount>
+        <StorageAmount>6</StorageAmount>
+      </Item>
+    </ModOp>
+      <!-- Sewing Thread and Sewing Thread manufacturer add to Sails Asset Pool -->
+      <ModOp Type="add" GUID="140050" Path="/Values/AssetPool/AssetList">
+        <Item>
+          <Asset>1500020010</Asset>
+        </Item>
+        <Item>
+          <Asset>1555000056</Asset>
+        </Item>
+      </ModOp>
+  </Group>
+  <!-- Brewery -->
+  <Group>
+    <!-- Bottles: add to beer production chain -->
+    <ModOp Type="addNextSibling" GUID="500006"
+      Path="/Values/ProductionChain/Tier1/Item[Building='1010264']">
+      <Item>
+        <Building>1555000146</Building>
+        <Tier2>
+          <Item>
+            <Building>1010298</Building>
+          </Item>
+          <Item>
+            <Building>1010560</Building>
+          </Item>
+        </Tier2>
+      </Item>
+    </ModOp>
+    <!-- Bottles: add as input to brewery -->
+    <ModOp Type="add" GUID="1010292" Path="/Values/FactoryBase/FactoryInputs">
+      <Item>
+        <Product>1555000142</Product>
+        <Amount>1</Amount>
+        <StorageAmount>6</StorageAmount>
+      </Item>
+    </ModOp>
+      <!-- Bottles and bottle maker to beer asset pool -->
+      <ModOp Type="add" GUID="140035" Path="/Values/AssetPool/AssetList">
+        <Item>
+          <Asset>1555000146</Asset>
+        </Item>
+        <Item>
+          <Asset>1555000142</Asset>
+        </Item>
+        <Item>
+          <Asset>1010560</Asset>
+        </Item>
+        <Item>
+          <Asset>1010228</Asset>
+        </Item>
+      </ModOp>
+  </Group>
+</ModOps>

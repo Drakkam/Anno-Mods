@@ -1,0 +1,77 @@
+{
+  "Version": "0.1.0",
+  "ModID": "Drakkam-new-population-Merchants",
+  "ModDependencies": [
+    "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_kurila.zip",
+    "https://github.com/Qurila/shared-mods/releases/download/v7/shared_products_extended_kurila.zip",
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-ground-textures-city-jakob.zip",
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-ground-textures-industry-jakob.zip",
+    "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-products-jakob.zip",
+    "https://github.com/Taludas/neutral_Hacienda/releases/download/v2.0.1/NeutralHaciendaBase_v2.0.1.zip"
+  ],
+  "Category": {
+    "English": "Addon",
+    "Chinese": "Addon",
+    "French": "Addon",
+    "German": "Addon",
+    "Italian": "Addon",
+    "Japanese": "Addon",
+    "Korean": "Addon",
+    "Polish": "Addon",
+    "Russian": "Addon",
+    "Spanish": "Addon",
+    "Taiwanese": "Addon"
+  },
+  "ModName": {
+    "English": "New Population Merchants (Drakkam)"
+  },
+  "DLCDependencies": [
+    {
+      "DLC": "VibrantCity",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Docklands",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "Highlife",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "ThePassage",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "PedestrianZone",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Drakkam",
+  "Description": {
+    "English": null,
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

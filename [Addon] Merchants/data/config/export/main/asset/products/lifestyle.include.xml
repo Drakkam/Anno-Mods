@@ -1,0 +1,111 @@
+<ModOps>
+<!-- START ADD GOOD LIFESTYLE CATEGORIES -->
+
+  <!-- Food and Drinks -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2289']/Needs">
+      <Item>
+        <BonusNeed>133097</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>120033</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>112705</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>114359</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>114371</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>114408</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>120035</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1010254</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>118728</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1555000113</BonusNeed>
+      </Item>
+    </ModOp>
+
+    <!-- Health -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2290']/Needs">
+      <Item>
+        <BonusNeed>133093</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1555000111</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>133095</BonusNeed>
+      </Item>
+    </ModOp>
+
+    <!-- Culture -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='6364']/Needs">
+    </ModOp>
+
+    <!-- Imports -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2361']/Needs">
+      <Item>
+        <BonusNeed>112702</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>112701</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>117699</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>112700</BonusNeed>
+      </Item>
+    </ModOp>
+
+    <!-- Wealth -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='2361']/Needs">
+      <Item>
+        <BonusNeed>112698</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1010256</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1555000265</BonusNeed>
+      </Item>
+    </ModOp>
+
+    <!-- Crafts -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/BonusNeeds/BonusNeeds/Item[Category='4837']/Needs">
+      <Item>
+        <BonusNeed>114401</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>112699</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>1555000054</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>135150</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>135129</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>135130</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>117701</BonusNeed>
+      </Item>
+      <Item>
+        <BonusNeed>5389</BonusNeed>
+      </Item>
+    </ModOp>
+</ModOps>

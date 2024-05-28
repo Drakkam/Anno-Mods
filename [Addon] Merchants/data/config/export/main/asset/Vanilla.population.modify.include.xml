@@ -1,0 +1,503 @@
+<ModOps>
+
+<!-- FARMER -->
+  <Group>
+  <!--  Increase Max Resident needed to upgrade (Farmer)-->
+    <ModOp Type="merge" GUID='1010343' Path="/Values/Residence7">
+      <ResidentMax>15</ResidentMax>
+			<ResidentsRequiredForUpgrade>15</ResidentsRequiredForUpgrade>
+    </ModOp>
+  <!--  Basic Need - Butter After Basic Cloths  -->
+    <ModOp Type="addNextSibling" GUID="15000000" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010237']">
+      <Item>
+        <Product>1555000050</Product>
+        <Amount>0.000333334</Amount>
+        <SupplyWeight>5</SupplyWeight>
+        <MoneyValue>20</MoneyValue>
+        <FullWeightPopulationCount>200</FullWeightPopulationCount>
+        <NoWeightPopulationCount>199</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010343</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Furniture After Basic Cloths -->
+    <ModOp Type="addNextSibling" GUID='15000000' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010349']">
+      <Item>
+        <Product>1555000054</Product>
+        <Amount>0.000233334</Amount>
+        <HappinessValue>6</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <FullWeightPopulationCount>200</FullWeightPopulationCount>
+        <NoWeightPopulationCount>199</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010343</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Pub Rebalence (Total Hapiness from luxury must always be 20)-->
+    <ModOp Type="merge" GUID='15000000' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010349']">
+        <HappinessValue>6</HappinessValue>
+    </ModOp>
+  </Group>
+
+<!-- WORKER -->
+  <Group>
+  <!--  Increase Max Resident needed to upgrade (Worker) -->
+    <ModOp Type="merge" GUID='1010344' Path="/Values/Residence7">
+      <ResidentMax>25</ResidentMax>
+      <ResidentsRequiredForUpgrade>25</ResidentsRequiredForUpgrade>
+    </ModOp>
+  <!--  Basic Need - Butter After Basic Cloths  -->
+    <ModOp Type="addNextSibling" GUID="15000001" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010237']">
+      <Item>
+        <Product>1555000050</Product>
+        <Amount>0.000333334</Amount>
+        <SupplyWeight>5</SupplyWeight>
+        <MoneyValue>20</MoneyValue>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010344</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010200</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010201</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Furniture After Basic Cloths -->
+    <ModOp Type="addNextSibling" GUID='15000001' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010349']">
+      <Item>
+        <Product>1555000054</Product>
+        <Amount>0.000233334</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010344</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010200</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010201</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Olive Oil -->
+    <ModOp Type="addNextSibling" GUID='15000001' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010214']">
+      <Item>
+        <Product>1555000111</Product>
+        <Amount>0.000333334</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>30</MoneyValue>
+        <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>999</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010344</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010200</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010201</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Pub Rebalence (Total Hapiness from previous population must always be 10)-->
+    <ModOp Type="merge" GUID='15000001' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010349']">
+        <HappinessValue>3</HappinessValue>
+    </ModOp>
+  <!-- Luxury Needs - Church Rebalence (Total Hapiness from luxury must always be 20)-->
+    <ModOp Type="merge" GUID='15000001' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010350']">
+      <HappinessValue>4</HappinessValue>
+    </ModOp>
+  </Group>
+
+<!-- ARTISAN -->
+<Group>
+  <!--  Increase Max Resident needed to upgrade (Artisan) -->
+    <ModOp Type="merge" GUID='1010345' Path="/Values/Residence7">
+      <ResidentMax>35</ResidentMax>
+      <ResidentsRequiredForUpgrade>35</ResidentsRequiredForUpgrade>
+    </ModOp>
+  <!-- Luxury Needs - Olive Oil After beer -->
+    <ModOp Type="addNextSibling" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010214']">
+      <Item>
+        <Product>1555000111</Product>
+        <Amount>0.000512821</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>30</MoneyValue>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010345</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010225</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010226</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Cosmetics After Rum -->
+    <ModOp Type="addNextSibling" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010257']">
+      <Item>
+        <Product>1555000274</Product>
+        <Amount>0.001904762</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>25</MoneyValue>
+        <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+        <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+        <IsConsideredByAI>0</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010345</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010225</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>1500010226</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  <!-- Luxury Needs - Variety Theatre (Total Hapiness from previous population must always be 10)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010352']">
+        <HappinessValue>3</HappinessValue>
+    </ModOp>
+  <!-- Luxury Needs - Church Rebalence (Total Hapiness from luxury must always be 20)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010350']">
+      <HappinessValue>4</HappinessValue>
+    </ModOp>
+  <!-- Basic Needs - Bread (Rebalacing)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010213']">
+      <SupplyWeight>8</SupplyWeight>
+    </ModOp>
+  <!-- Basic Needs - Sausage (Rebalacing)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010238']">
+      <SupplyWeight>8</SupplyWeight>
+    </ModOp>
+  <!-- Basic Needs - Soap (Rebalacing)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010203']">
+      <SupplyWeight>5</SupplyWeight>
+    </ModOp>
+  <!-- Lifestyle Need - International Mail (Rebalacing)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='2524']">
+      <SupplyWeight>7</SupplyWeight>
+    </ModOp>
+  <!-- Lifestyle Need - Paper (Rebalacing)-->
+    <ModOp Type="merge" GUID='15000002' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='117702']">
+      <SupplyWeight>2</SupplyWeight>
+    </ModOp>
+  </Group>
+
+  <!-- ENGINEER -->
+  <Group>
+        <!--  Increase Max Resident needed to upgrade (Worker)-->
+        <ModOp Type="merge" GUID='1010346' Path="/Values/Residence7">
+          <ResidentMax>55</ResidentMax>
+          <ResidentsRequiredForUpgrade>55</ResidentsRequiredForUpgrade>
+        </ModOp>
+        <!-- Adding Merchants Needs to Engineers - Apothecary - Newspaper - Spice -->
+        <ModOp Type="addPrevSibling" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']">
+          <Item>
+            <Product>1555000113</Product>
+            <Amount>0.000784314</Amount>
+            <SupplyWeight>11</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+              <Item>
+                <RequiredBuilding>1010346</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601888</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601889</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601890</RequiredBuilding>
+              </Item>
+            </RequiredBuildings>
+          </Item>
+          <Item>
+            <Product>1555000265</Product>
+            <Amount>0.000384314</Amount>
+            <SupplyWeight>12</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+              <Item>
+                <RequiredBuilding>1010346</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601888</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601889</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601890</RequiredBuilding>
+              </Item>
+            </RequiredBuildings>
+          </Item>  
+          <Item>
+            <Product>1555000124</Product>
+            <Amount>0.0006666665</Amount>
+            <SupplyWeight>12</SupplyWeight>
+            <MoneyValue>80</MoneyValue>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <RequiredBuildings>
+              <Item>
+                <RequiredBuilding>1010346</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601888</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601889</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601890</RequiredBuilding>
+              </Item>
+            </RequiredBuildings>
+          </Item>
+          <Item>
+            <Product>1555000188</Product>
+            <SupplyWeight>10</SupplyWeight>
+            <MoneyValue>40</MoneyValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+              <Item>
+                <RequiredBuilding>1010346</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601888</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601889</RequiredBuilding>
+              </Item>
+              <Item>
+                <RequiredBuilding>601890</RequiredBuilding>
+              </Item>
+            </RequiredBuildings>
+          </Item>
+        </ModOp>
+    <!-- Adding Merchants Luxury to Engineers - Apothecary - Newspaper - Spice -->
+    <ModOp Type="addPrevSibling" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']">
+      <Item>
+        <Product>1555000150</Product>
+        <HappinessValue>2</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <IsConsideredByAI>1</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010346</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601888</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601889</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601890</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+      <Item>
+        <Product>1555000155</Product>
+        <Amount>0.000384314</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>70</MoneyValue>
+        <IsConsideredByAI>1</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010346</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601888</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601889</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601890</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+      <Item>
+        <Product>1500301148</Product>
+        <Amount>0.000712821</Amount>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>70</MoneyValue>
+        <IsConsideredByAI>1</IsConsideredByAI> 
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010346</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601888</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601889</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601890</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+      <Item>
+        <Product>1555000144</Product>
+        <HappinessValue>2</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <IsConsideredByAI>1</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010346</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601888</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601889</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601890</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+  
+    <!-- Adding New Engineers Luxury - Camera -->
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/">
+      <Item>
+        <Product>1555000169</Product>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+        <IsConsideredByAI>1</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010346</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601888</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601889</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601890</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+
+  <!-- Luxury Needs - High Wheeler Rebalence (Total Hapiness from population itens must always be 10)-->
+    <ModOp Type="merge" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010245']">
+      <HappinessValue>2</HappinessValue>
+    </ModOp>
+
+  <!-- INVESTOR -->
+    <!-- Adding New Engineers Luxury - Camera -->
+    <ModOp Type="addNextSibling" GUID='15000004' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
+      <Item>
+        <Product>1555000169</Product>
+        <HappinessValue>3</HappinessValue>
+        <MoneyValue>20</MoneyValue>
+        <IsConsideredByAI>1</IsConsideredByAI>
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1010347</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601882</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601883</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601884</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601886</RequiredBuilding>
+          </Item>
+          <Item>
+            <RequiredBuilding>601891</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+      </Item>
+    </ModOp>
+
+  <!-- Luxury Needs - High Wheeler Rebalence (Total Hapiness from population itens must always be 10)-->
+  <ModOp Type="merge" GUID='15000004' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010245']">
+    <HappinessValue>2</HappinessValue>
+  </ModOp>
+
+  <!-- Setting Rum, Variety Threate, Canned Food, University and fur coats to the AI only -->
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010352']">
+        <RequiredBuildings>
+          <Item>
+            <RequiredBuilding>1555600004</RequiredBuilding>
+          </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010257']">
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1555600004</RequiredBuilding>
+        </Item>
+      </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010217']">
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1555600004</RequiredBuilding>
+        </Item>
+      </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010206']">
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1555600004</RequiredBuilding>
+        </Item>
+      </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010247']">
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1555600004</RequiredBuilding>
+        </Item>
+      </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="add" GUID='15000003' Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
+      <RequiredBuildings>
+        <Item>
+          <RequiredBuilding>1555600004</RequiredBuilding>
+        </Item>
+      </RequiredBuildings>
+    </ModOp>
+  </Group>
+</ModOps>

@@ -1,0 +1,455 @@
+
+<!-- 
+
+Made by Drakkam
+
+Population
+
+1555000000 Merchant Population (Population)
+1555000001 Merchant Workforce (WorkForce)
+1555000002 Merchant Unlock Goods (Product List)
+1555000003 Merchant WorkForce Goods (Product List)
+1555000004 Merchant Consumer Goods (Product List)
+1555000005 Merchant Build Menu
+1555000006 Merchant Sastifaction Angry
+1555000007 Merchant Sastifaction Unhappy
+1555000008 Merchant Sastifaction Neutral
+1555000009 Merchant Sastifaction Happy
+1555000010 Merchant Sastifaction Euphoric
+1555000011 Merchant Residence (Residence Building)
+1555000012 Merchant Milestone Banner Merchant Unlock (Lockable Notification)
+1555000013 Merchant Milestone Banner Tittle (Lockable Notification)
+1555000014 Merchant Milestone Banner Notification (Lockable Notification)
+1555000015 Trigger Unlock Merchant Residence (Lockable Notification)
+1555000016 Trigger AI Building Change (Trigger)
+1555000017 Merchant Red Roof Skin
+1555000018 Merchant Red Roof Skin Name
+1555000019 Merchant Red Roof Skin Description
+
+Shared Pier
+
+1555000047 Pier (Building Description)
+1555000048 Pier (Building)
+1555000049 Strategic Trade Route Storage List (Storage List)
+1555000050 Butter (Good)
+1555000051 Butter description (Good description)
+1555000052 Milk farm (Building)
+1555000053 Trade Contract Production chain
+1555000054 Furniture (Good)
+1555000055 Wool Fabric Manufacturer (Building)
+1555000056 Sewing Thread Manufacturer (Building)
+1555000057 Furniture Workshop (Building)
+1555000058 Furniture Chain (Production Chain)
+1555000059 Furniture Asset Pool (Asset Pool)
+1555000060 Trade Contract Asset Pool
+1555000061 Loading Area Recipe
+1555000062 Basic Food Loading Area Recipe
+1555000063 Consumer Goods Loading Area Recipe
+1555000064 Marble Pool (Asset Pool)
+1555000065 Marble Mining Slot (Mine Slot)
+1555000066 Marble Workarea (Work Area)
+1555000067 Marble infolayer (infolayer)
+1555000068 Marble Workshop description (Building description)
+1555000069 Creative Mode Trigger
+1555000070 Unhide Trigger 250 Artisan
+1555000071 Unlock Trigger 500 Artisan
+1555000072 Trigger compatibility Taludas MineSlot Unification
+1555000073 Butter Factory (Building)
+1555000074 Butter Production Chain (Production Chain)
+1555000075 Butter Asset Pool (Asset Pool)
+1555000076 Tomatoes Sauce Factory (Building)
+1555000077 Pasta production chain (Production Chain)
+1555000078 Pasta Asset Pool (Asset Pool)
+1555000079 Spices South America Chain (Production Chain)
+1555000080 Luxury Exports Loading Area Recipe
+1555000081 Loading Area Recipe list description
+1555000082 Basic Food Loading Area Recipe Description
+1555000083 Consumer Goods Loading Area Recipe Description
+1555000084 Luxury Exports Loading Area Recipe Description
+1555000085 Loading Area Blank Building
+1555000086 Recipe List New World Import Office
+1555000087 Recipe List New World Import Office Description
+1555000088 Recipe New World Import Office: Basic Food
+1555000089 Recipe New World Import Office: Consumer Goods
+1555000090 Recipe New World Import Office: Luxury Exports
+1555000091 Raw Marble (Good)
+1555000092 Raw Marble (Good description)
+1555000093 Marble Slab (Good)
+1555000094 Marble Slab (Good description)
+1555000095 Marble Quarry (Building)
+1555000096 Marble Shop (Building)
+1555000097 Marble Workshop (Building Silo)
+1555000098 Marble Workshop Buff (Buff)
+1555000099 Marble Production Chain (Production Chain)
+1555000100 Eggs (Good)
+1555000101 Eggs (Good Description)
+1555000102 Chicken Farm (Building)
+1555000103 Chicken Farm Field (Building)
+1555000345 Luxury Exports (Good)
+1555000267 Luxury Exports (Good description)
+1555000251 Luxury exports Loading Area (Building)
+1555000107 New World Import Office: Blank
+1555000258 Trading Company Menu (Construction Menu)
+1555000109 Tomatoes (Good)
+1555000110 Tomatoes (Good description)
+1555000111 Olive (Oil Good)
+1555000112 Olive (Oil Good description)
+1555000113 Pasta (Good)
+1555000114 Pasta (Good description)
+1555000115 Tomatoes Farm (Building)
+1555000116 Tomatoes Farm Field (Building)
+1555000117 Olive Oil factory (Building)
+1555000118 Pasta Kitchen (Building)
+1555000119 Olive Oil (Production Chain)
+1555000120 Tomatoes Fertility (Fertility)
+1555000121 Olive Oil (Asset Pool)
+1555000122 Recipe New World Import Office: Basic Food description
+1555000123 Recipe New World Import Office: Consumer Goods description
+1555000124 Fedora (Good)
+1555000125 Fedora (Good description)
+1555000126 Recipe New World Import Office: Luxury Exports description
+1555000127 Fedora (Building)
+1555000128 Fedora Chain (Production Chain)
+1555000129 Fedora Pool (Asset Pool)
+1555000130 Saffron (Good)
+1555000131 Saffron (Good description)
+1555000132 New World Import Office: Luxury Exports description
+1555000133 New World Import Office: Consumer Goods
+1555000134 Saffron Farm (Building)
+1555000135 Saffron Farm Field (Building)
+1555000136 Spices Producer (Building)
+1555000137 Spices Africa Chain (Production Chain)
+1555000138 Spices Moderate Chain (Production Chain)
+1555000139 Strategic Harbour Description
+1555000140 Saffron Fertility (Fertility)
+1555000141 Spices Pool (Asset Pool)
+1555000142 Bottle (Good)
+1555000143 Bottle (Good Description)
+1555000144 Cider (Good)
+1555000145 Cider (Good Description)
+1555000146 Bottle Manufacturer (Building)
+1555000147 Cider Manufacturer (Building)
+1555000148 Cider Chain (Production Chain)
+1555000149 Cider Pool (Asset Pool)
+1555000150 Apothecary Service (Good)
+1555000151 Apothecary (Building)
+1555000152 Apothecary Buff (Buff)
+1555000153 Apothecary Chain (Production Chain)
+1555000154 Apothecary Pool (Asset Pool)
+1555000155 (Newspaper Good)
+1555000156 (Newspaper Good Description)
+1555000157 (New World News Report Good)
+1555000158 (New World News Report Good Description)
+1555000159 (Enbesa News Report Good)
+1555000160 (Enbesa News Report Good Description)
+1555000161 (Old World News Report Good)
+1555000162 (Old World News Report Good Description)
+1555000163 (Anno Morning Post Building)
+1555000164 (New World News Reporter Building)
+1555000165 (Enbesa News Reporter Building)
+1555000166 (Old World News Reporter Building)
+1555000167 (Newspaper Production Chain)
+1555000168 (Newspaper Asset Pool)
+1555000169 Camera (Good)
+1555000170 Camera (Good Description)
+1555000171 Lenses (Good)
+1555000172 Lenses (Good Description)
+1555000173 Lenses Manufacturer (Building)
+1555000174 Artisan's Workshop: Camera (Building)
+1555000175 Artisan's Workshop: Camera Recipe (Recipe)
+1555000176 Artisan's Workshop: Camera Recipe (Recipe Description)
+1555000177 Camera Chain (Production Chain)
+1555000178 Camera Pool (Asset Pool)
+1555000179 Rope (Good)
+1555000180 Rope (Good description)
+1555000181 Rope Maker (Building)
+1555000182 Rope Chain (Production Chain)
+1555000183 Rope Pool (Asset Pool)
+1555000184 Tickets (Good)
+1555000185 Tickets (Good Description)
+1555000186 Passengers (Good)
+1555000187 Passengers (Good Description)
+1555000188 Public Transportation Service (Good)
+1555000189 Countryside Transportation Service (Good)
+1555000190 Network Access (Product)
+1555000191 Network Access (Description)
+1555000192 Ticket Factory (Building)
+1555000193 Central Train Station (Building)
+1555000194 Train Station Plataform (Building)
+1555000195 Central Train Station Icon (Icon)
+1555000196 Harbor Station (Building)
+1555000197 Harbor Station (Building Description)
+1555000198 Metro entrance (Building)
+1555000199 The Foreign Trade Chamber description
+1555000200 Merchant Harbor Menu
+1555000201 Merchant Harbor Asset Pool
+1555000202 Standart Travelers Storage List
+1555000203 Travelers (Good)
+1555000204 Travelers (Good Description)
+1555000205 Travelers Platform (Building)
+1555000206 Visitors (Good)
+1555000207 Visitors (Good Description)
+1555000208 Visitors Plataform (Building)
+1555000209 Local Train Station (Building Description)
+1555000210 Strategic Harbor (Building)
+1555000211 Local Train Station: Subway Connection (Building)
+1555000212 Local Train Station: Industry (Building)
+1555000213 Local Train Station: Countryside (Building)
+1555000214 Local Train Station: Harbor (Building)
+1555000215 Local Train Station: Subway connection (Buff)
+1555000216 Local Train Station: Industry (Buff)
+1555000217 Local Train Station: Countryside (Buff)
+1555000218 Local Train Station: Harbor (Buff)
+1555000219 Public Transportation Access (Buff)
+1555000220 Public Transportation Chain (Production Chain)
+1555000221 Standart Passengers Storage List (Product Storage List)
+1555000222 Public Transportation Pool (Asset Pool)
+1555000223 Train Station Depot Infocorner (Text)
+1555000224 Large Train Station Hallway (Building)
+1555000225 Small Train Station Plataform (Building)
+1555000226 Train Station Crossing Stairway (Building)
+1555000227 Train Station Underground Crossing (Building)
+1555000228 Train Station Railguard (Building)
+1555000229 Train Station Subway Entrance (Building)
+1555000230 Train Station Pavilion (Building)
+1555000231 Passenger Ship (Ship)
+1555000232 Passenger Ship Description (Ship Description)
+1555000233 Raw Pasta (Good)
+1555000234 Raw Pasta (Good description)
+1555000235 Raw Pasta factory (Building)
+1555000236 Central Station description
+1555000237 Train Station (Building Menu)
+1555000238 Small Steamer Trade Ship (Ship)
+1555000239 Small Steamer Trade Ship (Ship Description)
+1555000240 Small Steamer Trade Ship (Ship)
+1555000241 Small Steamer Trade Ship (Ship Description)
+1555000242 Medium Passenger Ship (Ship)
+1555000243 Medium Passenger Ship (Ship Description)
+1555000244 Medium Passenger Ship (Ship)
+1555000245 Medium Passenger Ship (Ship Description)
+
+1555000246 Trading Company Main Office
+1555000247 Foreign Trade Chamber
+1555000248 Trade Contract Department
+1555000249 Basic Food Loading Area
+1555000250 Consumer Goods Loading Area
+1555000251 Luxury Export Loading Area
+1555000252 Ship Import Office
+1555000253 Customs Office
+1555000254 Trading Company Warehouse
+1555000255 Food Packaging Module
+1555000256 New World Import Office
+1555000257 Enbesa Import Office
+1555000258 trading Company Construction Menu
+1555000259 New World trade Agreement Pchain
+1555000260 Enbesa Trade Agreement Pchain
+
+1555000261 Dock Module Buff
+1555000262 New World Trade Agreement
+1555000263 International trade agreements description
+1555000264 Enbesa Trade Agreement
+1555000265 Trade Contracts
+1555000266 Food Exports
+1555000267 Food Exports description
+1555000268 Goods Exports
+
+1555000269 Tomatoes Sauce (Good)
+1555000270 Tomatoes Sauce (Good description)
+1555000271 Orchard:Apple (Building)
+1555000272 Orchard:Apple Recipe (Recipe)
+1555000273 Orchard:Apple Recipe Description (Recipe Description)
+1555000274 Cosmetics (Good)
+1555000275 Cosmetics (Good description)
+1555000276 Cosmetics Manufacturer (Building)
+1555000277 Cosmetics Moderate Chain (Production Chain)
+1555000278 Cosmetics SA Chain (Production Chain)
+1555000279 Cosmetics Moderate Pool (Asset Pool)
+1555000280 Cosmetics SA Pool (Asset Pool)
+1555000281 Trigger 1 Obreras (trigger)
+1555000282 Trigger 300 Obreras (Trigger)
+1555000283 Orchard:Olives (Building)
+1555000284 Orchard:Olives Recipe (Recipe)
+1555000285 Orchard:Olives Recipe Description (Recipe Description)
+1555000286 Trigger 300 Shepperd (trigger)
+1555000287 Mechanical materials (MonumentEventCategory)
+1555000288 Modest Importing Agreement (MonumentEvent)
+1555000289 New World Import Office: Luxury Exports
+1555000290 Recipe List Enbesa Import Office
+1555000291 Recipe Enbesa Import Office: Basic Food
+1555000292 Modest Importing Agreement Highest Small Rewards Architectural (text)
+1555000293 Modest Importing Agreement Basic Exports RewardPool (RewardPool)
+1555000294 Modest Importing Agreement Basic Exports RewardPool Description (Text)
+1555000295 Modest Importing Agreement Moderate Exports RewardPool (RewardPool)
+1555000296 Modest Importing Agreement Moderate Exports RewardPool Description (Text)
+1555000297 Modest Importing Agreement Advanced Exports RewardPool (RewardPool)
+1555000298 Modest Importing Agreement Advanced Exports RewardPool Description (Text)
+1555000299 Modest Importing Agreement Luxury Exports RewardPool (RewardPool)
+1555000300 Modest Importing Agreement Luxury Exports RewardPool Description (Text)
+
+1555000301 Modest Importing Agreement Small Reward (MonumentEventReward)
+1555000302 Modest Importing Agreement Small Reward (Text)
+1555000303 Modest Importing Agreement Medium Reward (MonumentEventReward)
+1555000304 Modest Importing Agreement Medium Reward (Text)
+1555000305 Modest Importing Agreement Big Reward (MonumentEventReward)
+1555000306 Modest Importing Agreement Big Reward (Text)
+1555000307 Modest Importing Agreement Top Reward (MonumentEventReward)
+1555000308 Modest Importing Agreement Top Reward (Text)
+1555000309 Modest Importing Agreement Ultimate Reward (MonumentEventReward)
+1555000310 Modest Importing Agreement Ultimate Reward (Text)
+
+1555000311 Large Importing Agreement Small Reward (MonumentEventReward)
+1555000312 Large Importing Agreement Small Reward (Text)
+1555000313 Large Importing Agreement Medium Reward (MonumentEventReward)
+1555000314 Large Importing Agreement Medium Reward (Text)
+1555000315 Large Importing Agreement Big Reward (MonumentEventReward)
+1555000316 Large Importing Agreement Big Reward (Text)
+1555000317 Large Importing Agreement Top Reward (MonumentEventReward)
+1555000318 Large Importing Agreement Top Reward (Text)
+1555000319 Large Importing Agreement Ultimate Reward (MonumentEventReward)
+1555000320 Large Importing Agreement Ultimate Reward (Text)
+
+1555000321 Large Importing Agreement Small Reward (MonumentEventReward)
+1555000322 Large Importing Agreement Small Reward (Text)
+1555000323 Large Importing Agreement Medium Reward (MonumentEventReward)
+1555000324 Large Importing Agreement Medium Reward (Text)
+1555000325 Large Importing Agreement Big Reward (MonumentEventReward)
+1555000326 Large Importing Agreement Big Reward (Text)
+1555000327 Large Importing Agreement Top Reward (MonumentEventReward)
+1555000328 Large Importing Agreement Top Reward (Text)
+1555000329 Large Importing Agreement Ultimate Reward (MonumentEventReward)
+1555000330 Large Importing Agreement Ultimate Reward (Text)
+
+1555000331 Large Importing Agreement (MonumentEvent)
+1555000332 Large Importing Agreement Player Selected Event 1 (text)
+1555000333 Large Importing Agreement Exhibition 1 Ongoing (text)
+1555000334 Large Importing Agreement Rewards 1 Presentation (text)
+1555000335 Large Importing Agreement Highest Small Rewards Architectural (text)
+
+1555000337 Large Importing Agreement (MonumentEvent)
+1555000338 Large Importing Agreement Player Selected Event 1 (text)
+1555000339 Large Importing Agreement Exhibition 1 Ongoing (text)
+1555000340 Large Importing Agreement Rewards 1 Presentation (text)
+1555000341 Large Importing Agreement Highest Small Rewards Architectural (text)
+
+1555000342 Trading Company Decree 1 Power Generator
+1555000343 Trading Company Decree 2 Importing Regulations
+1555000344 All Old World Residence + Merchants
+1555000345 Luxury Exports
+
+1555000346 Mechanical Materials Potential Rewards (text)
+1555000347 Steam Engines Event Size Name (text)
+1555000348 Motors Event Size Name (text)
+1555000349 Electric Cable Event Size Name (text)
+1555000350 Advanced Construction materials Event Category Name (Monument Event Category)
+1555000351 Concrete Importing Event Category Name (Monument Event)
+1555000352 Aluminium Importing Event Category Name (Monument Event)
+1555000353 Gas Importing Event Category Name (Monument Event)
+1555000354 Construction Materials Potential Rewards (text)
+
+1555000355 Concrete Potential Reward (text)
+1555000356 Concrete Event Name (text)
+1555000357 Small Trade Contract Concrete Reward (MonumentEventReward)
+1555000358 Modest Trade Contract Concrete Reward (MonumentEventReward)
+1555000359 Big Trade Contract Concrete Reward (MonumentEventReward)
+1555000360 Great Trade Contract Concrete Reward (MonumentEventReward)
+1555000361 Explendid Trade Contract Concrete Reward (MonumentEventReward)
+
+1555000362 Aluminium Potential Reward (text)
+1555000363 Aluminium Event Name (text)
+1555000364 Small Trade Contract Aluminium Reward (MonumentEventReward)
+1555000365 Modest Trade Contract Aluminium Reward (MonumentEventReward)
+1555000366 Big Trade Contract Aluminium Reward (MonumentEventReward)
+1555000367 Great Trade Contract Aluminium Reward (MonumentEventReward)
+1555000368 Explendid Trade Contract Aluminium Reward (MonumentEventReward)
+
+1555000369 Gas Potential Reward (text)
+1555000370 Gas Event Name (text)
+1555000371 Small Trade Contract Gas Reward (MonumentEventReward)
+1555000372 Modest Trade Contract Gas Reward (MonumentEventReward)
+1555000373 Big Trade Contract Gas Reward (MonumentEventReward)
+1555000374 Great Trade Contract Gas Reward (MonumentEventReward)
+1555000375 Explendid Trade Contract Gas Reward (MonumentEventReward)
+
+1555000376 Food Material List and icon Text (Text)
+1555000377 Drinks Material List and icon Text (Text)
+1555000378 Cloth Material List and icon Text (Text)
+1555000379 Products Showcasing Material List and icon Text (Text)
+
+1555000380 Hemp Farm
+1555000381 Lead (Product)
+1555000382 Lead Description (Product Description)
+1555000383 Lead Extractor
+1555000384 Lead Extractor Buff
+
+1555000385 Trading Company Decree 1
+1555000386 Trading Company Decree 1 Description
+1555000387 Trading Company Decree 2
+1555000388 Trading Company Decree 2 Description
+1555000389 Trading Company Decree 3
+1555000390 Trading Company Decree 3 Description
+1555000391 Trading Company Decree 4
+1555000392 Trading Company Decree 4 Description
+1555000393 Trading Company Decree 5
+1555000394 Trading Company Decree 5 Description
+
+1555000395 Recipe Enbesa Import Office: Consumer Goods
+1555000396 Recipe Enbesa Import Office: Luxury Exports
+1555000397 Enbesa Import Office: Basic Food
+1555000398 Enbesa Import Office: Consumer Goods
+1555000399 Enbesa Import Office: Luxury Exports
+
+1555000400 Enbesa Basic Food Importing Buff
+1555000401 Enbesa Consumer Goods Importing Buff
+1555000402 Enbesa Luxury Exports Importing Buff
+1555000403 New World Basic Food Importing Buff
+1555000404 New World Consumer Goods Importing Buff
+1555000405 New World Luxury Exports Importing Buff
+
+1555000406 Fake product Food Exports
+1555000407 Fake product Goods Exports
+1555000408 Fake product Luxury Exports
+
+1555000409 Food Exports Loading Area
+1555000410 Goods Exports Loading Area
+1555000411 Luxury Exports Loading Area
+
+1555000412 Loading Area Dock
+
+1555000413 Power Generator Effect Target pool
+1555000414 All Public Services, Restaurants, Bars, Malls and Cafés Effect Target pool
+1555000415 Trading Company - Tourism incentive
+1555000416 All Public Services
+1555000417 Trading Company - Subsidy for public transport buff
+1555000418 Trading Company - Subsidy for public transport buff
+1555000419 Subsidy for public transport Infotip Fake buff 
+
+1555000420 Buff Forward - Countryside Station
+1555000421 Buff Forward - Industrial zone Station
+1555000422 Buff Forward - Harbor zone Station
+
+1555000423 Buff - Countryside Station
+1555000424 Buff - Industrial zone Station
+1555000425 Buff - Harbor zone Station
+
+1555000426 Packaging Buff Food
+1555000427 Packaging Buff Goods
+1555000428 Packaging Buff Luxury
+
+1555000429 Buff Self - Countryside Station
+1555000430 Buff Self - Industrial zone Station
+1555000431 Buff Self - Harbor zone Station
+
+1555000432 Buff Fake infotip Trading Company Decree5
+1555000433 All local train stations and constructions under its effect
+1555000434 Foward Buff Description
+
+1555000435 FowardBuff Packaging Module
+1555000436 Fake Buff Packaging Module
+
+1555000437 Packaging Module Crane description
+1555000438 Fake Buff Packaging Module
+
+1555000439 Elder 1 Trigger
+1555000440 Basin
+1555000441 Shepperd 1 Trigger
+-->

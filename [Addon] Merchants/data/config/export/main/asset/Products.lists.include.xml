@@ -1,0 +1,217 @@
+<ModOps>
+
+  <!-- (START) Creating Population related product list -->
+    <!-- UnlockGoods Product Lists -->
+      <!-- Merchant -->
+      <ModOp Type="addNextSibling" GUID="502019">
+        <Asset>
+          <Template>ProductList</Template>
+          <Values>
+            <Standard>
+              <GUID>1555000002</GUID>
+              <Name>MerchantUnlockGoods</Name>
+            </Standard>
+            <ProductList>
+              <List>
+                <Item>
+                  <Product>1555000091</Product>
+                </Item>
+                <Item>
+                  <Product>1555000093</Product>
+                </Item>
+                <Item>
+                  <Product>1555000109</Product>
+                </Item>
+                <Item>
+                  <Product>1555000269</Product>
+                </Item>
+                <Item>
+                  <Product>1555000113</Product>
+                </Item>
+                <Item>
+                  <Product>1555000100</Product>
+                </Item>
+                <Item>
+                  <Product>1555000233</Product>
+                </Item>
+                <Item>
+                  <Product>1555000144</Product>
+                </Item>
+                <Item>
+                  <Product>1555000124</Product>
+                </Item>
+                <Item>
+                  <Product>1555000155</Product>
+                </Item>
+                <Item>
+                  <Product>1555000157</Product>
+                </Item>
+                <Item>
+                  <Product>1555000159</Product>
+                </Item>
+                <Item>
+                  <Product>1555000161</Product>
+                </Item>
+                <Item>
+                  <Product>1555000381</Product>
+                </Item>
+                <Item>
+                  <Product>1555000184</Product>
+                </Item>
+                <Item>
+                  <Product>1555000262</Product>
+                </Item>
+                <Item>
+                  <Product>1555000264</Product>
+                </Item>
+                <Item>
+                  <Product>1555000265</Product>
+                </Item>
+                <Item>
+                  <Product>1555000266</Product>
+                </Item>
+                <Item>
+                  <Product>1555000268</Product>
+                </Item>
+                <Item>
+                  <Product>1555000345</Product>
+                </Item>
+                <Item>
+                  <Product>1555000186</Product>
+                </Item>
+                <Item>
+                  <Product>1555000203</Product>
+                </Item>
+                <Item>
+                  <Product>1555000206</Product>
+                </Item>
+                <Item>
+                  <Product>1555000113</Product>
+                </Item>
+              </List>
+            </ProductList>
+          </Values>
+        </Asset>
+      </ModOp>
+    
+    <!-- WorkforceGoods Product Lists -->
+      <!-- Merchant -->
+      <ModOp Type="addNextSibling" GUID="502006">
+        <Asset>
+          <Template>ProductList</Template>
+          <Values>
+            <Standard>
+              <GUID>1555000003</GUID>
+              <Name>MerchantWorkforceGoods</Name>
+            </Standard>
+            <ProductList>
+              <List>
+                <Item>
+                  <Product>1555000093</Product>
+                </Item>
+                <Item>
+                  <Product>1555000186</Product>
+                </Item>
+                <Item>
+                  <Product>1555000186</Product>
+                </Item>
+                <Item>
+                  <Product>1555000203</Product>
+                </Item>
+                <Item>
+                  <Product>1555000206</Product>
+                </Item>
+                <Item>
+                  <Product>1555000265</Product>
+                </Item>
+                <Item>
+                  <Product>1555000144</Product>
+                </Item>
+                <Item>
+                  <Product>1555000124</Product>
+                </Item>
+                <Item>
+                  <Product>1555000155</Product>
+                </Item>
+              </List>
+            </ProductList>
+          </Values>
+        </Asset>
+      </ModOp>
+    
+    <!-- ConsumerGoods product lists -->
+      <!-- Merchant -->
+        <ModOp GUID='501997' Type="addNextSibling">
+          <Asset>
+            <Template>ProductList</Template>
+            <Values>
+              <Standard>
+                <GUID>1555000004</GUID>
+                <Name>MerchantConsumerGoods</Name>
+                <IconFilename>data/ui/Drakkam/icons/icon_resident_merchant.png</IconFilename>
+              </Standard>
+              <ProductList> 
+                <List>
+                  <Item>
+                    <Product>1010217</Product>
+                  </Item>
+                  <Item>
+                    <Product>1010206</Product>
+                  </Item>
+                  <Item>
+                    <Product>1010247</Product>
+                  </Item>
+                  <Item>
+                    <Product>1010257</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000113</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000144</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000274</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000124</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000155</Product>
+                  </Item>
+                  <Item>
+                    <Product>1555000265</Product>
+                  </Item>
+                  <Item>
+                    <Product>1500301148</Product>
+                  </Item>
+                </List>
+              </ProductList>
+            </Values>
+          </Asset>
+        </ModOp>
+
+    <!-- Adding lists to AllConsumerGoodsEuropeSort: insert after each population -->
+      <!-- Merchant after Artisan -->
+        <ModOp Type="addNextSibling" GUID='502031,502034,502035,502081' Path="/Values/ProductList/List/Item[Product='501997']">
+          <Item>
+            <Product>1555000004</Product>
+          </Item>
+        </ModOp>
+      <!-- Adding lists to stats/warehouse all list: insert after each population -->
+      <!-- Merchant after Artisan -->
+        <ModOp Type="addNextSibling" GUID="502016,502220,502065" Path="/Values/ProductList/List/Item[Product='502019']">
+          <Item>
+            <Product>1555000002</Product>
+          </Item>
+        </ModOp>
+      <!-- Adding lists to session goods: insert after each population -->
+      <!-- Merchant after Artisan -->
+        <ModOp Type="addNextSibling" GUID="502012" Path="/Values/ProductList/List/Item[Product='502006']">
+          <Item>
+            <Product>1555000003</Product>
+          </Item>
+        </ModOp>
+  <!-- (END) Creating Population related product list -->
+
+</ModOps>
