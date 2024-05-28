@@ -1,0 +1,14 @@
+<ModOps>
+
+<!-- TrainStations and Hotels -->
+  <Group Condition="#Trainstations_Hotels">
+    <!-- Changing Travelers(FishBoss) for passengers as output on greater train stations -->
+    <ModOp Type="merge" GUID="850009,850030" Path="/Values/FactoryBase/FactoryOutputs/Item[Product='850011']">
+      <Product>1555000186</Product>
+    </ModOp>
+    <!-- Changing Travelers(FishBoss) for passengers as input on small trains station -->
+    <ModOp Type="merge" GUID="850010" Path="/Values/FactoryBase/FactoryInputs/Item[Product='850011']">
+      <Product>1555000186</Product>
+    </ModOp>
+  </Group>
+</ModOps>

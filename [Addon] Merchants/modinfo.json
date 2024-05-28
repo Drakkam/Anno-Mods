@@ -10,6 +10,9 @@
     "https://github.com/jakobharder/anno1800-shared-mods/releases/download/v3.4/shared-products-jakob.zip",
     "https://github.com/Taludas/neutral_Hacienda/releases/download/v2.0.1/NeutralHaciendaBase_v2.0.1.zip"
   ],
+  "LoadAfterIds": [
+    "Trainstations_Hotels"
+  ],
   "Category": {
     "English": "Addon",
     "Chinese": "Addon",

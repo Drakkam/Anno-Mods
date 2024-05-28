@@ -30,6 +30,8 @@
   <Include File="./production/cameras.include.xml" />
   <Include File="./production/basin.include.xml" />
 
+ <!--  Mods Compatibility -->
+  <Include File="./Mods_Compatibility/Fishboss_compatibility.include.xml" />
 
  <!--  <Include File="./production/vanilla.compatibility.include.xml" /> -->
 
