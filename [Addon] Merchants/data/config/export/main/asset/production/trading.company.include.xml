@@ -275,7 +275,7 @@
         </Blocking>
         <Building>
           <ModuleParentType>Hacienda</ModuleParentType>
-          <BuildingType>BuildingModule</BuildingType>
+          <BuildingType>Factory</BuildingType>
           <BuildingCategoryName>11150</BuildingCategoryName>
           <AssociatedRegions>Moderate</AssociatedRegions>
           <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -614,7 +614,9 @@
           <BoostedByIndustrialization>1</BoostedByIndustrialization>
         </Industrializable>
         <QuestObject/>
-        <Electrifiable/>
+        <Electrifiable>
+          <ElectricityBoost>1</ElectricityBoost>
+        </Electrifiable>
         <BuildingModule>
           <ModuleType>PlatformItem</ModuleType>
         </BuildingModule>
@@ -650,7 +652,7 @@
         <Locked />
         <Building>
           <ModuleParentType>Hacienda</ModuleParentType>
-          <BuildingType>BuildingModule</BuildingType>
+          <BuildingType>Factory</BuildingType>
           <BuildingCategoryName>11150</BuildingCategoryName>
           <AssociatedRegions>Moderate</AssociatedRegions>
           <SecondPartyRelevant>0</SecondPartyRelevant>
@@ -942,11 +944,12 @@
         </Cost>
         <Infolayer />
         <UpgradeList />
-        <BuildingModule>
-          <ModuleType>Pavilion</ModuleType>
-        </BuildingModule>
+        <Electrifiable>
+          <ElectricityBoost>0</ElectricityBoost>
+        </Electrifiable>
         <Industrializable>
           <BoostedByIndustrialization>1</BoostedByIndustrialization>
+          <!--[ empty field / noname ]-->
         </Industrializable>
       </Values>
     </Asset>
@@ -2651,7 +2654,6 @@
             <Building>
               <BuildingType>BuildingModule</BuildingType>
               <BuildingCategoryName>5942</BuildingCategoryName>
-              <TerrainType>Water_Excluding_Coast</TerrainType>
               <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
               <TerrainType>Water_Including_Coast</TerrainType>
@@ -2785,7 +2787,6 @@
             <Building>
               <BuildingType>BuildingModule</BuildingType>
               <BuildingCategoryName>5942</BuildingCategoryName>
-              <TerrainType>Water_Excluding_Coast</TerrainType>
               <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
               <TerrainType>Water_Including_Coast</TerrainType>
@@ -2919,7 +2920,6 @@
             <Building>
               <BuildingType>BuildingModule</BuildingType>
               <BuildingCategoryName>5942</BuildingCategoryName>
-              <TerrainType>Water_Excluding_Coast</TerrainType>
               <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
               <TerrainType>Water_Including_Coast</TerrainType>
@@ -3053,7 +3053,6 @@
             <Building>
               <BuildingType>BuildingModule</BuildingType>
               <BuildingCategoryName>5942</BuildingCategoryName>
-              <TerrainType>Water_Excluding_Coast</TerrainType>
               <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
               <TerrainType>Water_Including_Coast</TerrainType>
@@ -3183,10 +3182,9 @@
             <Building>
               <BuildingType>BuildingModule</BuildingType>
               <BuildingCategoryName>5942</BuildingCategoryName>
-              <TerrainType>Water_Excluding_Coast</TerrainType>
               <BuildModeRandomRotation>90</BuildModeRandomRotation>
               <AssociatedRegions>Moderate</AssociatedRegions>
-              <TerrainType>Water_Including_Coast</TerrainType>
+              <TerrainType>Water_Excluding_Coast</TerrainType>
               <AllowChangeVariation>1</AllowChangeVariation>
             </Building>
             <Cost>
@@ -3220,7 +3218,7 @@
             <Object>
               <Variations>
                 <Item>
-                  <Filename>data/ui/Drakkam/buildings/production/Trading_company/TC_LA_Module_Tractor.cfg</Filename>
+                  <Filename>data/dlc07/graphics/buildings/ornamental/large_ornament_freighter_01.cfg</Filename>
                 </Item>
               </Variations>
             </Object>
@@ -9656,6 +9654,7 @@
                     <Item>
                       <Effect>1555000431</Effect>
                     </Item>
+                    <EffectUsedForInfoTip>1555000432</EffectUsedForInfoTip>
                   </Effects>
               </EffectContainer>
           </Values>
@@ -9668,13 +9667,13 @@
             <Values>
                 <Standard>
                     <GUID>1555000433</GUID>
-                    <Name>All Public Services</Name>
+                    <Name>All Train Stations</Name>
                     <IconFilename>data/ui/Drakkam/icons/icon_TCDecree5.png</IconFilename>
                 </Standard>
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>All Public Services</Text>
+                            <Text>All Train Stations</Text>
                             <Status>Exported</Status>
                             <ExportCount>1</ExportCount>
                         </English>

@@ -3419,11 +3419,6 @@
         </ProductivityUpgrade>
         <AdditionalOutput>
           <Item>
-            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
-            <AdditionalOutputCycle>8</AdditionalOutputCycle>
-            <Amount>1</Amount>
-          </Item>
-          <Item>
             <Product>5380</Product>
             <AdditionalOutputCycle>14</AdditionalOutputCycle>
             <Amount>1</Amount>

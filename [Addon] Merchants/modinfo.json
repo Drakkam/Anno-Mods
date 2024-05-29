@@ -1,5 +1,5 @@
 {
-  "Version": "0.1.0",
+  "Version": "0.3.0",
   "ModID": "Drakkam-new-population-Merchants",
   "ModDependencies": [
     "https://github.com/Qurila/shared-mods/releases/download/v7/shared_general_modules_kurila.zip",

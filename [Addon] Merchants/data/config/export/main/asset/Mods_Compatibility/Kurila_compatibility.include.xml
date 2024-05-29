@@ -1,0 +1,10 @@
+<ModOps>
+
+<!-- shared products extended kurila -->
+  <Group Condition="#shared_products_extended_kurila">
+    <!-- Changing Sewing Thread Icon -->
+    <ModOp Type="merge" GUID="1500020010" Path="/Values/Standard">
+      <IconFilename>data/ui/Drakkam/icons/icon_sewing_thread.png</IconFilename>
+    </ModOp>
+  </Group>
+</ModOps>

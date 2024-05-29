@@ -908,7 +908,7 @@
         <Standard>
           <GUID>1555000097</GUID>
           <Name>Marble Workshop</Name>
-          <IconFilename>data/ui/Drakkam/icons/Marble_Workshop_Buff.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_victory.png</IconFilename>
           <InfoDescription>1555000068</InfoDescription>
           <!--Marble Workshop Description-->
         </Standard>
@@ -1048,7 +1048,7 @@
         <Standard>
           <GUID>1555000098</GUID>
           <Name>Marble Workshop</Name>
-          <IconFilename>data/ui/Drakkam/icons/Marble_Workshop_Buff.png</IconFilename>
+          <IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_victory.png</IconFilename>
         </Standard>
         <Text>
           <LocaText>

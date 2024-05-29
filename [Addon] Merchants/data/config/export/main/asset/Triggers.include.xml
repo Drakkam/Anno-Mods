@@ -997,7 +997,58 @@
                       </Item>
                     </UnlockAssets>
                     <UnhideAssets>
+                      <Item>
+                        <Asset>1555000178</Asset>
+                      </Item>
                     </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <ResetTrigger>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <EmptyAutoCreateValue />
+            </Values>
+          </ResetTrigger>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+    <!-- Engineers 3000 -->
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1555100018</GUID>
+          <Name>Trigger 3000 Engineers</Name>
+          <IconFilename>data/ui/Drakkam/icons/icon_resident_merchant.png</IconFilename>
+        </Standard>
+        <Trigger>
+      <TriggerCondition>
+        <Template>ConditionPlayerCounter</Template>
+        <Values>
+          <Condition />
+          <ConditionPlayerCounter>
+            <PlayerCounter>PopulationByLevel</PlayerCounter>
+            <Context>15000003</Context>
+            <CounterAmount>1000</CounterAmount>
+          </ConditionPlayerCounter>
+        </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1555000178</Asset>
+                      </Item>
+                    </UnlockAssets>
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
@@ -1055,8 +1106,6 @@
                         <Asset>1555000244</Asset>
                       </Item>
                     </UnlockAssets>
-                    <UnhideAssets>
-                    </UnhideAssets>
                   </ActionUnlockAsset>
                 </Values>
               </TriggerAction>
@@ -1206,15 +1255,7 @@
                     <Item>
                       <Asset>1555000137</Asset>
                     </Item>
-                    <Item>
-                      <Asset>10284</Asset>
-                    </Item>
                   </UnlockAssets>
-                  <UnhideAssets>
-                    <Item>
-                      <Asset>10284</Asset>
-                    </Item>
-                  </UnhideAssets>
                 </ActionUnlockAsset>
               </Values>
             </TriggerAction>

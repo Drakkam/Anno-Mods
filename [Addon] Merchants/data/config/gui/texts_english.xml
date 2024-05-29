@@ -13,6 +13,18 @@
       <GUID>25530</GUID>
       <Text>Use specialized ships to distribute strategic goods to your islands.</Text>
     </Text>
+    <Text>
+      <GUID>23465</GUID>
+      <Text>Access Event</Text>
+    </Text>
+    <Text>
+      <GUID>1255</GUID>
+      <Text>Building Modules</Text>
+    </Text>
+    <Text>
+      <GUID>1269</GUID>
+      <Text>Building Modules</Text>
+    </Text>
   </ModOp>
   
   <ModOp Type="add" Path="/TextExport/Texts">
